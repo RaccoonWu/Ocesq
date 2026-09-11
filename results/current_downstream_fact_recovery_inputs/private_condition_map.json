@@ -1,0 +1,16 @@
+{
+  "condition_alias": {
+    "action_window": "R8",
+    "apc_without_absence_scope": "R10",
+    "apc_without_conflicts": "R5",
+    "apc_without_source_pointers": "R6",
+    "apc_without_status": "R11",
+    "complete_audit_package": "R4",
+    "generic_two_hop": "R9",
+    "ocres_diagnostic": "R1",
+    "oeg_full": "R7",
+    "raw_trace": "R3",
+    "status_only": "R2"
+  },
+  "seed": 20260723
+}

@@ -1,0 +1,29 @@
+{
+  "baseline_ci95": [
+    0.33538885104705246,
+    0.5591281422653248
+  ],
+  "baseline_fp": 32,
+  "baseline_rate": 0.4444444444444444,
+  "benign_n": 72,
+  "candidate_ci95": [
+    0.0,
+    0.05065293981139638
+  ],
+  "candidate_fp": 0,
+  "candidate_rate": 0.0,
+  "comparison": "complete_audit_package_vs_raw_trace",
+  "discordant_b10_candidate_wrong_baseline_right": 32,
+  "discordant_d01_candidate_right_baseline_wrong": 0,
+  "mcnemar": {
+    "chi2": 30.03125,
+    "method": "chi2_continuity_exact",
+    "n_discordant": 32,
+    "p_value": 4.251394408249112e-08
+  },
+  "protocol": "benign-fp-paired-mcnemar-v1",
+  "scored_files": {
+    "baseline": "results/w1_ci/qwen_vs_raw/raw_trace.scored.jsonl",
+    "candidate": "results/w1_ci/qwen_vs_raw/complete_audit_package.scored.jsonl"
+  }
+}

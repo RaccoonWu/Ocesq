@@ -1,0 +1,20 @@
+{
+  "case_pass_rate": 1,
+  "cases": 3,
+  "certificate_validity": 1,
+  "dependency_audit": {
+    "file": "/usr/postgroup/wulinze_doc/paper/first_paper/mandrel/mandrel/behavior_graph/ocesq_contract.py",
+    "forbidden_imports": [],
+    "passed": true
+  },
+  "experiment_id": "ocesq-contract-integration-v1",
+  "failures_by_obligation": {},
+  "interpretation": "Registry-to-contract correctness and OC-RES answer preservation relative to the frozen OEG/OCESQ semantics; not external semantic completeness.",
+  "negative_control_detection_rate": 1,
+  "normalized_status_exactness": 1,
+  "obligation_instances": 33,
+  "obligation_instantiation_exactness": 1,
+  "obligation_types_covered": 11,
+  "ocres_preservation_rate": 1,
+  "witness_conflict_validity": 1
+}

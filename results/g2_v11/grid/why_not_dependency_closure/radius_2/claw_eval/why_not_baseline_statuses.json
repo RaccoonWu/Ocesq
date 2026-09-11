@@ -1,0 +1,5304 @@
+[
+  {
+    "task_id": "T003zh_calendar_scheduling",
+    "action_id": "n15",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17"
+    ],
+    "evidence_edges": [
+      "('n11', 'n12', 'depends_on')",
+      "('n12', 'n13', 'submits')",
+      "('n12', 'n15', 'depends_on')",
+      "('n13', 'n14', 'grounds')",
+      "('n15', 'n16', 'creates')",
+      "('n15', 'n17', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T004_calendar_scheduling",
+    "action_id": "n18",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n20"
+    ],
+    "evidence_edges": [
+      "('n13', 'n14', 'depends_on')",
+      "('n14', 'n15', 'submits')",
+      "('n14', 'n18', 'depends_on')",
+      "('n15', 'n16', 'grounds')",
+      "('n15', 'n17', 'grounds')",
+      "('n18', 'n19', 'creates')",
+      "('n18', 'n20', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T005zh_email_reply_draft",
+    "action_id": "n32",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n30",
+      "n31",
+      "n32"
+    ],
+    "evidence_edges": [
+      "('n30', 'n31', 'depends_on')",
+      "('n31', 'n32', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T005zh_email_reply_draft",
+    "action_id": "n33",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n30",
+      "n31",
+      "n33"
+    ],
+    "evidence_edges": [
+      "('n30', 'n31', 'depends_on')",
+      "('n31', 'n33', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T006_email_reply_draft",
+    "action_id": "n35",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n30",
+      "n31",
+      "n32",
+      "n33",
+      "n34",
+      "n35"
+    ],
+    "evidence_edges": [
+      "('n30', 'n31', 'depends_on')",
+      "('n31', 'n32', 'submits')",
+      "('n31', 'n35', 'depends_on')",
+      "('n32', 'n33', 'grounds')",
+      "('n32', 'n34', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T006_email_reply_draft",
+    "action_id": "n36",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n30",
+      "n31",
+      "n32",
+      "n33",
+      "n34",
+      "n36"
+    ],
+    "evidence_edges": [
+      "('n30', 'n31', 'depends_on')",
+      "('n31', 'n32', 'submits')",
+      "('n31', 'n36', 'depends_on')",
+      "('n32', 'n33', 'grounds')",
+      "('n32', 'n34', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T007zh_todo_management",
+    "action_id": "n9",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n11",
+      "n13",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n9', 'depends_on')",
+      "('n9', 'n11', 'updates')",
+      "('n9', 'n13', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T007zh_todo_management",
+    "action_id": "n10",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n14",
+      "n16",
+      "n7",
+      "n8"
+    ],
+    "evidence_edges": [
+      "('n10', 'n14', 'updates')",
+      "('n10', 'n16', 'updates')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n10', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n20",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n26",
+      "n28",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n20', 'n26', 'updates')",
+      "('n20', 'n28', 'updates')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n20', 'depends_on')",
+      "('n8', 'n9', 'submits')",
+      "('n9', 'n10', 'grounds')",
+      "('n9', 'n11', 'grounds')",
+      "('n9', 'n12', 'grounds')",
+      "('n9', 'n13', 'grounds')",
+      "('n9', 'n14', 'grounds')",
+      "('n9', 'n15', 'grounds')",
+      "('n9', 'n16', 'grounds')",
+      "('n9', 'n17', 'grounds')",
+      "('n9', 'n18', 'grounds')",
+      "('n9', 'n19', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n21",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n21",
+      "n29",
+      "n31",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n21', 'n29', 'updates')",
+      "('n21', 'n31', 'updates')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n21', 'depends_on')",
+      "('n8', 'n9', 'submits')",
+      "('n9', 'n10', 'grounds')",
+      "('n9', 'n11', 'grounds')",
+      "('n9', 'n12', 'grounds')",
+      "('n9', 'n13', 'grounds')",
+      "('n9', 'n14', 'grounds')",
+      "('n9', 'n15', 'grounds')",
+      "('n9', 'n16', 'grounds')",
+      "('n9', 'n17', 'grounds')",
+      "('n9', 'n18', 'grounds')",
+      "('n9', 'n19', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n22",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n22",
+      "n32",
+      "n34",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n22', 'n32', 'updates')",
+      "('n22', 'n34', 'updates')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n22', 'depends_on')",
+      "('n8', 'n9', 'submits')",
+      "('n9', 'n10', 'grounds')",
+      "('n9', 'n11', 'grounds')",
+      "('n9', 'n12', 'grounds')",
+      "('n9', 'n13', 'grounds')",
+      "('n9', 'n14', 'grounds')",
+      "('n9', 'n15', 'grounds')",
+      "('n9', 'n16', 'grounds')",
+      "('n9', 'n17', 'grounds')",
+      "('n9', 'n18', 'grounds')",
+      "('n9', 'n19', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n23",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n23",
+      "n35",
+      "n37",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n23', 'n35', 'updates')",
+      "('n23', 'n37', 'updates')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n23', 'depends_on')",
+      "('n8', 'n9', 'submits')",
+      "('n9', 'n10', 'grounds')",
+      "('n9', 'n11', 'grounds')",
+      "('n9', 'n12', 'grounds')",
+      "('n9', 'n13', 'grounds')",
+      "('n9', 'n14', 'grounds')",
+      "('n9', 'n15', 'grounds')",
+      "('n9', 'n16', 'grounds')",
+      "('n9', 'n17', 'grounds')",
+      "('n9', 'n18', 'grounds')",
+      "('n9', 'n19', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n24",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n24",
+      "n38",
+      "n40",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n24', 'n38', 'updates')",
+      "('n24', 'n40', 'updates')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n24', 'depends_on')",
+      "('n8', 'n9', 'submits')",
+      "('n9', 'n10', 'grounds')",
+      "('n9', 'n11', 'grounds')",
+      "('n9', 'n12', 'grounds')",
+      "('n9', 'n13', 'grounds')",
+      "('n9', 'n14', 'grounds')",
+      "('n9', 'n15', 'grounds')",
+      "('n9', 'n16', 'grounds')",
+      "('n9', 'n17', 'grounds')",
+      "('n9', 'n18', 'grounds')",
+      "('n9', 'n19', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n25",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n25",
+      "n41",
+      "n43",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n25', 'n41', 'updates')",
+      "('n25', 'n43', 'updates')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n25', 'depends_on')",
+      "('n8', 'n9', 'submits')",
+      "('n9', 'n10', 'grounds')",
+      "('n9', 'n11', 'grounds')",
+      "('n9', 'n12', 'grounds')",
+      "('n9', 'n13', 'grounds')",
+      "('n9', 'n14', 'grounds')",
+      "('n9', 'n15', 'grounds')",
+      "('n9', 'n16', 'grounds')",
+      "('n9', 'n17', 'grounds')",
+      "('n9', 'n18', 'grounds')",
+      "('n9', 'n19', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T013zh_meeting_notes",
+    "action_id": "n14",
+    "method": "why_not_provenance",
+    "mechanism": "share",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n12",
+      "n13",
+      "n14",
+      "n34"
+    ],
+    "evidence_edges": [
+      "('n12', 'n13', 'depends_on')",
+      "('n13', 'n14', 'depends_on')",
+      "('n34', 'n14', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T014_meeting_notes",
+    "action_id": "n27",
+    "method": "why_not_provenance",
+    "mechanism": "share",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n44"
+    ],
+    "evidence_edges": [
+      "('n12', 'n13', 'depends_on')",
+      "('n13', 'n14', 'submits')",
+      "('n13', 'n27', 'depends_on')",
+      "('n14', 'n15', 'grounds')",
+      "('n14', 'n16', 'grounds')",
+      "('n14', 'n17', 'grounds')",
+      "('n14', 'n18', 'grounds')",
+      "('n14', 'n19', 'grounds')",
+      "('n14', 'n20', 'grounds')",
+      "('n14', 'n21', 'grounds')",
+      "('n14', 'n22', 'grounds')",
+      "('n14', 'n23', 'grounds')",
+      "('n14', 'n24', 'grounds')",
+      "('n14', 'n25', 'grounds')",
+      "('n14', 'n26', 'grounds')",
+      "('n44', 'n27', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n61",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n61",
+      "n71",
+      "n74"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n61', 'depends_on')",
+      "('n61', 'n71', 'updates')",
+      "('n61', 'n74', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n62",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n62",
+      "n75",
+      "n78"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n62', 'depends_on')",
+      "('n62', 'n75', 'updates')",
+      "('n62', 'n78', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n63",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n63",
+      "n79",
+      "n82"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n63', 'depends_on')",
+      "('n63', 'n79', 'updates')",
+      "('n63', 'n82', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n64",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n64",
+      "n83",
+      "n86"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n64', 'depends_on')",
+      "('n64', 'n83', 'updates')",
+      "('n64', 'n86', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n65",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n65",
+      "n87",
+      "n90"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n65', 'depends_on')",
+      "('n65', 'n87', 'updates')",
+      "('n65', 'n90', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n66",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n66",
+      "n91",
+      "n94"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n66', 'depends_on')",
+      "('n66', 'n91', 'updates')",
+      "('n66', 'n94', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n67",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n67",
+      "n95",
+      "n98"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n67', 'depends_on')",
+      "('n67', 'n95', 'updates')",
+      "('n67', 'n98', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n68",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n102",
+      "n59",
+      "n60",
+      "n68",
+      "n99"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n68', 'depends_on')",
+      "('n68', 'n102', 'updates')",
+      "('n68', 'n99', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n69",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n103",
+      "n106",
+      "n59",
+      "n60",
+      "n69"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n69', 'depends_on')",
+      "('n69', 'n103', 'updates')",
+      "('n69', 'n106', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n70",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n107",
+      "n110",
+      "n59",
+      "n60",
+      "n70"
+    ],
+    "evidence_edges": [
+      "('n59', 'n60', 'depends_on')",
+      "('n60', 'n70', 'depends_on')",
+      "('n70', 'n107', 'updates')",
+      "('n70', 'n110', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n28",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n38",
+      "n41"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n28', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n28', 'n38', 'updates')",
+      "('n28', 'n41', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n29",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n29",
+      "n42",
+      "n45"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n29', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n29', 'n42', 'updates')",
+      "('n29', 'n45', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n30",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n30",
+      "n46",
+      "n49"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n30', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n30', 'n46', 'updates')",
+      "('n30', 'n49', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n31",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n31",
+      "n50",
+      "n53"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n31', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n31', 'n50', 'updates')",
+      "('n31', 'n53', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n32",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n32",
+      "n54",
+      "n57"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n32', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n32', 'n54', 'updates')",
+      "('n32', 'n57', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n33",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n33",
+      "n58",
+      "n61"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n33', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n33', 'n58', 'updates')",
+      "('n33', 'n61', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n34",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n34",
+      "n62",
+      "n65"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n34', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n34', 'n62', 'updates')",
+      "('n34', 'n65', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n35",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n35",
+      "n66",
+      "n69"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n35', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n35', 'n66', 'updates')",
+      "('n35', 'n69', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n36",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n36",
+      "n70",
+      "n73"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n36', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n36', 'n70', 'updates')",
+      "('n36', 'n73', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n37",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n37",
+      "n74",
+      "n77"
+    ],
+    "evidence_edges": [
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n20', 'submits')",
+      "('n19', 'n37', 'depends_on')",
+      "('n20', 'n21', 'grounds')",
+      "('n20', 'n22', 'grounds')",
+      "('n20', 'n23', 'grounds')",
+      "('n20', 'n24', 'grounds')",
+      "('n20', 'n25', 'grounds')",
+      "('n20', 'n26', 'grounds')",
+      "('n20', 'n27', 'grounds')",
+      "('n37', 'n74', 'updates')",
+      "('n37', 'n77', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n31",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n31",
+      "n38",
+      "n40"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'submits')",
+      "('n18', 'n31', 'depends_on')",
+      "('n19', 'n20', 'grounds')",
+      "('n19', 'n21', 'grounds')",
+      "('n19', 'n22', 'grounds')",
+      "('n19', 'n23', 'grounds')",
+      "('n19', 'n24', 'grounds')",
+      "('n19', 'n25', 'grounds')",
+      "('n19', 'n26', 'grounds')",
+      "('n19', 'n27', 'grounds')",
+      "('n19', 'n28', 'grounds')",
+      "('n19', 'n29', 'grounds')",
+      "('n19', 'n30', 'grounds')",
+      "('n31', 'n38', 'creates')",
+      "('n31', 'n40', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n32",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n32",
+      "n41",
+      "n43"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'submits')",
+      "('n18', 'n32', 'depends_on')",
+      "('n19', 'n20', 'grounds')",
+      "('n19', 'n21', 'grounds')",
+      "('n19', 'n22', 'grounds')",
+      "('n19', 'n23', 'grounds')",
+      "('n19', 'n24', 'grounds')",
+      "('n19', 'n25', 'grounds')",
+      "('n19', 'n26', 'grounds')",
+      "('n19', 'n27', 'grounds')",
+      "('n19', 'n28', 'grounds')",
+      "('n19', 'n29', 'grounds')",
+      "('n19', 'n30', 'grounds')",
+      "('n32', 'n41', 'creates')",
+      "('n32', 'n43', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n33",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n33",
+      "n44",
+      "n46"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'submits')",
+      "('n18', 'n33', 'depends_on')",
+      "('n19', 'n20', 'grounds')",
+      "('n19', 'n21', 'grounds')",
+      "('n19', 'n22', 'grounds')",
+      "('n19', 'n23', 'grounds')",
+      "('n19', 'n24', 'grounds')",
+      "('n19', 'n25', 'grounds')",
+      "('n19', 'n26', 'grounds')",
+      "('n19', 'n27', 'grounds')",
+      "('n19', 'n28', 'grounds')",
+      "('n19', 'n29', 'grounds')",
+      "('n19', 'n30', 'grounds')",
+      "('n33', 'n44', 'creates')",
+      "('n33', 'n46', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n34",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n34",
+      "n47",
+      "n49"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'submits')",
+      "('n18', 'n34', 'depends_on')",
+      "('n19', 'n20', 'grounds')",
+      "('n19', 'n21', 'grounds')",
+      "('n19', 'n22', 'grounds')",
+      "('n19', 'n23', 'grounds')",
+      "('n19', 'n24', 'grounds')",
+      "('n19', 'n25', 'grounds')",
+      "('n19', 'n26', 'grounds')",
+      "('n19', 'n27', 'grounds')",
+      "('n19', 'n28', 'grounds')",
+      "('n19', 'n29', 'grounds')",
+      "('n19', 'n30', 'grounds')",
+      "('n34', 'n47', 'creates')",
+      "('n34', 'n49', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n35",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n35",
+      "n50",
+      "n52"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'submits')",
+      "('n18', 'n35', 'depends_on')",
+      "('n19', 'n20', 'grounds')",
+      "('n19', 'n21', 'grounds')",
+      "('n19', 'n22', 'grounds')",
+      "('n19', 'n23', 'grounds')",
+      "('n19', 'n24', 'grounds')",
+      "('n19', 'n25', 'grounds')",
+      "('n19', 'n26', 'grounds')",
+      "('n19', 'n27', 'grounds')",
+      "('n19', 'n28', 'grounds')",
+      "('n19', 'n29', 'grounds')",
+      "('n19', 'n30', 'grounds')",
+      "('n35', 'n50', 'creates')",
+      "('n35', 'n52', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n36",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n36",
+      "n53",
+      "n55"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'submits')",
+      "('n18', 'n36', 'depends_on')",
+      "('n19', 'n20', 'grounds')",
+      "('n19', 'n21', 'grounds')",
+      "('n19', 'n22', 'grounds')",
+      "('n19', 'n23', 'grounds')",
+      "('n19', 'n24', 'grounds')",
+      "('n19', 'n25', 'grounds')",
+      "('n19', 'n26', 'grounds')",
+      "('n19', 'n27', 'grounds')",
+      "('n19', 'n28', 'grounds')",
+      "('n19', 'n29', 'grounds')",
+      "('n19', 'n30', 'grounds')",
+      "('n36', 'n53', 'creates')",
+      "('n36', 'n55', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n37",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n37",
+      "n56",
+      "n58"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'submits')",
+      "('n18', 'n37', 'depends_on')",
+      "('n19', 'n20', 'grounds')",
+      "('n19', 'n21', 'grounds')",
+      "('n19', 'n22', 'grounds')",
+      "('n19', 'n23', 'grounds')",
+      "('n19', 'n24', 'grounds')",
+      "('n19', 'n25', 'grounds')",
+      "('n19', 'n26', 'grounds')",
+      "('n19', 'n27', 'grounds')",
+      "('n19', 'n28', 'grounds')",
+      "('n19', 'n29', 'grounds')",
+      "('n19', 'n30', 'grounds')",
+      "('n37', 'n56', 'creates')",
+      "('n37', 'n58', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n19",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n19",
+      "n26",
+      "n28"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n19', 'depends_on')",
+      "('n19', 'n26', 'creates')",
+      "('n19', 'n28', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n20",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n20",
+      "n29",
+      "n31"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n20', 'depends_on')",
+      "('n20', 'n29', 'creates')",
+      "('n20', 'n31', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n21",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n21",
+      "n32",
+      "n34"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n21', 'depends_on')",
+      "('n21', 'n32', 'creates')",
+      "('n21', 'n34', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n22",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n22",
+      "n35",
+      "n37"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n22', 'depends_on')",
+      "('n22', 'n35', 'creates')",
+      "('n22', 'n37', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n23",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n23",
+      "n38",
+      "n40"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n23', 'depends_on')",
+      "('n23', 'n38', 'creates')",
+      "('n23', 'n40', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n24",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n24",
+      "n41",
+      "n43"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n24', 'depends_on')",
+      "('n24', 'n41', 'creates')",
+      "('n24', 'n43', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n25",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n17",
+      "n18",
+      "n25",
+      "n44",
+      "n46"
+    ],
+    "evidence_edges": [
+      "('n17', 'n18', 'depends_on')",
+      "('n18', 'n25', 'depends_on')",
+      "('n25', 'n44', 'creates')",
+      "('n25', 'n46', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T023zh_crm_data_export",
+    "action_id": "n35",
+    "method": "why_not_provenance",
+    "mechanism": "export",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "supported",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n33",
+      "n34",
+      "n35",
+      "n36",
+      "n37"
+    ],
+    "evidence_edges": [
+      "('n33', 'n34', 'depends_on')",
+      "('n34', 'n35', 'depends_on')",
+      "('n35', 'n36', 'exports')",
+      "('n35', 'n37', 'exports')"
+    ]
+  },
+  {
+    "task_id": "T024_crm_data_export",
+    "action_id": "n14",
+    "method": "why_not_provenance",
+    "mechanism": "export",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "supported",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16"
+    ],
+    "evidence_edges": [
+      "('n12', 'n13', 'depends_on')",
+      "('n13', 'n14', 'depends_on')",
+      "('n14', 'n15', 'exports')",
+      "('n14', 'n16', 'exports')"
+    ]
+  },
+  {
+    "task_id": "T025zh_ambiguous_contact_email",
+    "action_id": "n25",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n23",
+      "n24",
+      "n25",
+      "n41",
+      "n42"
+    ],
+    "evidence_edges": [
+      "('n23', 'n24', 'depends_on')",
+      "('n24', 'n25', 'depends_on')",
+      "('n41', 'n25', 'depends_on')",
+      "('n42', 'n25', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T026_ambiguous_contact_email",
+    "action_id": "n25",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n23",
+      "n24",
+      "n25",
+      "n39",
+      "n40"
+    ],
+    "evidence_edges": [
+      "('n23', 'n24', 'depends_on')",
+      "('n24', 'n25', 'depends_on')",
+      "('n39', 'n25', 'depends_on')",
+      "('n40', 'n25', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T029zh_cross_service_meeting",
+    "action_id": "n34",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n32",
+      "n33",
+      "n34",
+      "n35",
+      "n36"
+    ],
+    "evidence_edges": [
+      "('n32', 'n33', 'depends_on')",
+      "('n33', 'n34', 'depends_on')",
+      "('n34', 'n35', 'creates')",
+      "('n34', 'n36', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T029zh_cross_service_meeting",
+    "action_id": "n39",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n37",
+      "n38",
+      "n39"
+    ],
+    "evidence_edges": [
+      "('n37', 'n38', 'depends_on')",
+      "('n38', 'n39', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T030_cross_service_meeting",
+    "action_id": "n32",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n31",
+      "n32",
+      "n33",
+      "n34"
+    ],
+    "evidence_edges": [
+      "('n27', 'n28', 'depends_on')",
+      "('n28', 'n29', 'submits')",
+      "('n28', 'n32', 'depends_on')",
+      "('n29', 'n30', 'grounds')",
+      "('n29', 'n31', 'grounds')",
+      "('n32', 'n33', 'creates')",
+      "('n32', 'n34', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T030_cross_service_meeting",
+    "action_id": "n37",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n35",
+      "n36",
+      "n37"
+    ],
+    "evidence_edges": [
+      "('n35', 'n36', 'depends_on')",
+      "('n36', 'n37', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n97",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n95",
+      "n96",
+      "n97"
+    ],
+    "evidence_edges": [
+      "('n95', 'n96', 'depends_on')",
+      "('n96', 'n97', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n98",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n95",
+      "n96",
+      "n98"
+    ],
+    "evidence_edges": [
+      "('n95', 'n96', 'depends_on')",
+      "('n96', 'n98', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n99",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n95",
+      "n96",
+      "n99"
+    ],
+    "evidence_edges": [
+      "('n95', 'n96', 'depends_on')",
+      "('n96', 'n99', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n117",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n115",
+      "n116",
+      "n117"
+    ],
+    "evidence_edges": [
+      "('n115', 'n116', 'depends_on')",
+      "('n116', 'n117', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n118",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n115",
+      "n116",
+      "n118"
+    ],
+    "evidence_edges": [
+      "('n115', 'n116', 'depends_on')",
+      "('n116', 'n118', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n133",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n131",
+      "n132",
+      "n133"
+    ],
+    "evidence_edges": [
+      "('n131', 'n132', 'depends_on')",
+      "('n132', 'n133', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n112",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n102",
+      "n103",
+      "n104",
+      "n105",
+      "n106",
+      "n107",
+      "n108",
+      "n109",
+      "n110",
+      "n111",
+      "n112"
+    ],
+    "evidence_edges": [
+      "('n101', 'n102', 'depends_on')",
+      "('n102', 'n103', 'submits')",
+      "('n102', 'n112', 'depends_on')",
+      "('n103', 'n104', 'grounds')",
+      "('n103', 'n105', 'grounds')",
+      "('n103', 'n106', 'grounds')",
+      "('n103', 'n107', 'grounds')",
+      "('n103', 'n108', 'grounds')",
+      "('n103', 'n109', 'grounds')",
+      "('n103', 'n110', 'grounds')",
+      "('n103', 'n111', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n113",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n102",
+      "n103",
+      "n104",
+      "n105",
+      "n106",
+      "n107",
+      "n108",
+      "n109",
+      "n110",
+      "n111",
+      "n113"
+    ],
+    "evidence_edges": [
+      "('n101', 'n102', 'depends_on')",
+      "('n102', 'n103', 'submits')",
+      "('n102', 'n113', 'depends_on')",
+      "('n103', 'n104', 'grounds')",
+      "('n103', 'n105', 'grounds')",
+      "('n103', 'n106', 'grounds')",
+      "('n103', 'n107', 'grounds')",
+      "('n103', 'n108', 'grounds')",
+      "('n103', 'n109', 'grounds')",
+      "('n103', 'n110', 'grounds')",
+      "('n103', 'n111', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n114",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n102",
+      "n103",
+      "n104",
+      "n105",
+      "n106",
+      "n107",
+      "n108",
+      "n109",
+      "n110",
+      "n111",
+      "n114"
+    ],
+    "evidence_edges": [
+      "('n101', 'n102', 'depends_on')",
+      "('n102', 'n103', 'submits')",
+      "('n102', 'n114', 'depends_on')",
+      "('n103', 'n104', 'grounds')",
+      "('n103', 'n105', 'grounds')",
+      "('n103', 'n106', 'grounds')",
+      "('n103', 'n107', 'grounds')",
+      "('n103', 'n108', 'grounds')",
+      "('n103', 'n109', 'grounds')",
+      "('n103', 'n110', 'grounds')",
+      "('n103', 'n111', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n115",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n102",
+      "n103",
+      "n104",
+      "n105",
+      "n106",
+      "n107",
+      "n108",
+      "n109",
+      "n110",
+      "n111",
+      "n115"
+    ],
+    "evidence_edges": [
+      "('n101', 'n102', 'depends_on')",
+      "('n102', 'n103', 'submits')",
+      "('n102', 'n115', 'depends_on')",
+      "('n103', 'n104', 'grounds')",
+      "('n103', 'n105', 'grounds')",
+      "('n103', 'n106', 'grounds')",
+      "('n103', 'n107', 'grounds')",
+      "('n103', 'n108', 'grounds')",
+      "('n103', 'n109', 'grounds')",
+      "('n103', 'n110', 'grounds')",
+      "('n103', 'n111', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n116",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n102",
+      "n103",
+      "n104",
+      "n105",
+      "n106",
+      "n107",
+      "n108",
+      "n109",
+      "n110",
+      "n111",
+      "n116"
+    ],
+    "evidence_edges": [
+      "('n101', 'n102', 'depends_on')",
+      "('n102', 'n103', 'submits')",
+      "('n102', 'n116', 'depends_on')",
+      "('n103', 'n104', 'grounds')",
+      "('n103', 'n105', 'grounds')",
+      "('n103', 'n106', 'grounds')",
+      "('n103', 'n107', 'grounds')",
+      "('n103', 'n108', 'grounds')",
+      "('n103', 'n109', 'grounds')",
+      "('n103', 'n110', 'grounds')",
+      "('n103', 'n111', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n117",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n102",
+      "n103",
+      "n104",
+      "n105",
+      "n106",
+      "n107",
+      "n108",
+      "n109",
+      "n110",
+      "n111",
+      "n117"
+    ],
+    "evidence_edges": [
+      "('n101', 'n102', 'depends_on')",
+      "('n102', 'n103', 'submits')",
+      "('n102', 'n117', 'depends_on')",
+      "('n103', 'n104', 'grounds')",
+      "('n103', 'n105', 'grounds')",
+      "('n103', 'n106', 'grounds')",
+      "('n103', 'n107', 'grounds')",
+      "('n103', 'n108', 'grounds')",
+      "('n103', 'n109', 'grounds')",
+      "('n103', 'n110', 'grounds')",
+      "('n103', 'n111', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n56",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n47",
+      "n48",
+      "n49",
+      "n50",
+      "n51",
+      "n52",
+      "n53",
+      "n54",
+      "n55",
+      "n56"
+    ],
+    "evidence_edges": [
+      "('n47', 'n48', 'depends_on')",
+      "('n48', 'n49', 'submits')",
+      "('n48', 'n56', 'depends_on')",
+      "('n49', 'n50', 'grounds')",
+      "('n49', 'n51', 'grounds')",
+      "('n49', 'n52', 'grounds')",
+      "('n49', 'n53', 'grounds')",
+      "('n49', 'n54', 'grounds')",
+      "('n49', 'n55', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n57",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n47",
+      "n48",
+      "n49",
+      "n50",
+      "n51",
+      "n52",
+      "n53",
+      "n54",
+      "n55",
+      "n57"
+    ],
+    "evidence_edges": [
+      "('n47', 'n48', 'depends_on')",
+      "('n48', 'n49', 'submits')",
+      "('n48', 'n57', 'depends_on')",
+      "('n49', 'n50', 'grounds')",
+      "('n49', 'n51', 'grounds')",
+      "('n49', 'n52', 'grounds')",
+      "('n49', 'n53', 'grounds')",
+      "('n49', 'n54', 'grounds')",
+      "('n49', 'n55', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n58",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n47",
+      "n48",
+      "n49",
+      "n50",
+      "n51",
+      "n52",
+      "n53",
+      "n54",
+      "n55",
+      "n58"
+    ],
+    "evidence_edges": [
+      "('n47', 'n48', 'depends_on')",
+      "('n48', 'n49', 'submits')",
+      "('n48', 'n58', 'depends_on')",
+      "('n49', 'n50', 'grounds')",
+      "('n49', 'n51', 'grounds')",
+      "('n49', 'n52', 'grounds')",
+      "('n49', 'n53', 'grounds')",
+      "('n49', 'n54', 'grounds')",
+      "('n49', 'n55', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n78",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n75",
+      "n76",
+      "n77",
+      "n78",
+      "n83",
+      "n84"
+    ],
+    "evidence_edges": [
+      "('n74', 'n75', 'depends_on')",
+      "('n75', 'n76', 'submits')",
+      "('n75', 'n78', 'depends_on')",
+      "('n76', 'n77', 'grounds')",
+      "('n78', 'n83', 'creates')",
+      "('n78', 'n84', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n79",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n75",
+      "n76",
+      "n77",
+      "n79",
+      "n85",
+      "n86"
+    ],
+    "evidence_edges": [
+      "('n74', 'n75', 'depends_on')",
+      "('n75', 'n76', 'submits')",
+      "('n75', 'n79', 'depends_on')",
+      "('n76', 'n77', 'grounds')",
+      "('n79', 'n85', 'creates')",
+      "('n79', 'n86', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n80",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n75",
+      "n76",
+      "n77",
+      "n80",
+      "n87",
+      "n88"
+    ],
+    "evidence_edges": [
+      "('n74', 'n75', 'depends_on')",
+      "('n75', 'n76', 'submits')",
+      "('n75', 'n80', 'depends_on')",
+      "('n76', 'n77', 'grounds')",
+      "('n80', 'n87', 'creates')",
+      "('n80', 'n88', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n81",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n75",
+      "n76",
+      "n77",
+      "n81",
+      "n89",
+      "n90"
+    ],
+    "evidence_edges": [
+      "('n74', 'n75', 'depends_on')",
+      "('n75', 'n76', 'submits')",
+      "('n75', 'n81', 'depends_on')",
+      "('n76', 'n77', 'grounds')",
+      "('n81', 'n89', 'creates')",
+      "('n81', 'n90', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n82",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n75",
+      "n76",
+      "n77",
+      "n82",
+      "n91",
+      "n92"
+    ],
+    "evidence_edges": [
+      "('n74', 'n75', 'depends_on')",
+      "('n75', 'n76', 'submits')",
+      "('n75', 'n82', 'depends_on')",
+      "('n76', 'n77', 'grounds')",
+      "('n82', 'n91', 'creates')",
+      "('n82', 'n92', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n61",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n51",
+      "n52",
+      "n53",
+      "n54",
+      "n55",
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61"
+    ],
+    "evidence_edges": [
+      "('n51', 'n52', 'depends_on')",
+      "('n52', 'n53', 'submits')",
+      "('n52', 'n61', 'depends_on')",
+      "('n53', 'n54', 'grounds')",
+      "('n53', 'n55', 'grounds')",
+      "('n53', 'n56', 'grounds')",
+      "('n53', 'n57', 'grounds')",
+      "('n53', 'n58', 'grounds')",
+      "('n53', 'n59', 'grounds')",
+      "('n53', 'n60', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n62",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n51",
+      "n52",
+      "n53",
+      "n54",
+      "n55",
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n62"
+    ],
+    "evidence_edges": [
+      "('n51', 'n52', 'depends_on')",
+      "('n52', 'n53', 'submits')",
+      "('n52', 'n62', 'depends_on')",
+      "('n53', 'n54', 'grounds')",
+      "('n53', 'n55', 'grounds')",
+      "('n53', 'n56', 'grounds')",
+      "('n53', 'n57', 'grounds')",
+      "('n53', 'n58', 'grounds')",
+      "('n53', 'n59', 'grounds')",
+      "('n53', 'n60', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n63",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n51",
+      "n52",
+      "n53",
+      "n54",
+      "n55",
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n63"
+    ],
+    "evidence_edges": [
+      "('n51', 'n52', 'depends_on')",
+      "('n52', 'n53', 'submits')",
+      "('n52', 'n63', 'depends_on')",
+      "('n53', 'n54', 'grounds')",
+      "('n53', 'n55', 'grounds')",
+      "('n53', 'n56', 'grounds')",
+      "('n53', 'n57', 'grounds')",
+      "('n53', 'n58', 'grounds')",
+      "('n53', 'n59', 'grounds')",
+      "('n53', 'n60', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n83",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n79",
+      "n80",
+      "n81",
+      "n82",
+      "n83",
+      "n88",
+      "n89"
+    ],
+    "evidence_edges": [
+      "('n79', 'n80', 'depends_on')",
+      "('n80', 'n81', 'submits')",
+      "('n80', 'n83', 'depends_on')",
+      "('n81', 'n82', 'grounds')",
+      "('n83', 'n88', 'creates')",
+      "('n83', 'n89', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n84",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n79",
+      "n80",
+      "n81",
+      "n82",
+      "n84",
+      "n90",
+      "n91"
+    ],
+    "evidence_edges": [
+      "('n79', 'n80', 'depends_on')",
+      "('n80', 'n81', 'submits')",
+      "('n80', 'n84', 'depends_on')",
+      "('n81', 'n82', 'grounds')",
+      "('n84', 'n90', 'creates')",
+      "('n84', 'n91', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n85",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n79",
+      "n80",
+      "n81",
+      "n82",
+      "n85",
+      "n92",
+      "n93"
+    ],
+    "evidence_edges": [
+      "('n79', 'n80', 'depends_on')",
+      "('n80', 'n81', 'submits')",
+      "('n80', 'n85', 'depends_on')",
+      "('n81', 'n82', 'grounds')",
+      "('n85', 'n92', 'creates')",
+      "('n85', 'n93', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n86",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n79",
+      "n80",
+      "n81",
+      "n82",
+      "n86",
+      "n94",
+      "n95"
+    ],
+    "evidence_edges": [
+      "('n79', 'n80', 'depends_on')",
+      "('n80', 'n81', 'submits')",
+      "('n80', 'n86', 'depends_on')",
+      "('n81', 'n82', 'grounds')",
+      "('n86', 'n94', 'creates')",
+      "('n86', 'n95', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n87",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n79",
+      "n80",
+      "n81",
+      "n82",
+      "n87",
+      "n96",
+      "n97"
+    ],
+    "evidence_edges": [
+      "('n79', 'n80', 'depends_on')",
+      "('n80', 'n81', 'submits')",
+      "('n80', 'n87', 'depends_on')",
+      "('n81', 'n82', 'grounds')",
+      "('n87', 'n96', 'creates')",
+      "('n87', 'n97', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n74",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n72",
+      "n73",
+      "n74",
+      "n76",
+      "n79"
+    ],
+    "evidence_edges": [
+      "('n72', 'n73', 'depends_on')",
+      "('n73', 'n74', 'depends_on')",
+      "('n74', 'n76', 'updates')",
+      "('n74', 'n79', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n75",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n72",
+      "n73",
+      "n75",
+      "n80",
+      "n83"
+    ],
+    "evidence_edges": [
+      "('n72', 'n73', 'depends_on')",
+      "('n73', 'n75', 'depends_on')",
+      "('n75', 'n80', 'updates')",
+      "('n75', 'n83', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n86",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n110",
+      "n84",
+      "n85",
+      "n86"
+    ],
+    "evidence_edges": [
+      "('n110', 'n86', 'depends_on')",
+      "('n84', 'n85', 'depends_on')",
+      "('n85', 'n86', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n75",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n70",
+      "n71",
+      "n72",
+      "n73",
+      "n74",
+      "n75",
+      "n77",
+      "n80"
+    ],
+    "evidence_edges": [
+      "('n65', 'n66', 'depends_on')",
+      "('n66', 'n67', 'submits')",
+      "('n66', 'n75', 'depends_on')",
+      "('n67', 'n68', 'grounds')",
+      "('n67', 'n69', 'grounds')",
+      "('n67', 'n70', 'grounds')",
+      "('n67', 'n71', 'grounds')",
+      "('n67', 'n72', 'grounds')",
+      "('n67', 'n73', 'grounds')",
+      "('n67', 'n74', 'grounds')",
+      "('n75', 'n77', 'updates')",
+      "('n75', 'n80', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n76",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n70",
+      "n71",
+      "n72",
+      "n73",
+      "n74",
+      "n76",
+      "n81",
+      "n84"
+    ],
+    "evidence_edges": [
+      "('n65', 'n66', 'depends_on')",
+      "('n66', 'n67', 'submits')",
+      "('n66', 'n76', 'depends_on')",
+      "('n67', 'n68', 'grounds')",
+      "('n67', 'n69', 'grounds')",
+      "('n67', 'n70', 'grounds')",
+      "('n67', 'n71', 'grounds')",
+      "('n67', 'n72', 'grounds')",
+      "('n67', 'n73', 'grounds')",
+      "('n67', 'n74', 'grounds')",
+      "('n76', 'n81', 'updates')",
+      "('n76', 'n84', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n89",
+    "method": "why_not_provenance",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "missing",
+      "channel_boundary": "supported",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n113",
+      "n85",
+      "n86",
+      "n87",
+      "n88",
+      "n89"
+    ],
+    "evidence_edges": [
+      "('n113', 'n89', 'depends_on')",
+      "('n85', 'n86', 'depends_on')",
+      "('n86', 'n87', 'submits')",
+      "('n86', 'n89', 'depends_on')",
+      "('n87', 'n88', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T086_pinbench_calendar_event_creation",
+    "action_id": "n8",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n6",
+      "n7",
+      "n8",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n6', 'n7', 'depends_on')",
+      "('n7', 'n8', 'depends_on')",
+      "('n8', 'n10', 'creates')",
+      "('n8', 'n9', 'creates')"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n11",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n15",
+      "n16",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n10', 'n11', 'depends_on')",
+      "('n11', 'n15', 'creates')",
+      "('n11', 'n16', 'creates')",
+      "('n9', 'n10', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n12",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n12",
+      "n17",
+      "n18",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n10', 'n12', 'depends_on')",
+      "('n12', 'n17', 'creates')",
+      "('n12', 'n18', 'creates')",
+      "('n9', 'n10', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n13",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n13",
+      "n19",
+      "n20",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n10', 'n13', 'depends_on')",
+      "('n13', 'n19', 'creates')",
+      "('n13', 'n20', 'creates')",
+      "('n9', 'n10', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n14",
+    "method": "why_not_provenance",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n10",
+      "n14",
+      "n21",
+      "n22",
+      "n9"
+    ],
+    "evidence_edges": [
+      "('n10', 'n14', 'depends_on')",
+      "('n14', 'n21', 'creates')",
+      "('n14', 'n22', 'creates')",
+      "('n9', 'n10', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n98",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n104",
+      "n96",
+      "n97",
+      "n98"
+    ],
+    "evidence_edges": [
+      "('n96', 'n97', 'depends_on')",
+      "('n97', 'n98', 'depends_on')",
+      "('n98', 'n101', 'updates')",
+      "('n98', 'n104', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n99",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n105",
+      "n108",
+      "n96",
+      "n97",
+      "n99"
+    ],
+    "evidence_edges": [
+      "('n96', 'n97', 'depends_on')",
+      "('n97', 'n99', 'depends_on')",
+      "('n99', 'n105', 'updates')",
+      "('n99', 'n108', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n100",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n100",
+      "n109",
+      "n112",
+      "n96",
+      "n97"
+    ],
+    "evidence_edges": [
+      "('n100', 'n109', 'updates')",
+      "('n100', 'n112', 'updates')",
+      "('n96', 'n97', 'depends_on')",
+      "('n97', 'n100', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T109zh_complaint_investigation",
+    "action_id": "n86",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n84",
+      "n85",
+      "n86"
+    ],
+    "evidence_edges": [
+      "('n84', 'n85', 'depends_on')",
+      "('n85', 'n86', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T110_complaint_investigation",
+    "action_id": "n103",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n100",
+      "n101",
+      "n102",
+      "n103",
+      "n88",
+      "n89",
+      "n90",
+      "n91",
+      "n92",
+      "n93",
+      "n94",
+      "n95",
+      "n96",
+      "n97",
+      "n98",
+      "n99"
+    ],
+    "evidence_edges": [
+      "('n88', 'n89', 'depends_on')",
+      "('n89', 'n103', 'depends_on')",
+      "('n89', 'n90', 'submits')",
+      "('n90', 'n100', 'grounds')",
+      "('n90', 'n101', 'grounds')",
+      "('n90', 'n102', 'grounds')",
+      "('n90', 'n91', 'grounds')",
+      "('n90', 'n92', 'grounds')",
+      "('n90', 'n93', 'grounds')",
+      "('n90', 'n94', 'grounds')",
+      "('n90', 'n95', 'grounds')",
+      "('n90', 'n96', 'grounds')",
+      "('n90', 'n97', 'grounds')",
+      "('n90', 'n98', 'grounds')",
+      "('n90', 'n99', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n68",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n53",
+      "n54",
+      "n55",
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62",
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68"
+    ],
+    "evidence_edges": [
+      "('n53', 'n54', 'depends_on')",
+      "('n54', 'n55', 'submits')",
+      "('n54', 'n68', 'depends_on')",
+      "('n55', 'n56', 'grounds')",
+      "('n55', 'n57', 'grounds')",
+      "('n55', 'n58', 'grounds')",
+      "('n55', 'n59', 'grounds')",
+      "('n55', 'n60', 'grounds')",
+      "('n55', 'n61', 'grounds')",
+      "('n55', 'n62', 'grounds')",
+      "('n55', 'n63', 'grounds')",
+      "('n55', 'n64', 'grounds')",
+      "('n55', 'n65', 'grounds')",
+      "('n55', 'n66', 'grounds')",
+      "('n55', 'n67', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n76",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n75",
+      "n76"
+    ],
+    "evidence_edges": [
+      "('n74', 'n75', 'depends_on')",
+      "('n75', 'n76', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n77",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n75",
+      "n77"
+    ],
+    "evidence_edges": [
+      "('n74', 'n75', 'depends_on')",
+      "('n75', 'n77', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n90",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n88",
+      "n89",
+      "n90"
+    ],
+    "evidence_edges": [
+      "('n88', 'n89', 'depends_on')",
+      "('n89', 'n90', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n91",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n88",
+      "n89",
+      "n91"
+    ],
+    "evidence_edges": [
+      "('n88', 'n89', 'depends_on')",
+      "('n89', 'n91', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n70",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62",
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n70"
+    ],
+    "evidence_edges": [
+      "('n56', 'n57', 'depends_on')",
+      "('n57', 'n58', 'submits')",
+      "('n57', 'n70', 'depends_on')",
+      "('n58', 'n59', 'grounds')",
+      "('n58', 'n60', 'grounds')",
+      "('n58', 'n61', 'grounds')",
+      "('n58', 'n62', 'grounds')",
+      "('n58', 'n63', 'grounds')",
+      "('n58', 'n64', 'grounds')",
+      "('n58', 'n65', 'grounds')",
+      "('n58', 'n66', 'grounds')",
+      "('n58', 'n67', 'grounds')",
+      "('n58', 'n68', 'grounds')",
+      "('n58', 'n69', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n71",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62",
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n71"
+    ],
+    "evidence_edges": [
+      "('n56', 'n57', 'depends_on')",
+      "('n57', 'n58', 'submits')",
+      "('n57', 'n71', 'depends_on')",
+      "('n58', 'n59', 'grounds')",
+      "('n58', 'n60', 'grounds')",
+      "('n58', 'n61', 'grounds')",
+      "('n58', 'n62', 'grounds')",
+      "('n58', 'n63', 'grounds')",
+      "('n58', 'n64', 'grounds')",
+      "('n58', 'n65', 'grounds')",
+      "('n58', 'n66', 'grounds')",
+      "('n58', 'n67', 'grounds')",
+      "('n58', 'n68', 'grounds')",
+      "('n58', 'n69', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n72",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62",
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n72"
+    ],
+    "evidence_edges": [
+      "('n56', 'n57', 'depends_on')",
+      "('n57', 'n58', 'submits')",
+      "('n57', 'n72', 'depends_on')",
+      "('n58', 'n59', 'grounds')",
+      "('n58', 'n60', 'grounds')",
+      "('n58', 'n61', 'grounds')",
+      "('n58', 'n62', 'grounds')",
+      "('n58', 'n63', 'grounds')",
+      "('n58', 'n64', 'grounds')",
+      "('n58', 'n65', 'grounds')",
+      "('n58', 'n66', 'grounds')",
+      "('n58', 'n67', 'grounds')",
+      "('n58', 'n68', 'grounds')",
+      "('n58', 'n69', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n73",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62",
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n73"
+    ],
+    "evidence_edges": [
+      "('n56', 'n57', 'depends_on')",
+      "('n57', 'n58', 'submits')",
+      "('n57', 'n73', 'depends_on')",
+      "('n58', 'n59', 'grounds')",
+      "('n58', 'n60', 'grounds')",
+      "('n58', 'n61', 'grounds')",
+      "('n58', 'n62', 'grounds')",
+      "('n58', 'n63', 'grounds')",
+      "('n58', 'n64', 'grounds')",
+      "('n58', 'n65', 'grounds')",
+      "('n58', 'n66', 'grounds')",
+      "('n58', 'n67', 'grounds')",
+      "('n58', 'n68', 'grounds')",
+      "('n58', 'n69', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n74",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62",
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n74"
+    ],
+    "evidence_edges": [
+      "('n56', 'n57', 'depends_on')",
+      "('n57', 'n58', 'submits')",
+      "('n57', 'n74', 'depends_on')",
+      "('n58', 'n59', 'grounds')",
+      "('n58', 'n60', 'grounds')",
+      "('n58', 'n61', 'grounds')",
+      "('n58', 'n62', 'grounds')",
+      "('n58', 'n63', 'grounds')",
+      "('n58', 'n64', 'grounds')",
+      "('n58', 'n65', 'grounds')",
+      "('n58', 'n66', 'grounds')",
+      "('n58', 'n67', 'grounds')",
+      "('n58', 'n68', 'grounds')",
+      "('n58', 'n69', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T121zh_industry_briefing",
+    "action_id": "n42",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n34",
+      "n35",
+      "n36",
+      "n37",
+      "n38",
+      "n39",
+      "n40",
+      "n41",
+      "n42"
+    ],
+    "evidence_edges": [
+      "('n34', 'n35', 'depends_on')",
+      "('n35', 'n36', 'submits')",
+      "('n35', 'n42', 'depends_on')",
+      "('n36', 'n37', 'grounds')",
+      "('n36', 'n38', 'grounds')",
+      "('n36', 'n39', 'grounds')",
+      "('n36', 'n40', 'grounds')",
+      "('n36', 'n41', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T122_industry_briefing",
+    "action_id": "n33",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n31",
+      "n32",
+      "n33"
+    ],
+    "evidence_edges": [
+      "('n31', 'n32', 'depends_on')",
+      "('n32', 'n33', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T133zh_competitive_intelligence",
+    "action_id": "n62",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62"
+    ],
+    "evidence_edges": [
+      "('n58', 'n59', 'depends_on')",
+      "('n59', 'n60', 'submits')",
+      "('n59', 'n62', 'depends_on')",
+      "('n60', 'n61', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T134_competitive_intelligence",
+    "action_id": "n62",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n61",
+      "n62"
+    ],
+    "evidence_edges": [
+      "('n57', 'n58', 'depends_on')",
+      "('n58', 'n59', 'submits')",
+      "('n58', 'n62', 'depends_on')",
+      "('n59', 'n60', 'grounds')",
+      "('n59', 'n61', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T139zh_customer_relationship_warning",
+    "action_id": "n67",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n65",
+      "n66",
+      "n67"
+    ],
+    "evidence_edges": [
+      "('n65', 'n66', 'depends_on')",
+      "('n66', 'n67', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T139zh_customer_relationship_warning",
+    "action_id": "n68",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n65",
+      "n66",
+      "n68"
+    ],
+    "evidence_edges": [
+      "('n65', 'n66', 'depends_on')",
+      "('n66', 'n68', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n47",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n35",
+      "n36",
+      "n37",
+      "n38",
+      "n39",
+      "n40",
+      "n41",
+      "n42",
+      "n43",
+      "n44",
+      "n45",
+      "n46",
+      "n47"
+    ],
+    "evidence_edges": [
+      "('n35', 'n36', 'depends_on')",
+      "('n36', 'n37', 'submits')",
+      "('n36', 'n47', 'depends_on')",
+      "('n37', 'n38', 'grounds')",
+      "('n37', 'n39', 'grounds')",
+      "('n37', 'n40', 'grounds')",
+      "('n37', 'n41', 'grounds')",
+      "('n37', 'n42', 'grounds')",
+      "('n37', 'n43', 'grounds')",
+      "('n37', 'n44', 'grounds')",
+      "('n37', 'n45', 'grounds')",
+      "('n37', 'n46', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n48",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n35",
+      "n36",
+      "n37",
+      "n38",
+      "n39",
+      "n40",
+      "n41",
+      "n42",
+      "n43",
+      "n44",
+      "n45",
+      "n46",
+      "n48"
+    ],
+    "evidence_edges": [
+      "('n35', 'n36', 'depends_on')",
+      "('n36', 'n37', 'submits')",
+      "('n36', 'n48', 'depends_on')",
+      "('n37', 'n38', 'grounds')",
+      "('n37', 'n39', 'grounds')",
+      "('n37', 'n40', 'grounds')",
+      "('n37', 'n41', 'grounds')",
+      "('n37', 'n42', 'grounds')",
+      "('n37', 'n43', 'grounds')",
+      "('n37', 'n44', 'grounds')",
+      "('n37', 'n45', 'grounds')",
+      "('n37', 'n46', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n49",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n35",
+      "n36",
+      "n37",
+      "n38",
+      "n39",
+      "n40",
+      "n41",
+      "n42",
+      "n43",
+      "n44",
+      "n45",
+      "n46",
+      "n49"
+    ],
+    "evidence_edges": [
+      "('n35', 'n36', 'depends_on')",
+      "('n36', 'n37', 'submits')",
+      "('n36', 'n49', 'depends_on')",
+      "('n37', 'n38', 'grounds')",
+      "('n37', 'n39', 'grounds')",
+      "('n37', 'n40', 'grounds')",
+      "('n37', 'n41', 'grounds')",
+      "('n37', 'n42', 'grounds')",
+      "('n37', 'n43', 'grounds')",
+      "('n37', 'n44', 'grounds')",
+      "('n37', 'n45', 'grounds')",
+      "('n37', 'n46', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n52",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n40",
+      "n41",
+      "n42",
+      "n43",
+      "n44",
+      "n45",
+      "n46",
+      "n47",
+      "n48",
+      "n49",
+      "n50",
+      "n51",
+      "n52"
+    ],
+    "evidence_edges": [
+      "('n40', 'n41', 'depends_on')",
+      "('n41', 'n42', 'submits')",
+      "('n41', 'n52', 'depends_on')",
+      "('n42', 'n43', 'grounds')",
+      "('n42', 'n44', 'grounds')",
+      "('n42', 'n45', 'grounds')",
+      "('n42', 'n46', 'grounds')",
+      "('n42', 'n47', 'grounds')",
+      "('n42', 'n48', 'grounds')",
+      "('n42', 'n49', 'grounds')",
+      "('n42', 'n50', 'grounds')",
+      "('n42', 'n51', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n53",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n40",
+      "n41",
+      "n42",
+      "n43",
+      "n44",
+      "n45",
+      "n46",
+      "n47",
+      "n48",
+      "n49",
+      "n50",
+      "n51",
+      "n53"
+    ],
+    "evidence_edges": [
+      "('n40', 'n41', 'depends_on')",
+      "('n41', 'n42', 'submits')",
+      "('n41', 'n53', 'depends_on')",
+      "('n42', 'n43', 'grounds')",
+      "('n42', 'n44', 'grounds')",
+      "('n42', 'n45', 'grounds')",
+      "('n42', 'n46', 'grounds')",
+      "('n42', 'n47', 'grounds')",
+      "('n42', 'n48', 'grounds')",
+      "('n42', 'n49', 'grounds')",
+      "('n42', 'n50', 'grounds')",
+      "('n42', 'n51', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n54",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n40",
+      "n41",
+      "n42",
+      "n43",
+      "n44",
+      "n45",
+      "n46",
+      "n47",
+      "n48",
+      "n49",
+      "n50",
+      "n51",
+      "n54"
+    ],
+    "evidence_edges": [
+      "('n40', 'n41', 'depends_on')",
+      "('n41', 'n42', 'submits')",
+      "('n41', 'n54', 'depends_on')",
+      "('n42', 'n43', 'grounds')",
+      "('n42', 'n44', 'grounds')",
+      "('n42', 'n45', 'grounds')",
+      "('n42', 'n46', 'grounds')",
+      "('n42', 'n47', 'grounds')",
+      "('n42', 'n48', 'grounds')",
+      "('n42', 'n49', 'grounds')",
+      "('n42', 'n50', 'grounds')",
+      "('n42', 'n51', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T153zh_market_research_report",
+    "action_id": "n85",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n81",
+      "n82",
+      "n83",
+      "n84",
+      "n85"
+    ],
+    "evidence_edges": [
+      "('n81', 'n82', 'depends_on')",
+      "('n82', 'n83', 'submits')",
+      "('n82', 'n85', 'depends_on')",
+      "('n83', 'n84', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T154_market_research_report",
+    "action_id": "n121",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n116",
+      "n117",
+      "n118",
+      "n119",
+      "n120",
+      "n121"
+    ],
+    "evidence_edges": [
+      "('n116', 'n117', 'depends_on')",
+      "('n117', 'n118', 'submits')",
+      "('n117', 'n121', 'depends_on')",
+      "('n118', 'n119', 'grounds')",
+      "('n118', 'n120', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n40",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n37",
+      "n38",
+      "n40",
+      "n43",
+      "n46"
+    ],
+    "evidence_edges": [
+      "('n37', 'n38', 'depends_on')",
+      "('n38', 'n40', 'depends_on')",
+      "('n40', 'n43', 'updates')",
+      "('n40', 'n46', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n49",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n47",
+      "n48",
+      "n49"
+    ],
+    "evidence_edges": [
+      "('n47', 'n48', 'depends_on')",
+      "('n48', 'n49', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n50",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n47",
+      "n48",
+      "n50"
+    ],
+    "evidence_edges": [
+      "('n47', 'n48', 'depends_on')",
+      "('n48', 'n50', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n68",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "supported",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n72"
+    ],
+    "evidence_edges": [
+      "('n63', 'n64', 'depends_on')",
+      "('n64', 'n65', 'submits')",
+      "('n64', 'n68', 'depends_on')",
+      "('n65', 'n66', 'grounds')",
+      "('n65', 'n67', 'grounds')",
+      "('n68', 'n69', 'updates')",
+      "('n68', 'n72', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n78",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n73",
+      "n74",
+      "n75",
+      "n76",
+      "n77",
+      "n78"
+    ],
+    "evidence_edges": [
+      "('n73', 'n74', 'depends_on')",
+      "('n74', 'n75', 'submits')",
+      "('n74', 'n78', 'depends_on')",
+      "('n75', 'n76', 'grounds')",
+      "('n75', 'n77', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n79",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n73",
+      "n74",
+      "n75",
+      "n76",
+      "n77",
+      "n79"
+    ],
+    "evidence_edges": [
+      "('n73', 'n74', 'depends_on')",
+      "('n74', 'n75', 'submits')",
+      "('n74', 'n79', 'depends_on')",
+      "('n75', 'n76', 'grounds')",
+      "('n75', 'n77', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n47",
+    "method": "why_not_provenance",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "supported",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "supported",
+      "verification_evidence": "missing",
+      "effect_evidence": "supported",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n45",
+      "n46",
+      "n47",
+      "n48",
+      "n51"
+    ],
+    "evidence_edges": [
+      "('n45', 'n46', 'depends_on')",
+      "('n46', 'n47', 'depends_on')",
+      "('n47', 'n48', 'updates')",
+      "('n47', 'n51', 'updates')"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n59",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n57",
+      "n58",
+      "n59"
+    ],
+    "evidence_edges": [
+      "('n57', 'n58', 'depends_on')",
+      "('n58', 'n59', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n67",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "not_applicable",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n65",
+      "n66",
+      "n67"
+    ],
+    "evidence_edges": [
+      "('n65', 'n66', 'depends_on')",
+      "('n66', 'n67', 'depends_on')"
+    ]
+  },
+  {
+    "task_id": "T160_vip_ticket_escalation",
+    "action_id": "n72",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n70",
+      "n71",
+      "n72"
+    ],
+    "evidence_edges": [
+      "('n63', 'n64', 'depends_on')",
+      "('n64', 'n65', 'submits')",
+      "('n64', 'n72', 'depends_on')",
+      "('n65', 'n66', 'grounds')",
+      "('n65', 'n67', 'grounds')",
+      "('n65', 'n68', 'grounds')",
+      "('n65', 'n69', 'grounds')",
+      "('n65', 'n70', 'grounds')",
+      "('n65', 'n71', 'grounds')"
+    ]
+  },
+  {
+    "task_id": "T160_vip_ticket_escalation",
+    "action_id": "n73",
+    "method": "why_not_provenance",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "supported",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "missing",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "not_applicable"
+    },
+    "evidence_nodes": [
+      "n63",
+      "n64",
+      "n65",
+      "n66",
+      "n67",
+      "n68",
+      "n69",
+      "n70",
+      "n71",
+      "n73"
+    ],
+    "evidence_edges": [
+      "('n63', 'n64', 'depends_on')",
+      "('n64', 'n65', 'submits')",
+      "('n64', 'n73', 'depends_on')",
+      "('n65', 'n66', 'grounds')",
+      "('n65', 'n67', 'grounds')",
+      "('n65', 'n68', 'grounds')",
+      "('n65', 'n69', 'grounds')",
+      "('n65', 'n70', 'grounds')",
+      "('n65', 'n71', 'grounds')"
+    ]
+  }
+]

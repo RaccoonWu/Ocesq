@@ -1,0 +1,76 @@
+{
+  "by_family": {
+    "delete_unique_entity_observation": {
+      "certificate_validity": 1,
+      "contract_delta_exact": 1,
+      "expected_component_recall": 1,
+      "localization_f1": 1.0,
+      "localization_precision": 1.0,
+      "localization_recall": 1.0,
+      "oracle_preconditions_passed": 1,
+      "pairs": 6,
+      "status_transition_correct": 1,
+      "unexpected_component_change": 0
+    },
+    "inject_conflicting_response": {
+      "certificate_validity": 1.0,
+      "contract_delta_exact": 1,
+      "expected_component_recall": 1,
+      "localization_f1": 1.0,
+      "localization_precision": 1.0,
+      "localization_recall": 1.0,
+      "oracle_preconditions_passed": 1,
+      "pairs": 6,
+      "status_transition_correct": 1,
+      "unexpected_component_change": 0
+    },
+    "move_observation_after_action": {
+      "certificate_validity": 1,
+      "contract_delta_exact": 0.16666666666666666,
+      "expected_component_recall": 1,
+      "localization_f1": 1.0,
+      "localization_precision": 1.0,
+      "localization_recall": 1.0,
+      "oracle_preconditions_passed": 1,
+      "pairs": 6,
+      "status_transition_correct": 1,
+      "unexpected_component_change": 0.8333333333333334
+    },
+    "replace_action_entity_only": {
+      "certificate_validity": 1.0,
+      "contract_delta_exact": 0.8333333333333334,
+      "expected_component_recall": 1,
+      "localization_f1": 1.0,
+      "localization_precision": 1.0,
+      "localization_recall": 1.0,
+      "oracle_preconditions_passed": 1,
+      "pairs": 6,
+      "status_transition_correct": 1,
+      "unexpected_component_change": 0.16666666666666666
+    }
+  },
+  "certificate_note": "strict validity checks graph digest, complete full-graph scope, enumerated nodes/edges, descriptor identity, and root anchor",
+  "failure_taxonomy": {
+    "failed_expected_components": {},
+    "imperfect_localization": 0,
+    "invalid_scope_certificates": 0,
+    "unexpected_component_changes": 6
+  },
+  "ground_truth_boundary": "raw traces plus frozen mutation specifications; OCESQ is prediction-side only",
+  "human_labels_used": false,
+  "model_labels_used": false,
+  "oracle_rows": 24,
+  "overall": {
+    "certificate_validity": 1.0,
+    "contract_delta_exact": 0.75,
+    "expected_component_recall": 1,
+    "localization_f1": 1.0,
+    "localization_precision": 1.0,
+    "localization_recall": 1.0,
+    "oracle_preconditions_passed": 1,
+    "pairs": 24,
+    "status_transition_correct": 1,
+    "unexpected_component_change": 0.25
+  },
+  "protocol": "apc-fault-injection-v1-pilot"
+}

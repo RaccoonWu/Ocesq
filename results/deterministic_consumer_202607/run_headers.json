@@ -1,0 +1,14 @@
+{
+  "condition_alias_used": {
+    "apc_without_status": "R11",
+    "complete_audit_package": "R4",
+    "raw_trace": "R3"
+  },
+  "downstream_inputs": "results/current_downstream_fact_recovery_inputs",
+  "llm_used": false,
+  "n_cases": 183,
+  "network_used": false,
+  "protocol": "deterministic-consumer-v1",
+  "rules": "see script header docstring",
+  "seed": 20260723
+}

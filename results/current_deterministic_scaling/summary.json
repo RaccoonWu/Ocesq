@@ -1,0 +1,943 @@
+{
+  "by_sweep": {
+    "branching": {
+      "max_p50_speedup": 9.851416885772716,
+      "mean_p50_speedup": 7.021750667228144,
+      "min_p50_speedup": 3.1550180536410166,
+      "reference_exact": 1,
+      "scenarios": 5
+    },
+    "graph_size": {
+      "max_p50_speedup": 12.014398081373898,
+      "mean_p50_speedup": 5.930800054874658,
+      "min_p50_speedup": 1.7648622047244096,
+      "reference_exact": 1,
+      "scenarios": 5
+    },
+    "missing_scope": {
+      "max_p50_speedup": 4.124136305108721,
+      "mean_p50_speedup": 3.086968163221969,
+      "min_p50_speedup": 2.051094890510949,
+      "reference_exact": 1,
+      "scenarios": 5
+    },
+    "path_depth": {
+      "max_p50_speedup": 6.212151702786378,
+      "mean_p50_speedup": 4.101813466533282,
+      "min_p50_speedup": 3.2830150462962964,
+      "reference_exact": 1,
+      "scenarios": 5
+    },
+    "witness_count": {
+      "max_p50_speedup": 8.725743348982785,
+      "mean_p50_speedup": 6.412295022206315,
+      "min_p50_speedup": 3.267768585630263,
+      "reference_exact": 1,
+      "scenarios": 7
+    }
+  },
+  "environment": {
+    "platform": "Linux-6.17.0-22-generic-x86_64-with-glibc2.39",
+    "python": "3.10.9",
+    "timer": "perf_counter_ns"
+  },
+  "experiment_id": "deterministic-query-scaling-v2",
+  "interpretation": "Single-process local microbenchmark; timings and Python allocation peaks are environment-specific.",
+  "records": [
+    {
+      "actual_edges": 15,
+      "actual_nodes": 32,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 2,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.003859033333333333,
+        "p50_ms": 0.00378,
+        "p95_ms": 0.00434
+      },
+      "index_payload_bytes": 4089,
+      "index_peak_allocated_bytes": 5784,
+      "indexed": {
+        "mean_ms": 0.005077075,
+        "p50_ms": 0.00508,
+        "p95_ms": 0.00522
+      },
+      "nodes": 32,
+      "p50_speedup": 1.7648622047244096,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "graph_size",
+      "unindexed": {
+        "mean_ms": 0.00912075,
+        "p50_ms": 0.008965500000000001,
+        "p95_ms": 0.00988
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 9,
+      "actual_nodes": 32,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 0,
+      "branches": 2,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.0028553666666666666,
+        "p50_ms": 0.00282,
+        "p95_ms": 0.00307
+      },
+      "index_payload_bytes": 3374,
+      "index_peak_allocated_bytes": 3120,
+      "indexed": {
+        "mean_ms": 0.0027472875,
+        "p50_ms": 0.00274,
+        "p95_ms": 0.00283
+      },
+      "nodes": 32,
+      "p50_speedup": 2.051094890510949,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "missing",
+      "sweep": "missing_scope",
+      "unindexed": {
+        "mean_ms": 0.005638575,
+        "p50_ms": 0.00562,
+        "p95_ms": 0.00576
+      },
+      "witnesses": 0
+    },
+    {
+      "actual_edges": 43,
+      "actual_nodes": 128,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 8,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.011252833333333333,
+        "p50_ms": 0.01123,
+        "p95_ms": 0.01146
+      },
+      "index_payload_bytes": 14395,
+      "index_peak_allocated_bytes": 14000,
+      "indexed": {
+        "mean_ms": 0.00699335,
+        "p50_ms": 0.0069,
+        "p95_ms": 0.0072
+      },
+      "nodes": 128,
+      "p50_speedup": 2.6507246376811597,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "graph_size",
+      "unindexed": {
+        "mean_ms": 0.0183663875,
+        "p50_ms": 0.01829,
+        "p95_ms": 0.01878
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 37,
+      "actual_nodes": 128,
+      "amortization_queries_p50": 2,
+      "answer_conflicts": 0,
+      "answer_witnesses": 0,
+      "branches": 8,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.010460466666666666,
+        "p50_ms": 0.01043,
+        "p95_ms": 0.01068
+      },
+      "index_payload_bytes": 13704,
+      "index_peak_allocated_bytes": 10928,
+      "indexed": {
+        "mean_ms": 0.006632475,
+        "p50_ms": 0.00659,
+        "p95_ms": 0.00671
+      },
+      "nodes": 128,
+      "p50_speedup": 2.5766312594840666,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "missing",
+      "sweep": "missing_scope",
+      "unindexed": {
+        "mean_ms": 0.017033875,
+        "p50_ms": 0.01698,
+        "p95_ms": 0.01717
+      },
+      "witnesses": 0
+    },
+    {
+      "actual_edges": 157,
+      "actual_nodes": 512,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.0419676,
+        "p50_ms": 0.041665,
+        "p95_ms": 0.04485
+      },
+      "index_payload_bytes": 56991,
+      "index_peak_allocated_bytes": 43760,
+      "indexed": {
+        "mean_ms": 0.0131016875,
+        "p50_ms": 0.01302,
+        "p95_ms": 0.01328
+      },
+      "nodes": 512,
+      "p50_speedup": 4.2350998463901695,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "graph_size",
+      "unindexed": {
+        "mean_ms": 0.0560556625,
+        "p50_ms": 0.055141,
+        "p95_ms": 0.060201
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 151,
+      "actual_nodes": 512,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 0,
+      "branches": 32,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.0402839,
+        "p50_ms": 0.0401455,
+        "p95_ms": 0.04063
+      },
+      "index_payload_bytes": 56303,
+      "index_peak_allocated_bytes": 42880,
+      "indexed": {
+        "mean_ms": 0.0211361625,
+        "p50_ms": 0.020751,
+        "p95_ms": 0.02171
+      },
+      "nodes": 512,
+      "p50_speedup": 2.9524360271794134,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "missing",
+      "sweep": "missing_scope",
+      "unindexed": {
+        "mean_ms": 0.0617942625,
+        "p50_ms": 0.061266,
+        "p95_ms": 0.063831
+      },
+      "witnesses": 0
+    },
+    {
+      "actual_edges": 541,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.16889003333333333,
+        "p50_ms": 0.16709800000000002,
+        "p95_ms": 0.179322
+      },
+      "index_payload_bytes": 223002,
+      "index_peak_allocated_bytes": 163856,
+      "indexed": {
+        "mean_ms": 0.02157255,
+        "p50_ms": 0.021291,
+        "p95_ms": 0.02185
+      },
+      "nodes": 2048,
+      "p50_speedup": 8.988915504203655,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "graph_size",
+      "unindexed": {
+        "mean_ms": 0.1946013875,
+        "p50_ms": 0.19138300000000003,
+        "p95_ms": 0.204943
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 535,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 0,
+      "branches": 32,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.17177013333333332,
+        "p50_ms": 0.1686125,
+        "p95_ms": 0.192343
+      },
+      "index_payload_bytes": 222314,
+      "index_peak_allocated_bytes": 162976,
+      "indexed": {
+        "mean_ms": 0.055273525,
+        "p50_ms": 0.055141,
+        "p95_ms": 0.056791
+      },
+      "nodes": 2048,
+      "p50_speedup": 4.124136305108721,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "missing",
+      "sweep": "missing_scope",
+      "unindexed": {
+        "mean_ms": 0.2293662625,
+        "p50_ms": 0.227409,
+        "p95_ms": 0.242144
+      },
+      "witnesses": 0
+    },
+    {
+      "actual_edges": 2077,
+      "actual_nodes": 8192,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.726436,
+        "p50_ms": 0.6479539999999999,
+        "p95_ms": 0.70932
+      },
+      "index_payload_bytes": 894234,
+      "index_peak_allocated_bytes": 644240,
+      "indexed": {
+        "mean_ms": 0.059764866666666666,
+        "p50_ms": 0.059626,
+        "p95_ms": 0.061481
+      },
+      "nodes": 8192,
+      "p50_speedup": 12.014398081373898,
+      "reference_exact": true,
+      "repeats": 30,
+      "status": "supported",
+      "sweep": "graph_size",
+      "unindexed": {
+        "mean_ms": 0.7523270333333334,
+        "p50_ms": 0.7163705,
+        "p95_ms": 0.993094
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 2071,
+      "actual_nodes": 8192,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 0,
+      "branches": 32,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.6496049,
+        "p50_ms": 0.6489095,
+        "p95_ms": 0.655079
+      },
+      "index_payload_bytes": 893546,
+      "index_peak_allocated_bytes": 643408,
+      "indexed": {
+        "mean_ms": 0.23817606666666666,
+        "p50_ms": 0.23782399999999998,
+        "p95_ms": 0.242943
+      },
+      "nodes": 8192,
+      "p50_speedup": 3.7305423338266954,
+      "reference_exact": true,
+      "repeats": 30,
+      "status": "missing",
+      "sweep": "missing_scope",
+      "unindexed": {
+        "mean_ms": 0.9509028666666667,
+        "p50_ms": 0.8872125,
+        "p95_ms": 0.987165
+      },
+      "witnesses": 0
+    },
+    {
+      "actual_edges": 130,
+      "actual_nodes": 512,
+      "amortization_queries_p50": 2,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 0,
+      "depth": 2,
+      "index_build": {
+        "mean_ms": 0.03403713333333333,
+        "p50_ms": 0.033825,
+        "p95_ms": 0.035751
+      },
+      "index_payload_bytes": 53896,
+      "index_peak_allocated_bytes": 40840,
+      "indexed": {
+        "mean_ms": 0.0065147125,
+        "p50_ms": 0.00646,
+        "p95_ms": 0.00654
+      },
+      "nodes": 512,
+      "p50_speedup": 6.212151702786378,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "path_depth",
+      "unindexed": {
+        "mean_ms": 0.0402392,
+        "p50_ms": 0.0401305,
+        "p95_ms": 0.0407
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 157,
+      "actual_nodes": 512,
+      "amortization_queries_p50": 2,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 3,
+      "index_build": {
+        "mean_ms": 0.036868866666666666,
+        "p50_ms": 0.0367605,
+        "p95_ms": 0.037191
+      },
+      "index_payload_bytes": 56991,
+      "index_peak_allocated_bytes": 43760,
+      "indexed": {
+        "mean_ms": 0.012947687499999999,
+        "p50_ms": 0.0129205,
+        "p95_ms": 0.01309
+      },
+      "nodes": 512,
+      "p50_speedup": 3.844742850508881,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "path_depth",
+      "unindexed": {
+        "mean_ms": 0.0497739625,
+        "p50_ms": 0.049676,
+        "p95_ms": 0.050101
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 160,
+      "actual_nodes": 512,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.03713586666666667,
+        "p50_ms": 0.0370005,
+        "p95_ms": 0.03733
+      },
+      "index_payload_bytes": 57327,
+      "index_peak_allocated_bytes": 44800,
+      "indexed": {
+        "mean_ms": 0.013888575,
+        "p50_ms": 0.01373,
+        "p95_ms": 0.01402
+      },
+      "nodes": 512,
+      "p50_speedup": 3.7087035688273855,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "path_depth",
+      "unindexed": {
+        "mean_ms": 0.0511211125,
+        "p50_ms": 0.0509205,
+        "p95_ms": 0.05328
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 166,
+      "actual_nodes": 512,
+      "amortization_queries_p50": 2,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 6,
+      "index_build": {
+        "mean_ms": 0.03831553333333333,
+        "p50_ms": 0.038246,
+        "p95_ms": 0.03872
+      },
+      "index_payload_bytes": 58000,
+      "index_peak_allocated_bytes": 46592,
+      "indexed": {
+        "mean_ms": 0.015574725,
+        "p50_ms": 0.015501,
+        "p95_ms": 0.01593
+      },
+      "nodes": 512,
+      "p50_speedup": 3.460454164247468,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "path_depth",
+      "unindexed": {
+        "mean_ms": 0.053753525,
+        "p50_ms": 0.0536405,
+        "p95_ms": 0.054291
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 172,
+      "actual_nodes": 512,
+      "amortization_queries_p50": 2,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 8,
+      "index_build": {
+        "mean_ms": 0.039999233333333335,
+        "p50_ms": 0.03978,
+        "p95_ms": 0.04021
+      },
+      "index_payload_bytes": 58674,
+      "index_peak_allocated_bytes": 57936,
+      "indexed": {
+        "mean_ms": 0.0173198625,
+        "p50_ms": 0.01728,
+        "p95_ms": 0.01745
+      },
+      "nodes": 512,
+      "p50_speedup": 3.2830150462962964,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "path_depth",
+      "unindexed": {
+        "mean_ms": 0.0568501875,
+        "p50_ms": 0.0567305,
+        "p95_ms": 0.058251
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 538,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 1,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.14727143333333334,
+        "p50_ms": 0.146377,
+        "p95_ms": 0.152022
+      },
+      "index_payload_bytes": 222664,
+      "index_peak_allocated_bytes": 163416,
+      "indexed": {
+        "mean_ms": 0.019198775,
+        "p50_ms": 0.01917,
+        "p95_ms": 0.01933
+      },
+      "nodes": 2048,
+      "p50_speedup": 8.725743348982785,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "witness_count",
+      "unindexed": {
+        "mean_ms": 0.1676101375,
+        "p50_ms": 0.1672725,
+        "p95_ms": 0.170303
+      },
+      "witnesses": 1
+    },
+    {
+      "actual_edges": 540,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 2,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.14645973333333334,
+        "p50_ms": 0.146187,
+        "p95_ms": 0.148992
+      },
+      "index_payload_bytes": 222887,
+      "index_peak_allocated_bytes": 163768,
+      "indexed": {
+        "mean_ms": 0.0205285375,
+        "p50_ms": 0.0205,
+        "p95_ms": 0.02059
+      },
+      "nodes": 2048,
+      "p50_speedup": 8.31351219512195,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "witness_count",
+      "unindexed": {
+        "mean_ms": 0.170843925,
+        "p50_ms": 0.170427,
+        "p95_ms": 0.173793
+      },
+      "witnesses": 2
+    },
+    {
+      "actual_edges": 544,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.1485381,
+        "p50_ms": 0.148067,
+        "p95_ms": 0.151332
+      },
+      "index_payload_bytes": 223338,
+      "index_peak_allocated_bytes": 164896,
+      "indexed": {
+        "mean_ms": 0.0225335625,
+        "p50_ms": 0.02247,
+        "p95_ms": 0.02278
+      },
+      "nodes": 2048,
+      "p50_speedup": 7.79915442812639,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "witness_count",
+      "unindexed": {
+        "mean_ms": 0.175418625,
+        "p50_ms": 0.17524699999999999,
+        "p95_ms": 0.178122
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 553,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 8,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.15463086666666667,
+        "p50_ms": 0.15449200000000002,
+        "p95_ms": 0.156922
+      },
+      "index_payload_bytes": 224369,
+      "index_peak_allocated_bytes": 166952,
+      "indexed": {
+        "mean_ms": 0.0269512625,
+        "p50_ms": 0.0268505,
+        "p95_ms": 0.02707
+      },
+      "nodes": 2048,
+      "p50_speedup": 6.772220256606022,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "witness_count",
+      "unindexed": {
+        "mean_ms": 0.1838891125,
+        "p50_ms": 0.18183749999999999,
+        "p95_ms": 0.186493
+      },
+      "witnesses": 8
+    },
+    {
+      "actual_edges": 571,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 16,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.15666656666666667,
+        "p50_ms": 0.156412,
+        "p95_ms": 0.159542
+      },
+      "index_payload_bytes": 226557,
+      "index_peak_allocated_bytes": 171016,
+      "indexed": {
+        "mean_ms": 0.03585125,
+        "p50_ms": 0.035656,
+        "p95_ms": 0.036281
+      },
+      "nodes": 2048,
+      "p50_speedup": 5.467747363697554,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "witness_count",
+      "unindexed": {
+        "mean_ms": 0.1954848875,
+        "p50_ms": 0.194958,
+        "p95_ms": 0.198423
+      },
+      "witnesses": 16
+    },
+    {
+      "actual_edges": 607,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 32,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.16416366666666668,
+        "p50_ms": 0.16340749999999998,
+        "p95_ms": 0.169452
+      },
+      "index_payload_bytes": 230927,
+      "index_peak_allocated_bytes": 179192,
+      "indexed": {
+        "mean_ms": 0.052476125,
+        "p50_ms": 0.052331,
+        "p95_ms": 0.05439
+      },
+      "nodes": 2048,
+      "p50_speedup": 4.539918977279242,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "witness_count",
+      "unindexed": {
+        "mean_ms": 0.2542387375,
+        "p50_ms": 0.2375785,
+        "p95_ms": 0.243593
+      },
+      "witnesses": 32
+    },
+    {
+      "actual_edges": 679,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 64,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.19078603333333333,
+        "p50_ms": 0.1905375,
+        "p95_ms": 0.194173
+      },
+      "index_payload_bytes": 239583,
+      "index_peak_allocated_bytes": 196008,
+      "indexed": {
+        "mean_ms": 0.088318875,
+        "p50_ms": 0.08781649999999999,
+        "p95_ms": 0.091031
+      },
+      "nodes": 2048,
+      "p50_speedup": 3.267768585630263,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "witness_count",
+      "unindexed": {
+        "mean_ms": 0.29858285,
+        "p50_ms": 0.286964,
+        "p95_ms": 0.292224
+      },
+      "witnesses": 64
+    },
+    {
+      "actual_edges": 520,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 0,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.1489618,
+        "p50_ms": 0.1482375,
+        "p95_ms": 0.152422
+      },
+      "index_payload_bytes": 220564,
+      "index_peak_allocated_bytes": 162208,
+      "indexed": {
+        "mean_ms": 0.0174455,
+        "p50_ms": 0.017115,
+        "p95_ms": 0.0184
+      },
+      "nodes": 2048,
+      "p50_speedup": 9.851416885772716,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "branching",
+      "unindexed": {
+        "mean_ms": 0.168994775,
+        "p50_ms": 0.168607,
+        "p95_ms": 0.172233
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 526,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 8,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.1477951,
+        "p50_ms": 0.147057,
+        "p95_ms": 0.151432
+      },
+      "index_payload_bytes": 221230,
+      "index_peak_allocated_bytes": 162736,
+      "indexed": {
+        "mean_ms": 0.018764275,
+        "p50_ms": 0.0186805,
+        "p95_ms": 0.01881
+      },
+      "nodes": 2048,
+      "p50_speedup": 9.041888600412195,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "branching",
+      "unindexed": {
+        "mean_ms": 0.1694757875,
+        "p50_ms": 0.168907,
+        "p95_ms": 0.172883
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 544,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 32,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.15320486666666666,
+        "p50_ms": 0.152087,
+        "p95_ms": 0.157813
+      },
+      "index_payload_bytes": 223338,
+      "index_peak_allocated_bytes": 164896,
+      "indexed": {
+        "mean_ms": 0.022711825,
+        "p50_ms": 0.0226605,
+        "p95_ms": 0.02282
+      },
+      "nodes": 2048,
+      "p50_speedup": 7.845060788596898,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "branching",
+      "unindexed": {
+        "mean_ms": 0.1796840625,
+        "p50_ms": 0.17777300000000001,
+        "p95_ms": 0.185573
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 616,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 128,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.1610913,
+        "p50_ms": 0.16029749999999998,
+        "p95_ms": 0.164812
+      },
+      "index_payload_bytes": 231794,
+      "index_peak_allocated_bytes": 171872,
+      "indexed": {
+        "mean_ms": 0.039065925,
+        "p50_ms": 0.0389355,
+        "p95_ms": 0.039291
+      },
+      "nodes": 2048,
+      "p50_speedup": 5.215369007717893,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "branching",
+      "unindexed": {
+        "mean_ms": 0.2039930125,
+        "p50_ms": 0.203063,
+        "p95_ms": 0.209053
+      },
+      "witnesses": 4
+    },
+    {
+      "actual_edges": 904,
+      "actual_nodes": 2048,
+      "amortization_queries_p50": 1,
+      "answer_conflicts": 0,
+      "answer_witnesses": 4,
+      "branches": 512,
+      "depth": 4,
+      "index_build": {
+        "mean_ms": 0.21488303333333333,
+        "p50_ms": 0.212668,
+        "p95_ms": 0.218403
+      },
+      "index_payload_bytes": 266162,
+      "index_peak_allocated_bytes": 236496,
+      "indexed": {
+        "mean_ms": 0.1063670125,
+        "p50_ms": 0.10482649999999999,
+        "p95_ms": 0.114911
+      },
+      "nodes": 2048,
+      "p50_speedup": 3.1550180536410166,
+      "reference_exact": true,
+      "repeats": 80,
+      "status": "supported",
+      "sweep": "branching",
+      "unindexed": {
+        "mean_ms": 0.330854325,
+        "p50_ms": 0.3307295,
+        "p95_ms": 0.334615
+      },
+      "witnesses": 4
+    }
+  ],
+  "reference_exact": 1,
+  "repeats_default": 80,
+  "scenario_count": 27,
+  "warmup": 10
+}

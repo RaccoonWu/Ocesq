@@ -1,0 +1,114 @@
+{
+  "case_selection": "all ground-truth cases",
+  "ground_truth_boundary": "raw mutation and benign-rewrite manifests only",
+  "model_outputs_are_ground_truth": false,
+  "paired_bootstrap": {
+    "apc_without_status": {
+      "component_correct": {
+        "ci95_high": 0.644808743169399,
+        "ci95_low": 0.4644808743169399,
+        "mean_difference": 0.5580300546448087
+      },
+      "source_exact_fault": {
+        "ci95_high": -0.04504504504504504,
+        "ci95_low": -0.1891891891891892,
+        "mean_difference": -0.11572972972972972
+      },
+      "source_f1_fault": {
+        "ci95_high": 0.14320034320034322,
+        "ci95_low": 0.05002145002145003,
+        "mean_difference": 0.09630403260403261
+      },
+      "status_correct": {
+        "ci95_high": 0.18032786885245902,
+        "ci95_low": 0.06557377049180328,
+        "mean_difference": 0.1200464480874317
+      }
+    },
+    "complete_audit_package": {
+      "component_correct": {
+        "ci95_high": 0.644808743169399,
+        "ci95_low": 0.4644808743169399,
+        "mean_difference": 0.5580300546448087
+      },
+      "source_exact_fault": {
+        "ci95_high": 0.02702702702702703,
+        "ci95_low": -0.08108108108108109,
+        "mean_difference": -0.02578828828828829
+      },
+      "source_f1_fault": {
+        "ci95_high": 0.15812955812955815,
+        "ci95_low": 0.07129987129987131,
+        "mean_difference": 0.1142923208923209
+      },
+      "status_correct": {
+        "ci95_high": 0.18032786885245902,
+        "ci95_low": 0.06557377049180328,
+        "mean_difference": 0.1200464480874317
+      }
+    }
+  },
+  "protocol": "downstream-fact-recovery-evaluation-v1",
+  "representations": {
+    "apc_without_status": {
+      "benign_false_positive_rate": 0,
+      "cases": 183,
+      "changed_component_accuracy": 0.9180327868852459,
+      "changed_component_macro_f1": 0.5780137910635388,
+      "invalid_source_id_rate": 0.0,
+      "mean_input_tokens": null,
+      "mean_latency_ms": null,
+      "mean_output_tokens": null,
+      "scoped_absence_accuracy": 1,
+      "source_event_exact": 0.7158469945355191,
+      "source_event_exact_on_faults": 0.5315315315315315,
+      "source_event_f1": 0.9273484257090815,
+      "source_event_f1_on_faults": 0.8802230802230803,
+      "source_event_precision": 0.8914599971977021,
+      "source_event_recall": 0.9890710382513661,
+      "status_accuracy": 0.9562841530054644,
+      "status_macro_f1": 0.9371110994477394,
+      "total_cost_usd": 0
+    },
+    "complete_audit_package": {
+      "benign_false_positive_rate": 0,
+      "cases": 183,
+      "changed_component_accuracy": 0.9180327868852459,
+      "changed_component_macro_f1": 0.5780137910635388,
+      "invalid_source_id_rate": 0.0,
+      "mean_input_tokens": null,
+      "mean_latency_ms": null,
+      "mean_output_tokens": null,
+      "scoped_absence_accuracy": 1,
+      "source_event_exact": 0.7704918032786885,
+      "source_event_exact_on_faults": 0.6216216216216216,
+      "source_event_f1": 0.9382773874577154,
+      "source_event_f1_on_faults": 0.8982410982410982,
+      "source_event_precision": 0.9096749334454253,
+      "source_event_recall": 0.9890710382513661,
+      "status_accuracy": 0.9562841530054644,
+      "status_macro_f1": 0.9371110994477394,
+      "total_cost_usd": 0
+    },
+    "raw_trace": {
+      "benign_false_positive_rate": 1,
+      "cases": 183,
+      "changed_component_accuracy": 0.36065573770491804,
+      "changed_component_macro_f1": 0.3525480367585631,
+      "invalid_source_id_rate": 0.0,
+      "mean_input_tokens": null,
+      "mean_latency_ms": null,
+      "mean_output_tokens": null,
+      "scoped_absence_accuracy": 1,
+      "source_event_exact": 0.6557377049180327,
+      "source_event_exact_on_faults": 0.6486486486486487,
+      "source_event_f1": 0.7377049180327869,
+      "source_event_f1_on_faults": 0.7837837837837838,
+      "source_event_precision": 0.7459016393442623,
+      "source_event_recall": 0.8633879781420765,
+      "status_accuracy": 0.8360655737704918,
+      "status_macro_f1": 0.8015873015873016,
+      "total_cost_usd": 0
+    }
+  }
+}

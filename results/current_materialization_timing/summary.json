@@ -1,0 +1,326 @@
+{
+  "aggregation": "median over repeats per instance, then distribution across instances",
+  "by_dataset": {
+    "agentdog": {
+      "compile": {
+        "instances": 62,
+        "max_ms": 37.542385,
+        "mean_ms": 5.132313435483871,
+        "p50_ms": 1.604112,
+        "p95_ms": 31.67262875
+      },
+      "instances": 62,
+      "materialize_and_validate": {
+        "complete_normalized": {
+          "instances": 62,
+          "max_ms": 16.276803,
+          "mean_ms": 1.9396591532258065,
+          "p50_ms": 1.14665825,
+          "p95_ms": 8.347547899999991
+        },
+        "full_graph": {
+          "instances": 62,
+          "max_ms": 16.41247,
+          "mean_ms": 1.9569646532258065,
+          "p50_ms": 1.152663,
+          "p95_ms": 8.424068074999992
+        },
+        "ocres_selected": {
+          "instances": 62,
+          "max_ms": 8.217793,
+          "mean_ms": 1.1831454838709679,
+          "p50_ms": 0.6028805,
+          "p95_ms": 4.26229535
+        },
+        "rooted_steiner": {
+          "instances": 62,
+          "max_ms": 0.160382,
+          "mean_ms": 0.04455949193548387,
+          "p50_ms": 0.031738,
+          "p95_ms": 0.148308
+        },
+        "two_hop_neighborhood": {
+          "instances": 62,
+          "max_ms": 0.089811,
+          "mean_ms": 0.02802552419354839,
+          "p50_ms": 0.021025250000000002,
+          "p95_ms": 0.082485
+        },
+        "why_not_closure": {
+          "instances": 62,
+          "max_ms": 0.1190615,
+          "mean_ms": 0.03472299193548387,
+          "p50_ms": 0.02548325,
+          "p95_ms": 0.11128172499999998
+        }
+      },
+      "mean_graph_edges": 79.33870967741936,
+      "mean_graph_nodes": 60,
+      "query_and_adapt": {
+        "instances": 62,
+        "max_ms": 19.117741,
+        "mean_ms": 3.5409878225806453,
+        "p50_ms": 2.4779790000000004,
+        "p95_ms": 7.494792899999996
+      }
+    },
+    "atbench_claw": {
+      "compile": {
+        "instances": 48,
+        "max_ms": 4.506402,
+        "mean_ms": 1.9048380208333333,
+        "p50_ms": 1.723869,
+        "p95_ms": 3.3349131499999998
+      },
+      "instances": 48,
+      "materialize_and_validate": {
+        "complete_normalized": {
+          "instances": 48,
+          "max_ms": 8.9337925,
+          "mean_ms": 2.52051275,
+          "p50_ms": 1.86938075,
+          "p95_ms": 6.5307903750000005
+        },
+        "full_graph": {
+          "instances": 48,
+          "max_ms": 8.901307500000001,
+          "mean_ms": 2.5371937604166668,
+          "p50_ms": 1.88795825,
+          "p95_ms": 6.54672545
+        },
+        "ocres_selected": {
+          "instances": 48,
+          "max_ms": 8.8936025,
+          "mean_ms": 1.57005509375,
+          "p50_ms": 1.1876090000000001,
+          "p95_ms": 3.3302421499999997
+        },
+        "rooted_steiner": {
+          "instances": 48,
+          "max_ms": 0.052235500000000004,
+          "mean_ms": 0.0382519375,
+          "p50_ms": 0.038185750000000004,
+          "p95_ms": 0.044660675
+        },
+        "two_hop_neighborhood": {
+          "instances": 48,
+          "max_ms": 0.035095,
+          "mean_ms": 0.026241760416666666,
+          "p50_ms": 0.02590775,
+          "p95_ms": 0.031302924999999995
+        },
+        "why_not_closure": {
+          "instances": 48,
+          "max_ms": 0.0423905,
+          "mean_ms": 0.03132609375,
+          "p50_ms": 0.030743,
+          "p95_ms": 0.03699232499999999
+        }
+      },
+      "mean_graph_edges": 67.0625,
+      "mean_graph_nodes": 55.125,
+      "query_and_adapt": {
+        "instances": 48,
+        "max_ms": 5.637478,
+        "mean_ms": 2.6440614166666667,
+        "p50_ms": 2.4982645000000003,
+        "p95_ms": 3.8631309499999995
+      }
+    },
+    "claw_effect_state": {
+      "compile": {
+        "instances": 64,
+        "max_ms": 20.377782,
+        "mean_ms": 6.846071234375,
+        "p50_ms": 5.947887,
+        "p95_ms": 18.46695419999997
+      },
+      "instances": 64,
+      "materialize_and_validate": {
+        "complete_normalized": {
+          "instances": 64,
+          "max_ms": 18.589461,
+          "mean_ms": 3.7861783125,
+          "p50_ms": 2.67378925,
+          "p95_ms": 12.169935424999993
+        },
+        "full_graph": {
+          "instances": 64,
+          "max_ms": 18.672311999999998,
+          "mean_ms": 3.8209639296874998,
+          "p50_ms": 2.69943725,
+          "p95_ms": 12.219462899999995
+        },
+        "ocres_selected": {
+          "instances": 64,
+          "max_ms": 9.4057195,
+          "mean_ms": 1.940589640625,
+          "p50_ms": 1.38221375,
+          "p95_ms": 6.199246899999997
+        },
+        "rooted_steiner": {
+          "instances": 64,
+          "max_ms": 0.128042,
+          "mean_ms": 0.0686189375,
+          "p50_ms": 0.06793350000000001,
+          "p95_ms": 0.11898957499999999
+        },
+        "two_hop_neighborhood": {
+          "instances": 64,
+          "max_ms": 0.101516,
+          "mean_ms": 0.047488265625,
+          "p50_ms": 0.04593325,
+          "p95_ms": 0.0910201749999999
+        },
+        "why_not_closure": {
+          "instances": 64,
+          "max_ms": 0.133222,
+          "mean_ms": 0.062509703125,
+          "p50_ms": 0.06070075,
+          "p95_ms": 0.12066999999999989
+        }
+      },
+      "mean_graph_edges": 158.25,
+      "mean_graph_nodes": 93.8125,
+      "query_and_adapt": {
+        "instances": 64,
+        "max_ms": 12.554443,
+        "mean_ms": 5.38190628125,
+        "p50_ms": 5.232257000000001,
+        "p95_ms": 9.672285949999992
+      }
+    },
+    "claw_identity": {
+      "compile": {
+        "instances": 48,
+        "max_ms": 14.792254,
+        "mean_ms": 7.4769765625,
+        "p50_ms": 6.922321,
+        "p95_ms": 13.871791949999999
+      },
+      "instances": 48,
+      "materialize_and_validate": {
+        "complete_normalized": {
+          "instances": 48,
+          "max_ms": 14.780134499999999,
+          "mean_ms": 2.4188700416666666,
+          "p50_ms": 0.07309625,
+          "p95_ms": 12.79083175
+        },
+        "full_graph": {
+          "instances": 48,
+          "max_ms": 14.926290999999999,
+          "mean_ms": 2.43279665625,
+          "p50_ms": 0.101184,
+          "p95_ms": 12.752594225
+        },
+        "ocres_selected": {
+          "instances": 48,
+          "max_ms": 7.463388,
+          "mean_ms": 1.2466501979166666,
+          "p50_ms": 0.070576,
+          "p95_ms": 6.452946325
+        },
+        "rooted_steiner": {
+          "instances": 48,
+          "max_ms": 0.088716,
+          "mean_ms": 0.06117634375,
+          "p50_ms": 0.06032075,
+          "p95_ms": 0.0753605
+        },
+        "two_hop_neighborhood": {
+          "instances": 48,
+          "max_ms": 0.0576155,
+          "mean_ms": 0.042500760416666665,
+          "p50_ms": 0.04144325,
+          "p95_ms": 0.05234625
+        },
+        "why_not_closure": {
+          "instances": 48,
+          "max_ms": 0.07972599999999999,
+          "mean_ms": 0.05668434375,
+          "p50_ms": 0.055591,
+          "p95_ms": 0.07134974999999999
+        }
+      },
+      "mean_graph_edges": 132.72916666666666,
+      "mean_graph_nodes": 79.91666666666667,
+      "query_and_adapt": {
+        "instances": 48,
+        "max_ms": 7.95796,
+        "mean_ms": 4.588133291666667,
+        "p50_ms": 4.389051,
+        "p95_ms": 5.77672265
+      }
+    }
+  },
+  "instances": 222,
+  "overall": {
+    "compile": {
+      "instances": 222,
+      "max_ms": 37.542385,
+      "mean_ms": 5.435491405405405,
+      "p50_ms": 3.2187089999999996,
+      "p95_ms": 14.361690349999998
+    },
+    "instances": 222,
+    "materialize_and_validate": {
+      "complete_normalized": {
+        "instances": 222,
+        "max_ms": 18.589461,
+        "mean_ms": 2.7011921328828827,
+        "p50_ms": 1.27483025,
+        "p95_ms": 11.175491399999991
+      },
+      "full_graph": {
+        "instances": 222,
+        "max_ms": 18.672311999999998,
+        "mean_ms": 2.722671351351351,
+        "p50_ms": 1.282055,
+        "p95_ms": 11.107863024999993
+      },
+      "ocres_selected": {
+        "instances": 222,
+        "max_ms": 9.4057195,
+        "mean_ms": 1.4988946441441442,
+        "p50_ms": 0.6751515,
+        "p95_ms": 5.6852390250000004
+      },
+      "rooted_steiner": {
+        "instances": 222,
+        "max_ms": 0.160382,
+        "mean_ms": 0.053724585585585585,
+        "p50_ms": 0.0472755,
+        "p95_ms": 0.1126712249999999
+      },
+      "two_hop_neighborhood": {
+        "instances": 222,
+        "max_ms": 0.101516,
+        "mean_ms": 0.036380506756756754,
+        "p50_ms": 0.0323155,
+        "p95_ms": 0.07416724999999998
+      },
+      "why_not_closure": {
+        "instances": 222,
+        "max_ms": 0.133222,
+        "mean_ms": 0.04674751126126126,
+        "p50_ms": 0.04018775,
+        "p95_ms": 0.10415797499999993
+      }
+    },
+    "mean_graph_edges": 110.97747747747748,
+    "mean_graph_nodes": 73,
+    "query_and_adapt": {
+      "instances": 222,
+      "max_ms": 19.117741,
+      "mean_ms": 4.104182851351351,
+      "p50_ms": 3.845878,
+      "p95_ms": 7.608610499999999
+    }
+  },
+  "pairs": 111,
+  "protocol": "apc-materialization-efficiency-v1",
+  "repeats_per_method_instance": 30,
+  "scope": "single-process warm-cache CPU timing; materializer timing includes package construction and preservation validation",
+  "timing_unit": "milliseconds"
+}

@@ -1,0 +1,29 @@
+{
+  "case_selection": "results/current_downstream_fact_recovery_formal/scored_deepseek/complete_audit_package.scored.jsonl",
+  "ground_truth_boundary": "raw mutation and benign-rewrite manifests only",
+  "model_outputs_are_ground_truth": false,
+  "paired_bootstrap": {},
+  "protocol": "downstream-fact-recovery-evaluation-v1",
+  "representations": {
+    "oeg_full": {
+      "benign_false_positive_rate": 0.3333333333333333,
+      "cases": 183,
+      "changed_component_accuracy": 0.4644808743169399,
+      "changed_component_macro_f1": 0.3655404856159229,
+      "invalid_source_id_rate": 0.0,
+      "mean_input_tokens": 38062.08743169399,
+      "mean_latency_ms": 69533.04564988792,
+      "mean_output_tokens": 69.87978142076503,
+      "scoped_absence_accuracy": 0.8846153846153846,
+      "source_event_exact": 0.3114754098360656,
+      "source_event_exact_on_faults": 0.09009009009009009,
+      "source_event_f1": 0.592933447053378,
+      "source_event_f1_on_faults": 0.5541155027997133,
+      "source_event_precision": 0.610775981581189,
+      "source_event_recall": 0.8378870673952641,
+      "status_accuracy": 0.4426229508196721,
+      "status_macro_f1": 0.4172246594320019,
+      "total_cost_usd": 0
+    }
+  }
+}

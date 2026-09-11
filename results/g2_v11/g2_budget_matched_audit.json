@@ -1,0 +1,821 @@
+{
+  "protocol": "dasfaa-ocesq-evidence-v11",
+  "selection_rule": "Choose the smallest grid value among settings with minimum absolute pooled mean-node difference from OC-RES; statuses and blind-quality outcomes are excluded.",
+  "budgets": [
+    4,
+    8,
+    12
+  ],
+  "oc_res_pooled_mean_nodes": 4.878018575851393,
+  "grid": {
+    "why_not_dependency_closure": {
+      "1": {
+        "parameter": "radius",
+        "pooled_mean_nodes": 4.3467,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 3.6861,
+            "mean_edges": 2.6861,
+            "mean_runtime_ms": 0.8843
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 3.7268,
+            "mean_edges": 2.7268,
+            "mean_runtime_ms": 0.3663
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 4.6322,
+            "mean_edges": 3.6322,
+            "mean_runtime_ms": 0.1746
+          }
+        }
+      },
+      "2": {
+        "parameter": "radius",
+        "pooled_mean_nodes": 8.5889,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 8.3504,
+            "mean_edges": 7.3504,
+            "mean_runtime_ms": 0.9413
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 7.8279,
+            "mean_edges": 6.8279,
+            "mean_runtime_ms": 0.3802
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 8.8687,
+            "mean_edges": 7.8687,
+            "mean_runtime_ms": 0.1786
+          }
+        }
+      },
+      "3": {
+        "parameter": "radius",
+        "pooled_mean_nodes": 10.9721,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 10.4161,
+            "mean_edges": 9.4161,
+            "mean_runtime_ms": 0.9045
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 8.9481,
+            "mean_edges": 7.9481,
+            "mean_runtime_ms": 0.3821
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 11.7068,
+            "mean_edges": 10.7068,
+            "mean_runtime_ms": 0.1849
+          }
+        }
+      }
+    },
+    "typed_graph_pattern_union": {
+      "2": {
+        "parameter": "max-depth",
+        "pooled_mean_nodes": 1.2452,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 1.9051,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.8989
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 1.1421,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.3657
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 1.1978,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.1712
+          }
+        }
+      },
+      "3": {
+        "parameter": "max-depth",
+        "pooled_mean_nodes": 1.2452,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 1.9051,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.903
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 1.1421,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.3904
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 1.1978,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.1735
+          }
+        }
+      },
+      "4": {
+        "parameter": "max-depth",
+        "pooled_mean_nodes": 1.2452,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 1.9051,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.9066
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 1.1421,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.3688
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 1.1978,
+            "mean_edges": 0.0,
+            "mean_runtime_ms": 0.1718
+          }
+        }
+      }
+    },
+    "rooted_steiner": {
+      "3": {
+        "parameter": "max-terminals",
+        "pooled_mean_nodes": 4.3449,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 4.1095,
+            "mean_edges": 3.1095,
+            "mean_runtime_ms": 0.8902
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 4.2869,
+            "mean_edges": 3.2869,
+            "mean_runtime_ms": 0.3758
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 4.393,
+            "mean_edges": 3.393,
+            "mean_runtime_ms": 0.1808
+          }
+        }
+      },
+      "4": {
+        "parameter": "max-terminals",
+        "pooled_mean_nodes": 5.9635,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 5.2847,
+            "mean_edges": 4.2847,
+            "mean_runtime_ms": 0.9224
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 6.9945,
+            "mean_edges": 5.9945,
+            "mean_runtime_ms": 0.3922
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 5.7077,
+            "mean_edges": 4.7077,
+            "mean_runtime_ms": 0.1894
+          }
+        }
+      },
+      "5": {
+        "parameter": "max-terminals",
+        "pooled_mean_nodes": 8.652,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 9.0511,
+            "mean_edges": 8.0511,
+            "mean_runtime_ms": 0.9161
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 8.6831,
+            "mean_edges": 7.6831,
+            "mean_runtime_ms": 0.3936
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 8.5926,
+            "mean_edges": 7.5926,
+            "mean_runtime_ms": 0.1982
+          }
+        }
+      },
+      "6": {
+        "parameter": "max-terminals",
+        "pooled_mean_nodes": 8.652,
+        "per_dataset": {
+          "claw_eval": {
+            "actions": 137,
+            "mean_nodes": 9.0511,
+            "mean_edges": 8.0511,
+            "mean_runtime_ms": 0.9277
+          },
+          "atbench_claw": {
+            "actions": 366,
+            "mean_nodes": 8.6831,
+            "mean_edges": 7.6831,
+            "mean_runtime_ms": 0.4012
+          },
+          "agentdog_atbench": {
+            "actions": 1112,
+            "mean_nodes": 8.5926,
+            "mean_edges": 7.5926,
+            "mean_runtime_ms": 0.2002
+          }
+        }
+      }
+    }
+  },
+  "selected_settings": {
+    "why_not_dependency_closure": 1,
+    "typed_graph_pattern_union": 2,
+    "rooted_steiner": 3
+  },
+  "datasets": {
+    "claw_eval": {
+      "actions": 137,
+      "methods": {
+        "oc_res": {
+          "raw": {
+            "actions": 137,
+            "avg_nodes": 3.9416,
+            "avg_edges": 2.4453,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 0.365,
+            "root_reachable_node_rate": 0.841,
+            "disconnected_object_rate": 0.635,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.7777
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 137,
+              "avg_nodes": 3.1898,
+              "avg_edges": 2.1898,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 137,
+              "avg_nodes": 3.2044,
+              "avg_edges": 2.2044,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 137,
+              "avg_nodes": 3.2044,
+              "avg_edges": 2.2044,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "why_not_dependency_closure": {
+          "raw": {
+            "actions": 137,
+            "avg_nodes": 3.6861,
+            "avg_edges": 3.2628,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.8843
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 137,
+              "avg_nodes": 3.4015,
+              "avg_edges": 2.4015,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 137,
+              "avg_nodes": 3.6861,
+              "avg_edges": 2.6861,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 137,
+              "avg_nodes": 3.6861,
+              "avg_edges": 2.6861,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "typed_graph_pattern_union": {
+          "raw": {
+            "actions": 137,
+            "avg_nodes": 1.9051,
+            "avg_edges": 1.3066,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.8989
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 137,
+              "avg_nodes": 1.8248,
+              "avg_edges": 0.8248,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 137,
+              "avg_nodes": 1.8832,
+              "avg_edges": 0.8832,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 137,
+              "avg_nodes": 1.9051,
+              "avg_edges": 0.9051,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "rooted_steiner": {
+          "raw": {
+            "actions": 137,
+            "avg_nodes": 4.1095,
+            "avg_edges": 5.0584,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.8902
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 137,
+              "avg_nodes": 4.0,
+              "avg_edges": 3.0,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 137,
+              "avg_nodes": 4.1095,
+              "avg_edges": 3.1095,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 137,
+              "avg_nodes": 4.1095,
+              "avg_edges": 3.1095,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        }
+      }
+    },
+    "atbench_claw": {
+      "actions": 366,
+      "methods": {
+        "oc_res": {
+          "raw": {
+            "actions": 366,
+            "avg_nodes": 5.0601,
+            "avg_edges": 2.8142,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 0.3443,
+            "root_reachable_node_rate": 0.729,
+            "disconnected_object_rate": 0.6557,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.4133
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 366,
+              "avg_nodes": 3.265,
+              "avg_edges": 2.265,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 366,
+              "avg_nodes": 3.3716,
+              "avg_edges": 2.3716,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 366,
+              "avg_nodes": 3.3716,
+              "avg_edges": 2.3716,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "why_not_dependency_closure": {
+          "raw": {
+            "actions": 366,
+            "avg_nodes": 3.7268,
+            "avg_edges": 3.7568,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.3663
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 366,
+              "avg_nodes": 3.5492,
+              "avg_edges": 2.5492,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 366,
+              "avg_nodes": 3.7268,
+              "avg_edges": 2.7268,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 366,
+              "avg_nodes": 3.7268,
+              "avg_edges": 2.7268,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "typed_graph_pattern_union": {
+          "raw": {
+            "actions": 366,
+            "avg_nodes": 1.1421,
+            "avg_edges": 0.1667,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.3657
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 366,
+              "avg_nodes": 1.1421,
+              "avg_edges": 0.1421,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 366,
+              "avg_nodes": 1.1421,
+              "avg_edges": 0.1421,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 366,
+              "avg_nodes": 1.1421,
+              "avg_edges": 0.1421,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "rooted_steiner": {
+          "raw": {
+            "actions": 366,
+            "avg_nodes": 4.2869,
+            "avg_edges": 4.6694,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.3758
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 366,
+              "avg_nodes": 4.0,
+              "avg_edges": 3.0,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 366,
+              "avg_nodes": 4.2869,
+              "avg_edges": 3.2869,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 366,
+              "avg_nodes": 4.2869,
+              "avg_edges": 3.2869,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        }
+      }
+    },
+    "agentdog_atbench": {
+      "actions": 1112,
+      "methods": {
+        "oc_res": {
+          "raw": {
+            "actions": 1112,
+            "avg_nodes": 4.9335,
+            "avg_edges": 3.0126,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 0.2266,
+            "root_reachable_node_rate": 0.7434,
+            "disconnected_object_rate": 0.7734,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.6025
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 1112,
+              "avg_nodes": 3.3921,
+              "avg_edges": 2.3921,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 1112,
+              "avg_nodes": 3.482,
+              "avg_edges": 2.482,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 1112,
+              "avg_nodes": 3.482,
+              "avg_edges": 2.482,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "why_not_dependency_closure": {
+          "raw": {
+            "actions": 1112,
+            "avg_nodes": 4.6322,
+            "avg_edges": 4.8058,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.1746
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 1112,
+              "avg_nodes": 3.821,
+              "avg_edges": 2.821,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 1112,
+              "avg_nodes": 4.6322,
+              "avg_edges": 3.6322,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 1112,
+              "avg_nodes": 4.6322,
+              "avg_edges": 3.6322,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "typed_graph_pattern_union": {
+          "raw": {
+            "actions": 1112,
+            "avg_nodes": 1.1978,
+            "avg_edges": 0.2644,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.1712
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 1112,
+              "avg_nodes": 1.1915,
+              "avg_edges": 0.1915,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 1112,
+              "avg_nodes": 1.1978,
+              "avg_edges": 0.1978,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 1112,
+              "avg_nodes": 1.1978,
+              "avg_edges": 0.1978,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        },
+        "rooted_steiner": {
+          "raw": {
+            "actions": 1112,
+            "avg_nodes": 4.393,
+            "avg_edges": 5.0369,
+            "target_retention_rate": 1.0,
+            "root_connected_rate": 1.0,
+            "root_reachable_node_rate": 1.0,
+            "disconnected_object_rate": 0.0,
+            "empty_or_target_missing_rate": 0.0,
+            "avg_runtime_ms": 0.1808
+          },
+          "shared_budget": {
+            "4": {
+              "actions": 1112,
+              "avg_nodes": 4.0,
+              "avg_edges": 3.0,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "8": {
+              "actions": 1112,
+              "avg_nodes": 4.393,
+              "avg_edges": 3.393,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            },
+            "12": {
+              "actions": 1112,
+              "avg_nodes": 4.393,
+              "avg_edges": 3.393,
+              "target_retention_rate": 1.0,
+              "root_connected_rate": 1.0,
+              "root_reachable_node_rate": 1.0,
+              "disconnected_object_rate": 0.0,
+              "empty_or_target_missing_rate": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "scope": "G2 structural comparison only; shared-budget truncation is not a status-correctness evaluation."
+}

@@ -1,0 +1,156 @@
+{
+  "case_selection": "all ground-truth cases",
+  "ground_truth_boundary": "raw mutation and benign-rewrite manifests only",
+  "model_outputs_are_ground_truth": false,
+  "paired_bootstrap": {
+    "apc_without_status": {
+      "component_correct": {
+        "ci95_high": 0.2677595628415301,
+        "ci95_low": 0.12021857923497267,
+        "mean_difference": 0.19127049180327868
+      },
+      "source_exact_fault": {
+        "ci95_high": 0.46846846846846846,
+        "ci95_low": 0.2882882882882883,
+        "mean_difference": 0.3783063063063063
+      },
+      "source_f1_fault": {
+        "ci95_high": 0.34416894416894417,
+        "ci95_low": 0.2234942984942985,
+        "mean_difference": 0.2849742226242226
+      },
+      "status_correct": {
+        "ci95_high": 0.18579234972677597,
+        "ci95_low": 0.08743169398907104,
+        "mean_difference": 0.1365273224043716
+      }
+    },
+    "complete_audit_package": {
+      "component_correct": {
+        "ci95_high": 0.3005464480874317,
+        "ci95_low": 0.14754098360655737,
+        "mean_difference": 0.2239327868852459
+      },
+      "source_exact_fault": {
+        "ci95_high": 0.4954954954954955,
+        "ci95_low": 0.3153153153153153,
+        "mean_difference": 0.4048063063063063
+      },
+      "source_f1_fault": {
+        "ci95_high": 0.35034980034980034,
+        "ci95_low": 0.23568763568763568,
+        "mean_difference": 0.2939219660819661
+      },
+      "status_correct": {
+        "ci95_high": 0.18579234972677597,
+        "ci95_low": 0.07650273224043716,
+        "mean_difference": 0.13119726775956284
+      }
+    },
+    "raw_trace": {
+      "component_correct": {
+        "ci95_high": 0.1092896174863388,
+        "ci95_low": -0.01092896174863388,
+        "mean_difference": 0.049597814207650276
+      },
+      "source_exact_fault": {
+        "ci95_high": 0,
+        "ci95_low": -0.02702702702702703,
+        "mean_difference": -0.009047747747747747
+      },
+      "source_f1_fault": {
+        "ci95_high": -0.17551340051340053,
+        "ci95_low": -0.28871011371011374,
+        "mean_difference": -0.23262263026763028
+      },
+      "status_correct": {
+        "ci95_high": 0.01092896174863388,
+        "ci95_low": -0.04371584699453552,
+        "mean_difference": -0.016454098360655738
+      }
+    }
+  },
+  "protocol": "downstream-fact-recovery-evaluation-v1",
+  "representations": {
+    "apc_without_status": {
+      "benign_false_positive_rate": 0,
+      "cases": 183,
+      "changed_component_accuracy": 0.5573770491803278,
+      "changed_component_macro_f1": 0.3479274564320631,
+      "invalid_source_id_rate": 0.0,
+      "mean_input_tokens": 15581.91256830601,
+      "mean_latency_ms": 2915.7015660280217,
+      "mean_output_tokens": 77.68852459016394,
+      "scoped_absence_accuracy": 1,
+      "source_event_exact": 0.6284153005464481,
+      "source_event_exact_on_faults": 0.38738738738738737,
+      "source_event_f1": 0.8528051790346872,
+      "source_event_f1_on_faults": 0.7573274573274573,
+      "source_event_precision": 0.8229963570127504,
+      "source_event_recall": 0.9408014571948998,
+      "status_accuracy": 0.5683060109289617,
+      "status_macro_f1": 0.4835680751173709,
+      "total_cost_usd": 0
+    },
+    "complete_audit_package": {
+      "benign_false_positive_rate": 0,
+      "cases": 183,
+      "changed_component_accuracy": 0.5901639344262295,
+      "changed_component_macro_f1": 0.3576789374362308,
+      "invalid_source_id_rate": 0.0,
+      "mean_input_tokens": 15678.88524590164,
+      "mean_latency_ms": 2918.4690236318806,
+      "mean_output_tokens": 77.08196721311475,
+      "scoped_absence_accuracy": 1,
+      "source_event_exact": 0.644808743169399,
+      "source_event_exact_on_faults": 0.4144144144144144,
+      "source_event_f1": 0.8583086919152493,
+      "source_event_f1_on_faults": 0.7664008164008164,
+      "source_event_precision": 0.8393637782982045,
+      "source_event_recall": 0.9344262295081968,
+      "status_accuracy": 0.5628415300546448,
+      "status_macro_f1": 0.47887323943661975,
+      "total_cost_usd": 0
+    },
+    "oeg_full": {
+      "benign_false_positive_rate": 0.3333333333333333,
+      "cases": 183,
+      "changed_component_accuracy": 0.366120218579235,
+      "changed_component_macro_f1": 0.33471526153617703,
+      "invalid_source_id_rate": 0.011799410029498525,
+      "mean_input_tokens": 38969.84153005465,
+      "mean_latency_ms": 3696.8155652182836,
+      "mean_output_tokens": 88.73770491803279,
+      "scoped_absence_accuracy": 1,
+      "source_event_exact": 0.2677595628415301,
+      "source_event_exact_on_faults": 0.009009009009009009,
+      "source_event_f1": 0.5488715595272973,
+      "source_event_f1_on_faults": 0.4724639224639225,
+      "source_event_precision": 0.5693568877995108,
+      "source_event_recall": 0.8105646630236795,
+      "status_accuracy": 0.43169398907103823,
+      "status_macro_f1": 0.410228855721393,
+      "total_cost_usd": 0
+    },
+    "raw_trace": {
+      "benign_false_positive_rate": 0.4444444444444444,
+      "cases": 183,
+      "changed_component_accuracy": 0.41530054644808745,
+      "changed_component_macro_f1": 0.28357478573199923,
+      "invalid_source_id_rate": 0.009708737864077669,
+      "mean_input_tokens": 24874.464480874318,
+      "mean_latency_ms": 3069.5767246913215,
+      "mean_output_tokens": 68.78688524590164,
+      "scoped_absence_accuracy": 1,
+      "source_event_exact": 0.39344262295081966,
+      "source_event_exact_on_faults": 0,
+      "source_event_f1": 0.5388064879868159,
+      "source_event_f1_on_faults": 0.23965393965393963,
+      "source_event_precision": 0.5985558157689306,
+      "source_event_recall": 0.5191256830601093,
+      "status_accuracy": 0.41530054644808745,
+      "status_macro_f1": 0.40212510024057735,
+      "total_cost_usd": 0
+    }
+  }
+}

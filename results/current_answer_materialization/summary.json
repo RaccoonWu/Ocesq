@@ -1,0 +1,40 @@
+{
+  "cases": 61,
+  "certificate_aware_exact_subset": {
+    "cases": 56,
+    "max_minimality_gap_nodes": 0,
+    "mean_minimality_gap_nodes": 0
+  },
+  "exact_cases": 56,
+  "experiment_id": "answer-preserving-materialization-v2",
+  "interpretation": "Preservation is relative to formal graph-query answers, including conflicting alternatives and missing certificates.",
+  "methods": {
+    "all_deciding_union": {
+      "invalid_cases": [
+        "v6_d3_missing_dead_prefix",
+        "v6_d4_missing"
+      ],
+      "mean_bytes_valid_only": 595.4237288135594,
+      "mean_edges_valid_only": 2.5762711864406778,
+      "mean_nodes_valid_only": 3.559322033898305,
+      "valid_rate": 0.9672131147540983
+    },
+    "certificate_aware": {
+      "invalid_cases": [],
+      "mean_bytes_valid_only": 582.2295081967213,
+      "mean_edges_valid_only": 2.4918032786885247,
+      "mean_nodes_valid_only": 3.4754098360655736,
+      "valid_rate": 1
+    },
+    "production_witness_union": {
+      "invalid_cases": [
+        "v6_d3_missing_dead_prefix",
+        "v6_d4_missing"
+      ],
+      "mean_bytes_valid_only": 595.4237288135594,
+      "mean_edges_valid_only": 2.5762711864406778,
+      "mean_nodes_valid_only": 3.559322033898305,
+      "valid_rate": 0.9672131147540983
+    }
+  }
+}

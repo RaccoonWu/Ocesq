@@ -1,0 +1,22 @@
+{
+  "benign_cases": 72,
+  "by_family": {
+    "delete_unique_entity_observation": 6,
+    "disconnected_noise": 24,
+    "inject_conflicting_response": 6,
+    "inject_stale_entity_version": 15,
+    "move_observation_after_action": 6,
+    "remove_unique_effect_result": 72,
+    "replace_action_entity_only": 6,
+    "transparent_wrapper": 24,
+    "unrelated_event_reorder": 24
+  },
+  "cases": 183,
+  "fault_cases": 111,
+  "ground_truth_boundary": "raw mutation and benign-rewrite manifests only",
+  "model_outputs_are_ground_truth": false,
+  "protocol": "downstream-fact-recovery-inputs-v1",
+  "representations": 11,
+  "seed": 20260723,
+  "window_radius": 4
+}

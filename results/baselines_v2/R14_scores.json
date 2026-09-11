@@ -1,0 +1,13 @@
+{
+  "total": 183,
+  "total_fault": 111,
+  "total_benign": 72,
+  "status_accuracy": 0.4262,
+  "component_accuracy": 0.3934,
+  "source_exact": 0,
+  "source_exact_rate": 0.0,
+  "source_f1_fault": 0.222,
+  "benign_component_correct_rate": 1.0,
+  "benign_source_fp_rate": 1.0,
+  "source_f1_benign": 0.0
+}

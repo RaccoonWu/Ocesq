@@ -1,0 +1,60 @@
+{
+  "total_cases": 215,
+  "judgment_distribution": {
+    "reasonable": 167,
+    "unreasonable": 10,
+    "uncertain": 38,
+    "error": 0
+  },
+  "review_queue_size": 80,
+  "by_contract": {
+    "input_observation/missing": {
+      "reasonable": 54,
+      "unreasonable": 5,
+      "uncertain": 0,
+      "error": 0
+    },
+    "parameter_provenance/missing": {
+      "reasonable": 13,
+      "unreasonable": 0,
+      "uncertain": 4,
+      "error": 0
+    },
+    "target_entity_support/conflicting": {
+      "reasonable": 1,
+      "unreasonable": 2,
+      "uncertain": 28,
+      "error": 0
+    },
+    "state_freshness/missing": {
+      "reasonable": 27,
+      "unreasonable": 1,
+      "uncertain": 3,
+      "error": 0
+    },
+    "target_entity_support/missing": {
+      "reasonable": 24,
+      "unreasonable": 2,
+      "uncertain": 0,
+      "error": 0
+    },
+    "verification_evidence/missing": {
+      "reasonable": 20,
+      "unreasonable": 0,
+      "uncertain": 3,
+      "error": 0
+    },
+    "approval_dependency/missing": {
+      "reasonable": 27,
+      "unreasonable": 0,
+      "uncertain": 0,
+      "error": 0
+    },
+    "entity_state_consistency/missing": {
+      "reasonable": 1,
+      "unreasonable": 0,
+      "uncertain": 0,
+      "error": 0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "actions": 1112,
+  "avg_nodes": 3.9335,
+  "avg_edges": 2.0126,
+  "avg_full_ocres_nodes": 4.9335,
+  "avg_full_ocres_edges": 3.0126,
+  "avg_delta_nodes": -1.0,
+  "avg_delta_edges": -1.0,
+  "avg_covered_ratio": 0.6427,
+  "avg_diagnostic_ratio": 1.0,
+  "avg_missing": 2.0468,
+  "avg_conflicting": 0.0,
+  "actions_with_status_changes": 370,
+  "total_status_changes": 370,
+  "row_count": 1112,
+  "scope": "OC-RES component ablation"
+}

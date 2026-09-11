@@ -1,0 +1,8 @@
+{
+  "actions": 137,
+  "avg_nodes": 4.1095,
+  "avg_edges": 3.1095,
+  "avg_terminals": 3.0,
+  "row_count": 137,
+  "scope": "rooted Steiner-style diagnostic baseline: raw-OEG action selection + fixed graph-role terminals; status quality requires independent adjudication"
+}

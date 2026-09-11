@@ -1,0 +1,53 @@
+{
+  "trajectories_processed": 150,
+  "total_actions": 147,
+  "total_conflicting": 31,
+  "total_missing": 184,
+  "by_source": {
+    "claw": {
+      "trajectories": 50,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "atbench": {
+      "trajectories": 50,
+      "conflicting": 16,
+      "missing": 75
+    },
+    "agentdog": {
+      "trajectories": 50,
+      "conflicting": 15,
+      "missing": 109
+    }
+  },
+  "by_contract": {
+    "input_observation": {
+      "conflicting": 0,
+      "missing": 59
+    },
+    "parameter_provenance": {
+      "conflicting": 0,
+      "missing": 17
+    },
+    "target_entity_support": {
+      "conflicting": 31,
+      "missing": 26
+    },
+    "state_freshness": {
+      "conflicting": 0,
+      "missing": 31
+    },
+    "verification_evidence": {
+      "conflicting": 0,
+      "missing": 23
+    },
+    "approval_dependency": {
+      "conflicting": 0,
+      "missing": 27
+    },
+    "entity_state_consistency": {
+      "conflicting": 0,
+      "missing": 1
+    }
+  }
+}

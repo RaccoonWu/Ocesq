@@ -1,0 +1,40 @@
+{
+  "by_family": {
+    "inject_stale_entity_version": {
+      "contract_delta_exact": 1,
+      "expected_component_recall": 1,
+      "localization_f1": 1.0,
+      "localization_precision": 1.0,
+      "localization_recall": 1.0,
+      "pairs": 8,
+      "raw_integrity_rate": 1,
+      "unexpected_change_rate": 0
+    },
+    "remove_unique_effect_result": {
+      "contract_delta_exact": 1,
+      "expected_component_recall": 1,
+      "localization_f1": 1.0,
+      "localization_precision": 1.0,
+      "localization_recall": 1.0,
+      "pairs": 24,
+      "raw_integrity_rate": 1,
+      "unexpected_change_rate": 0
+    }
+  },
+  "failed_cases": [],
+  "failed_component_counts": {},
+  "human_labels_used": false,
+  "model_labels_used": false,
+  "oracle_boundary": "raw mutation manifest and frozen OEG contract schema; graph/query outputs are prediction-side only",
+  "overall": {
+    "contract_delta_exact": 1,
+    "expected_component_recall": 1,
+    "localization_f1": 1.0,
+    "localization_precision": 1.0,
+    "localization_recall": 1.0,
+    "pairs": 32,
+    "raw_integrity_rate": 1,
+    "unexpected_change_rate": 0
+  },
+  "protocol": "apc-expanded-faults-v1"
+}

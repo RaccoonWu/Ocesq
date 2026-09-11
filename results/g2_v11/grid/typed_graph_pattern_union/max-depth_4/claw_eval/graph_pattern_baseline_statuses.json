@@ -1,0 +1,3140 @@
+[
+  {
+    "task_id": "T003zh_calendar_scheduling",
+    "action_id": "n15",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n15"
+    ]
+  },
+  {
+    "task_id": "T004_calendar_scheduling",
+    "action_id": "n18",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n18"
+    ]
+  },
+  {
+    "task_id": "T005zh_email_reply_draft",
+    "action_id": "n32",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n32",
+      "n35",
+      "n38"
+    ]
+  },
+  {
+    "task_id": "T005zh_email_reply_draft",
+    "action_id": "n33",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n33",
+      "n41",
+      "n44"
+    ]
+  },
+  {
+    "task_id": "T006_email_reply_draft",
+    "action_id": "n35",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n35",
+      "n39",
+      "n41"
+    ]
+  },
+  {
+    "task_id": "T006_email_reply_draft",
+    "action_id": "n36",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n36",
+      "n45",
+      "n47"
+    ]
+  },
+  {
+    "task_id": "T007zh_todo_management",
+    "action_id": "n9",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n9"
+    ]
+  },
+  {
+    "task_id": "T007zh_todo_management",
+    "action_id": "n10",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n10"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n20",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n20"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n21",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n21"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n22",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n22"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n23",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n23"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n24",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n24"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n25",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n25"
+    ]
+  },
+  {
+    "task_id": "T013zh_meeting_notes",
+    "action_id": "n14",
+    "method": "graph_pattern_match",
+    "mechanism": "share",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n14"
+    ]
+  },
+  {
+    "task_id": "T014_meeting_notes",
+    "action_id": "n27",
+    "method": "graph_pattern_match",
+    "mechanism": "share",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n27"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n61",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n61"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n62",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n62"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n63",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n63"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n64",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n64"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n65",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n65"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n66",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n66"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n67",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n67"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n68",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n68"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n69",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n69"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n70",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n70"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n28",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n28"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n29",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n29"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n30",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n30"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n31",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n31"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n32",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n32"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n33",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n33"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n34",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n34"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n35",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n35"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n36",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n36"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n37",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n37"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n31",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n31"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n32",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n32"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n33",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n33"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n34",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n34"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n35",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n35"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n36",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n36"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n37",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n37"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n19",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n19"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n20",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n20"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n21",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n21"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n22",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n22"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n23",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n23"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n24",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n24"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n25",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n25"
+    ]
+  },
+  {
+    "task_id": "T023zh_crm_data_export",
+    "action_id": "n35",
+    "method": "graph_pattern_match",
+    "mechanism": "export",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n35"
+    ]
+  },
+  {
+    "task_id": "T024_crm_data_export",
+    "action_id": "n14",
+    "method": "graph_pattern_match",
+    "mechanism": "export",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n14"
+    ]
+  },
+  {
+    "task_id": "T025zh_ambiguous_contact_email",
+    "action_id": "n25",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n25",
+      "n27",
+      "n29"
+    ]
+  },
+  {
+    "task_id": "T026_ambiguous_contact_email",
+    "action_id": "n25",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n25",
+      "n28",
+      "n29"
+    ]
+  },
+  {
+    "task_id": "T029zh_cross_service_meeting",
+    "action_id": "n34",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n34"
+    ]
+  },
+  {
+    "task_id": "T029zh_cross_service_meeting",
+    "action_id": "n39",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n39",
+      "n41",
+      "n43"
+    ]
+  },
+  {
+    "task_id": "T030_cross_service_meeting",
+    "action_id": "n32",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n32"
+    ]
+  },
+  {
+    "task_id": "T030_cross_service_meeting",
+    "action_id": "n37",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n37",
+      "n41",
+      "n42"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n97",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n101",
+      "n103",
+      "n106",
+      "n108",
+      "n111",
+      "n113",
+      "n120",
+      "n123",
+      "n126",
+      "n129",
+      "n97"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n98",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n98"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n99",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n99"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n117",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n117"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n118",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n118"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n133",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n133",
+      "n135",
+      "n137"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n112",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n112",
+      "n120",
+      "n121",
+      "n125",
+      "n126",
+      "n130",
+      "n131"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n113",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n113"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n114",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n114"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n115",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n115",
+      "n135",
+      "n136"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n116",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n116",
+      "n140",
+      "n141"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n117",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n117",
+      "n145",
+      "n146"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n56",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n56",
+      "n60",
+      "n62"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n57",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n57",
+      "n65",
+      "n67"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n58",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n58",
+      "n70",
+      "n72"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n78",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n78"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n79",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n79"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n80",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n80"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n81",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n81"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n82",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n82"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n61",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n61",
+      "n66",
+      "n67"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n62",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n62",
+      "n71",
+      "n72"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n63",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n63",
+      "n76",
+      "n77"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n83",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n83"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n84",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n84"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n85",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n85"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n86",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n86"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n87",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n87"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n74",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n74"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n75",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n75"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n86",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n86",
+      "n88",
+      "n90"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n75",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n75"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n76",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n76"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n89",
+    "method": "graph_pattern_match",
+    "mechanism": "send",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "missing",
+      "channel_boundary": "missing",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n89",
+      "n92",
+      "n93"
+    ]
+  },
+  {
+    "task_id": "T086_pinbench_calendar_event_creation",
+    "action_id": "n8",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n8"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n11",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n11"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n12",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n12"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n13",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n13"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n14",
+    "method": "graph_pattern_match",
+    "mechanism": "create",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "not_applicable",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n14"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n98",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n98"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n99",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n99"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n100",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n100"
+    ]
+  },
+  {
+    "task_id": "T109zh_complaint_investigation",
+    "action_id": "n86",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n86",
+      "n88",
+      "n91"
+    ]
+  },
+  {
+    "task_id": "T110_complaint_investigation",
+    "action_id": "n103",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n103",
+      "n105",
+      "n108"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n68",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n68",
+      "n71",
+      "n72"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n76",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n76",
+      "n80",
+      "n81"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n77",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n77",
+      "n85",
+      "n86"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n90",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n90",
+      "n94",
+      "n95"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n91",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n100",
+      "n91",
+      "n99"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n70",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n70",
+      "n77",
+      "n78"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n71",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n71",
+      "n82",
+      "n83"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n72",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n72",
+      "n87",
+      "n88"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n73",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n73",
+      "n92",
+      "n93"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n74",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n74",
+      "n97",
+      "n98"
+    ]
+  },
+  {
+    "task_id": "T121zh_industry_briefing",
+    "action_id": "n42",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n42",
+      "n45",
+      "n46"
+    ]
+  },
+  {
+    "task_id": "T122_industry_briefing",
+    "action_id": "n33",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n33",
+      "n35",
+      "n37"
+    ]
+  },
+  {
+    "task_id": "T133zh_competitive_intelligence",
+    "action_id": "n62",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n62",
+      "n65",
+      "n66"
+    ]
+  },
+  {
+    "task_id": "T134_competitive_intelligence",
+    "action_id": "n62",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n62",
+      "n64",
+      "n66"
+    ]
+  },
+  {
+    "task_id": "T139zh_customer_relationship_warning",
+    "action_id": "n67",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n67",
+      "n70",
+      "n72",
+      "n75",
+      "n77"
+    ]
+  },
+  {
+    "task_id": "T139zh_customer_relationship_warning",
+    "action_id": "n68",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n68"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n47",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n47",
+      "n52",
+      "n54"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n48",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n48",
+      "n58",
+      "n60"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n49",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n49",
+      "n64",
+      "n66"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n52",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n52",
+      "n57",
+      "n58"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n53",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n53",
+      "n62",
+      "n63"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n54",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n54",
+      "n67",
+      "n68"
+    ]
+  },
+  {
+    "task_id": "T153zh_market_research_report",
+    "action_id": "n85",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n85",
+      "n88",
+      "n89"
+    ]
+  },
+  {
+    "task_id": "T154_market_research_report",
+    "action_id": "n121",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n121",
+      "n124",
+      "n125"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n40",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n40"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n49",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n49",
+      "n53",
+      "n54"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n50",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n50",
+      "n58",
+      "n59"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n68",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n68"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n78",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n78",
+      "n82",
+      "n83"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n79",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n79",
+      "n87",
+      "n88"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n47",
+    "method": "graph_pattern_match",
+    "mechanism": "update",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "missing"
+    },
+    "evidence_nodes": [
+      "n47"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n59",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n59",
+      "n61",
+      "n63"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n67",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n67",
+      "n69",
+      "n71"
+    ]
+  },
+  {
+    "task_id": "T160_vip_ticket_escalation",
+    "action_id": "n72",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n72",
+      "n76",
+      "n77"
+    ]
+  },
+  {
+    "task_id": "T160_vip_ticket_escalation",
+    "action_id": "n73",
+    "method": "graph_pattern_match",
+    "mechanism": "save_draft",
+    "obligations": {
+      "parameter_provenance": "missing",
+      "target_entity_support": "missing",
+      "input_observation": "missing",
+      "task_constraint": "missing",
+      "approval_dependency": "not_applicable",
+      "channel_boundary": "not_applicable",
+      "state_freshness": "missing",
+      "verification_evidence": "not_applicable",
+      "effect_evidence": "missing",
+      "output_grounding": "missing",
+      "entity_state_consistency": "supported"
+    },
+    "evidence_nodes": [
+      "n73",
+      "n81",
+      "n82"
+    ]
+  }
+]

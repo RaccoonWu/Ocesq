@@ -1,0 +1,13 @@
+{
+  "actions": 1112,
+  "avg_nodes": 8.8687,
+  "avg_edges": 7.8687,
+  "avg_closure_nodes": 8.8687,
+  "avg_closure_edges": 7.8687,
+  "avg_covered_ratio": 0.4956,
+  "avg_diagnostic_ratio": 1.0,
+  "avg_missing": 4.1493,
+  "avg_conflicting": 0.0,
+  "row_count": 1112,
+  "scope": "why-not provenance diagnostic baseline: raw-OEG action selection + dependency closure; status quality requires independent adjudication"
+}

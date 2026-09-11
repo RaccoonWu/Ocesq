@@ -1,0 +1,7 @@
+{
+  "condition_alias": {
+    "structured_json": "R12",
+    "equal_token_raw": "R13"
+  },
+  "seed": 20260723
+}

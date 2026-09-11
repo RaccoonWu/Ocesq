@@ -1,0 +1,277 @@
+{
+  "by_family": {
+    "disconnected_noise": {
+      "benign_complete_answer_invariance": 1,
+      "compiled_graph_snapshot_change_rate": 1,
+      "component_rates": {
+        "baseline_certificates_valid": 1,
+        "candidate_paths_exact": 1,
+        "compact_result_exact": 1,
+        "conflicting_paths_exact": 1,
+        "coverage_exact": 1,
+        "missing_descriptors_exact": 1,
+        "normalized_contract_semantics_exact": 1,
+        "obligations_exact": 1,
+        "redundancy_exact": 0,
+        "root_result_exact": 0,
+        "source_pointers_exact": 1,
+        "status_vector_exact": 1,
+        "supporting_paths_exact": 1,
+        "variant_certificates_valid": 1
+      },
+      "operational_metadata_invariance": 0,
+      "pairs": 24,
+      "raw_integrity_rate": 1,
+      "root_artifact_exact": 0
+    },
+    "transparent_wrapper": {
+      "benign_complete_answer_invariance": 1,
+      "compiled_graph_snapshot_change_rate": 0,
+      "component_rates": {
+        "baseline_certificates_valid": 1,
+        "candidate_paths_exact": 1,
+        "compact_result_exact": 1,
+        "conflicting_paths_exact": 1,
+        "coverage_exact": 1,
+        "missing_descriptors_exact": 1,
+        "normalized_contract_semantics_exact": 1,
+        "obligations_exact": 1,
+        "redundancy_exact": 1,
+        "root_result_exact": 1,
+        "source_pointers_exact": 1,
+        "status_vector_exact": 1,
+        "supporting_paths_exact": 1,
+        "variant_certificates_valid": 1
+      },
+      "operational_metadata_invariance": 1,
+      "pairs": 24,
+      "raw_integrity_rate": 1,
+      "root_artifact_exact": 1
+    },
+    "unrelated_event_reorder": {
+      "benign_complete_answer_invariance": 1,
+      "compiled_graph_snapshot_change_rate": 0,
+      "component_rates": {
+        "baseline_certificates_valid": 1,
+        "candidate_paths_exact": 1,
+        "compact_result_exact": 1,
+        "conflicting_paths_exact": 1,
+        "coverage_exact": 1,
+        "missing_descriptors_exact": 1,
+        "normalized_contract_semantics_exact": 1,
+        "obligations_exact": 1,
+        "redundancy_exact": 1,
+        "root_result_exact": 1,
+        "source_pointers_exact": 1,
+        "status_vector_exact": 1,
+        "supporting_paths_exact": 1,
+        "variant_certificates_valid": 1
+      },
+      "operational_metadata_invariance": 1,
+      "pairs": 24,
+      "raw_integrity_rate": 1,
+      "root_artifact_exact": 1
+    }
+  },
+  "failures": [],
+  "human_labels_used": false,
+  "metric_boundary": "semantic invariance covers <status, W+, W-, certificate>; graph-relative redundancy ratios are reported separately",
+  "model_labels_used": false,
+  "operational_differences": [
+    {
+      "case_id": "auditv2_0000:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0001:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0002:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0003:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0004:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0005:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0006:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0007:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0008:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0009:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0010:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0011:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0012:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0013:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0014:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0015:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0016:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0017:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0018:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0019:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0020:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0021:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0022:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    },
+    {
+      "case_id": "auditv2_0023:disconnected_noise",
+      "changed_fields": [
+        "redundancy_exact",
+        "root_result_exact"
+      ]
+    }
+  ],
+  "oracle_boundary": "raw transform integrity is independent; graph/query outputs are prediction-side only",
+  "overall": {
+    "benign_complete_answer_invariance": 1,
+    "compiled_graph_snapshot_change_rate": 0.3333333333333333,
+    "component_rates": {
+      "baseline_certificates_valid": 1,
+      "candidate_paths_exact": 1,
+      "compact_result_exact": 1,
+      "conflicting_paths_exact": 1,
+      "coverage_exact": 1,
+      "missing_descriptors_exact": 1,
+      "normalized_contract_semantics_exact": 1,
+      "obligations_exact": 1,
+      "redundancy_exact": 0.6666666666666666,
+      "root_result_exact": 0.6666666666666666,
+      "source_pointers_exact": 1,
+      "status_vector_exact": 1,
+      "supporting_paths_exact": 1,
+      "variant_certificates_valid": 1
+    },
+    "operational_metadata_invariance": 0.6666666666666666,
+    "pairs": 72,
+    "raw_integrity_rate": 1,
+    "root_artifact_exact": 0.6666666666666666
+  },
+  "protocol": "apc-benign-invariance-v1",
+  "snapshot_policy": "graph digests may change; each scope certificate must validate against its own compiled snapshot"
+}

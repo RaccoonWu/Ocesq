@@ -1,0 +1,11 @@
+{
+  "actions": 366,
+  "avg_nodes": 1.1421,
+  "avg_edges": 0.1421,
+  "avg_covered_ratio": 0.0115,
+  "avg_diagnostic_ratio": 1.0,
+  "avg_missing": 8.8962,
+  "avg_conflicting": 0.0,
+  "row_count": 366,
+  "scope": "graph-pattern diagnostic baseline: raw-OEG action selection + typed pattern union; status quality requires independent adjudication"
+}

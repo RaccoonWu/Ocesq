@@ -1,0 +1,33 @@
+{
+  "protocol": "downstream-baselines-v2",
+  "deterministic_diff_source_only": {
+    "cases_evaluated": 183,
+    "avg_f1": 0.1347,
+    "note": "source_event_ids only, naive field comparison"
+  },
+  "deterministic_diff_full": {
+    "representation_id": "R14",
+    "cases": 183,
+    "status_accuracy": 0.4262,
+    "component_accuracy": 0.3934,
+    "source_exact_rate": 0.0,
+    "source_f1_fault": 0.222,
+    "benign_component_correct": 1.0,
+    "benign_source_fp": 1.0,
+    "note": "Three-dimensional evaluation (status+component+source), no ML",
+    "needs_model": false
+  },
+  "structured_json": {
+    "representation_id": "R12",
+    "cases_generated": 183,
+    "description": "Flat structured JSON table, source pointers, no contracts",
+    "needs_model": true
+  },
+  "equal_token_raw": {
+    "representation_id": "R13",
+    "cases_generated": 183,
+    "description": "Raw trace truncated to APC token budget",
+    "needs_model": true
+  },
+  "model_run_instructions": "\nTo run models on R12 and R13:\n\n    python scripts/run_downstream_fact_recovery_models_v1.py \\\n      --input-dir results/baselines_v2 \\\n      --representation R12 --representation R13 \\\n      --provider deepseek --output-dir results/baselines_v2/deepseek\n\nR14 (deterministic diff) is already scored — no model needed.\nMerge with existing current_downstream_fact_recovery_inputs results for the\ncomplete comparison table.\n"
+}

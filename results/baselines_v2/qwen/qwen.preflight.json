@@ -1,0 +1,16 @@
+{
+  "provider": "qwen",
+  "model": "qwen3.7-plus",
+  "conditions": [
+    "equal_token_raw"
+  ],
+  "max_cases": 183,
+  "offset": 0,
+  "max_input_chars": 500000,
+  "max_output_tokens": 400,
+  "temperature": 0,
+  "workers": 1,
+  "system_prompt": "You are a blinded fact-recovery auditor. Compare version A and version B only from the supplied representation. Identify changes in recorded facts, not whether the task succeeded or the action is safe, correct, appropriate, or compliant. Source event IDs must be integers explicitly supported by the representation. A missing conclusion is scope-bound, never a claim about the outside world. Return exactly one JSON object matching the requested output schema. Set rationale to an empty string. Do not output markdown or hidden reasoning.",
+  "started_at_utc": "2026-07-24T05:28:40.260410+00:00",
+  "mode": "execute"
+}

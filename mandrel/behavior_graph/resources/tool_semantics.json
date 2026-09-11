@@ -1,0 +1,1444 @@
+{
+  "registry_version": "1.0",
+  "effect_keywords": [
+    [
+      "send",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "notify",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "forward",
+      "send",
+      "sends",
+      "high",
+      "email"
+    ],
+    [
+      "reply",
+      "send",
+      "sends",
+      "high",
+      "email"
+    ],
+    [
+      "publish",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "post",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "share",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "export",
+      "export",
+      "exports",
+      "high",
+      "external"
+    ],
+    [
+      "upload",
+      "export",
+      "exports",
+      "high",
+      "external"
+    ],
+    [
+      "create",
+      "create",
+      "creates",
+      "high",
+      null
+    ],
+    [
+      "add",
+      "create",
+      "creates",
+      "medium",
+      null
+    ],
+    [
+      "register",
+      "create",
+      "creates",
+      "medium",
+      null
+    ],
+    [
+      "schedule",
+      "schedule",
+      "creates",
+      "medium",
+      null
+    ],
+    [
+      "cron",
+      "schedule",
+      "creates",
+      "medium",
+      "automation"
+    ],
+    [
+      "update",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "edit",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "modify",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "change",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "assign",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "move",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "rename",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "flag",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "pin",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "mark",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "set",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "save",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "draft",
+      "draft",
+      "drafts",
+      "medium",
+      "email"
+    ],
+    [
+      "delete",
+      "delete",
+      "deletes",
+      "high",
+      null
+    ],
+    [
+      "remove",
+      "delete",
+      "deletes",
+      "high",
+      null
+    ],
+    [
+      "destroy",
+      "delete",
+      "deletes",
+      "high",
+      null
+    ],
+    [
+      "kill",
+      "delete",
+      "deletes",
+      "high",
+      null
+    ],
+    [
+      "execute",
+      "execute",
+      "triggers",
+      "high",
+      "shell"
+    ],
+    [
+      "run",
+      "execute",
+      "triggers",
+      "high",
+      "shell"
+    ],
+    [
+      "eval",
+      "execute",
+      "triggers",
+      "high",
+      "shell"
+    ],
+    [
+      "script",
+      "execute",
+      "triggers",
+      "high",
+      null
+    ],
+    [
+      "bash",
+      "execute",
+      "triggers",
+      "high",
+      "shell"
+    ],
+    [
+      "command",
+      "execute",
+      "triggers",
+      "high",
+      "shell"
+    ],
+    [
+      "click",
+      "ui_interaction",
+      "updates",
+      "medium",
+      "browser"
+    ],
+    [
+      "fill",
+      "ui_interaction",
+      "updates",
+      "medium",
+      "browser"
+    ],
+    [
+      "type",
+      "ui_interaction",
+      "updates",
+      "medium",
+      "desktop"
+    ],
+    [
+      "press",
+      "ui_interaction",
+      "updates",
+      "medium",
+      "desktop"
+    ],
+    [
+      "open",
+      "browser_navigation",
+      "reads",
+      "low",
+      "browser"
+    ],
+    [
+      "snapshot",
+      "read",
+      "reads",
+      "low",
+      "browser"
+    ],
+    [
+      "screenshot",
+      "read",
+      "reads",
+      "low",
+      "desktop"
+    ],
+    [
+      "api",
+      "api_call",
+      "triggers",
+      "high",
+      "external_api"
+    ],
+    [
+      "gateway",
+      "api_call",
+      "triggers",
+      "high",
+      "external_api"
+    ],
+    [
+      "passthrough",
+      "api_call",
+      "triggers",
+      "high",
+      "external_api"
+    ],
+    [
+      "webhook",
+      "api_call",
+      "triggers",
+      "high",
+      "external_api"
+    ],
+    [
+      "signin",
+      "credential_access",
+      "reads",
+      "high",
+      "credentials"
+    ],
+    [
+      "login",
+      "credential_access",
+      "reads",
+      "high",
+      "credentials"
+    ],
+    [
+      "auth",
+      "credential_access",
+      "reads",
+      "high",
+      "credentials"
+    ],
+    [
+      "write_state",
+      "session_write",
+      "updates",
+      "high",
+      "memory"
+    ],
+    [
+      "write_session",
+      "session_write",
+      "updates",
+      "high",
+      "memory"
+    ],
+    [
+      "commit",
+      "session_write",
+      "updates",
+      "high",
+      "memory"
+    ],
+    [
+      "generate",
+      "create",
+      "creates",
+      "high",
+      null
+    ],
+    [
+      "download",
+      "export",
+      "exports",
+      "high",
+      null
+    ],
+    [
+      "install",
+      "create",
+      "creates",
+      "high",
+      null
+    ],
+    [
+      "deploy",
+      "create",
+      "creates",
+      "high",
+      null
+    ],
+    [
+      "transform",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "convert",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "shorten",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "transfer",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "book",
+      "create",
+      "creates",
+      "high",
+      null
+    ],
+    [
+      "pay",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "charge",
+      "send",
+      "sends",
+      "high",
+      "external"
+    ],
+    [
+      "grant",
+      "update",
+      "updates",
+      "high",
+      "credentials"
+    ],
+    [
+      "revoke",
+      "delete",
+      "deletes",
+      "high",
+      "credentials"
+    ],
+    [
+      "enable",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "disable",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "activate",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "deactivate",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "block",
+      "update",
+      "updates",
+      "high",
+      null
+    ],
+    [
+      "unblock",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "reset",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "clear",
+      "delete",
+      "deletes",
+      "medium",
+      null
+    ],
+    [
+      "purge",
+      "delete",
+      "deletes",
+      "high",
+      null
+    ],
+    [
+      "archive",
+      "update",
+      "updates",
+      "medium",
+      null
+    ],
+    [
+      "subscribe",
+      "create",
+      "creates",
+      "medium",
+      "email"
+    ],
+    [
+      "unsubscribe",
+      "delete",
+      "deletes",
+      "medium",
+      "email"
+    ]
+  ],
+  "read_keywords": [
+    "list",
+    "get",
+    "search",
+    "read",
+    "lookup",
+    "check",
+    "query",
+    "find",
+    "show",
+    "view",
+    "fetch",
+    "describe",
+    "status",
+    "history",
+    "log",
+    "logs",
+    "capture",
+    "print",
+    "display",
+    "envelope",
+    "account",
+    "info",
+    "summary",
+    "report",
+    "stat",
+    "metric",
+    "monitor",
+    "screenshot",
+    "snapshot",
+    "scrape",
+    "extract",
+    "validate",
+    "verify",
+    "parse",
+    "ocr",
+    "recognize",
+    "classify",
+    "analyze",
+    "detect",
+    "identify",
+    "scan",
+    "crawl",
+    "decode",
+    "decrypt",
+    "translate",
+    "summarize",
+    "inspect",
+    "audit"
+  ],
+  "read_only_prefixes": [
+    "list_",
+    "get_",
+    "search_",
+    "read_",
+    "lookup_",
+    "check_",
+    "query_",
+    "find_",
+    "show_",
+    "view_",
+    "fetch_",
+    "describe_",
+    "print_",
+    "display_",
+    "capture_",
+    "log_",
+    "status_",
+    "scrape_",
+    "extract_",
+    "validate_",
+    "verify_",
+    "parse_",
+    "ocr_",
+    "recognize_",
+    "classify_",
+    "analyze_",
+    "detect_",
+    "identify_",
+    "scan_",
+    "crawl_",
+    "decode_",
+    "decrypt_",
+    "list ",
+    "get ",
+    "search ",
+    "read ",
+    "lookup ",
+    "check ",
+    "query ",
+    "find ",
+    "show ",
+    "view ",
+    "fetch ",
+    "describe "
+  ],
+  "channel_keywords": [
+    [
+      "gmail",
+      "email"
+    ],
+    [
+      "email",
+      "email"
+    ],
+    [
+      "mail",
+      "email"
+    ],
+    [
+      "himalaya",
+      "email"
+    ],
+    [
+      "message",
+      "email"
+    ],
+    [
+      "calendar",
+      "calendar"
+    ],
+    [
+      "event",
+      "calendar"
+    ],
+    [
+      "crm",
+      "crm"
+    ],
+    [
+      "customer",
+      "crm"
+    ],
+    [
+      "ticket",
+      "ticketing"
+    ],
+    [
+      "helpdesk",
+      "ticketing"
+    ],
+    [
+      "jira",
+      "ticketing"
+    ],
+    [
+      "github",
+      "github"
+    ],
+    [
+      "gh ",
+      "github"
+    ],
+    [
+      "gitlab",
+      "github"
+    ],
+    [
+      "slack",
+      "chat"
+    ],
+    [
+      "discord",
+      "chat"
+    ],
+    [
+      "chat",
+      "chat"
+    ],
+    [
+      "browser",
+      "browser"
+    ],
+    [
+      "chrome",
+      "browser"
+    ],
+    [
+      "tmux",
+      "shell"
+    ],
+    [
+      "shell",
+      "shell"
+    ],
+    [
+      "terminal",
+      "shell"
+    ],
+    [
+      "ssh",
+      "shell"
+    ],
+    [
+      "bash",
+      "shell"
+    ],
+    [
+      "file",
+      "workspace"
+    ],
+    [
+      "workspace",
+      "workspace"
+    ],
+    [
+      "obsidian",
+      "workspace"
+    ],
+    [
+      "note",
+      "workspace"
+    ],
+    [
+      "clipboard",
+      "clipboard"
+    ],
+    [
+      "finance",
+      "finance"
+    ],
+    [
+      "portfolio",
+      "finance"
+    ],
+    [
+      "stock",
+      "finance"
+    ],
+    [
+      "credential",
+      "credentials"
+    ],
+    [
+      "op ",
+      "credentials"
+    ],
+    [
+      "1password",
+      "credentials"
+    ],
+    [
+      "notify",
+      "notification"
+    ],
+    [
+      "notification",
+      "notification"
+    ],
+    [
+      "memory",
+      "memory"
+    ],
+    [
+      "state",
+      "memory"
+    ],
+    [
+      "session",
+      "session"
+    ],
+    [
+      "cron",
+      "automation"
+    ],
+    [
+      "schedule",
+      "automation"
+    ],
+    [
+      "automation",
+      "automation"
+    ],
+    [
+      "webhook",
+      "webhook"
+    ],
+    [
+      "api",
+      "external_api"
+    ],
+    [
+      "gateway",
+      "external_api"
+    ],
+    [
+      "kb",
+      "knowledge_base"
+    ],
+    [
+      "knowledge",
+      "knowledge_base"
+    ],
+    [
+      "wiki",
+      "knowledge_base"
+    ],
+    [
+      "inventory",
+      "inventory"
+    ],
+    [
+      "product",
+      "inventory"
+    ],
+    [
+      "contacts",
+      "contacts"
+    ],
+    [
+      "contact",
+      "contacts"
+    ]
+  ],
+  "external_data_patterns": [
+    "\\bweb[_\\s]?fetch\\b",
+    "\\bweb[_\\s]?scrape\\b",
+    "\\bweb[_\\s]?search\\b",
+    "\\bfetch[_\\s]?url\\b",
+    "\\bget[_\\s]?transcript\\b",
+    "\\btranscript\\b",
+    "\\bweb[_\\s]?browser\\b",
+    "\\bscrape\\b",
+    "\\bcrawl\\b",
+    "\\bdownload\\b"
+  ],
+  "external_data_keywords": [
+    "web_fetch",
+    "webfetch",
+    "web-scrape",
+    "webscrape",
+    "fetch_url",
+    "fetchurl",
+    "get_url",
+    "geturl",
+    "get_transcript",
+    "gettranscript",
+    "web_search",
+    "websearch",
+    "http",
+    "https://"
+  ],
+  "exact_overrides": {
+    "gmail send message": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "gmail_send_message": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "gmail save draft": {
+      "mechanism": "draft",
+      "edge_type": "drafts",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true
+    },
+    "gmail_save_draft": {
+      "mechanism": "draft",
+      "edge_type": "drafts",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true
+    },
+    "gog gmail send": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "himalaya message forward": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "himalaya message reply": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "himalaya message write": {
+      "mechanism": "draft",
+      "edge_type": "drafts",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "email",
+      "approval_sensitive": true
+    },
+    "sendmessage": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "chat",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "send message": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "chat",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "send_message": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "chat",
+      "approval_sensitive": true,
+      "external_visibility": true
+    },
+    "pinmessage": {
+      "mechanism": "pin",
+      "edge_type": "updates",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "chat"
+    },
+    "editmessage": {
+      "mechanism": "update",
+      "edge_type": "updates",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "chat",
+      "approval_sensitive": true
+    },
+    "agent-browser click": {
+      "mechanism": "browser_interaction",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "browser",
+      "approval_sensitive": true
+    },
+    "agent-browser fill": {
+      "mechanism": "browser_interaction",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "browser",
+      "approval_sensitive": true
+    },
+    "agent-browser eval": {
+      "mechanism": "code_execution",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "browser",
+      "approval_sensitive": true
+    },
+    "agent-browser network route": {
+      "mechanism": "network_interception",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "browser",
+      "approval_sensitive": true
+    },
+    "op signin": {
+      "mechanism": "credential_access",
+      "edge_type": "reads",
+      "risk_level": "high",
+      "channel": "credentials",
+      "approval_sensitive": true
+    },
+    "op_signin": {
+      "mechanism": "credential_access",
+      "edge_type": "reads",
+      "risk_level": "high",
+      "channel": "credentials",
+      "approval_sensitive": true
+    },
+    "op_run": {
+      "mechanism": "credential_command",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "credentials",
+      "approval_sensitive": true
+    },
+    "op run": {
+      "mechanism": "credential_command",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "credentials",
+      "approval_sensitive": true
+    },
+    "tmux new-session": {
+      "mechanism": "session_create",
+      "edge_type": "creates",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "shell"
+    },
+    "tmux_new-session": {
+      "mechanism": "session_create",
+      "edge_type": "creates",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "shell"
+    },
+    "tmux_new_session": {
+      "mechanism": "session_create",
+      "edge_type": "creates",
+      "risk_level": "medium",
+      "effectful": true,
+      "channel": "shell"
+    },
+    "tmux send-keys": {
+      "mechanism": "shell_input",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "shell",
+      "approval_sensitive": true
+    },
+    "tmux_send-keys": {
+      "mechanism": "shell_input",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "shell",
+      "approval_sensitive": true
+    },
+    "tmux kill-session": {
+      "mechanism": "delete",
+      "edge_type": "deletes",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "shell",
+      "approval_sensitive": true
+    },
+    "tmux_kill-session": {
+      "mechanism": "delete",
+      "edge_type": "deletes",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "shell",
+      "approval_sensitive": true
+    },
+    "clawdbot cron add": {
+      "mechanism": "schedule",
+      "edge_type": "creates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "automation",
+      "approval_sensitive": true
+    },
+    "clawdbot_cron_add": {
+      "mechanism": "schedule",
+      "edge_type": "creates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "automation",
+      "approval_sensitive": true
+    },
+    "clawdbot notify user": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "notification",
+      "external_visibility": true
+    },
+    "clawdbot_notify_user": {
+      "mechanism": "send",
+      "edge_type": "sends",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "notification",
+      "external_visibility": true
+    },
+    "write_session_state": {
+      "mechanism": "session_write",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "memory"
+    },
+    "write to session state": {
+      "mechanism": "session_write",
+      "edge_type": "updates",
+      "risk_level": "high",
+      "effectful": true,
+      "channel": "memory"
+    },
+    "agent-browser snapshot": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "browser"
+    },
+    "agent-browser snapshot -i": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "browser"
+    },
+    "agent-browser get text": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "browser"
+    },
+    "agent-browser open": {
+      "mechanism": "browser_navigation",
+      "edge_type": "reads_external",
+      "risk_level": "medium",
+      "channel": "browser",
+      "external_visibility": true,
+      "approval_sensitive": true
+    },
+    "agent-browser state load": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "browser"
+    },
+    "screenshot": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "desktop"
+    },
+    "gh run list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "github"
+    },
+    "gh run view": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "github"
+    },
+    "gh pr checks": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "github"
+    },
+    "gh issue list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "github"
+    },
+    "himalaya envelope list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "email"
+    },
+    "himalaya account list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "email"
+    },
+    "himalaya message read": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "email"
+    },
+    "tmux capture-pane": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "shell"
+    },
+    "tmux_capture-pane": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "shell"
+    },
+    "tmux list-sessions": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "shell"
+    },
+    "tmux_list-sessions": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "shell"
+    },
+    "clawdbot cron list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "automation"
+    },
+    "clawdbot_cron_list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "automation"
+    },
+    "obsidian-cli search": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "workspace"
+    },
+    "obsidian-cli search-content": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "workspace"
+    },
+    "obsidian-cli print-default": {
+      "mechanism": "read",
+      "edge_type": "reads",
+      "risk_level": "low",
+      "channel": "workspace"
+    },
+    "clawdhub list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "workspace"
+    },
+    "clawdhub_list": {
+      "mechanism": "read",
+      "edge_type": "queries",
+      "risk_level": "low",
+      "channel": "workspace"
+    },
+    "web_fetch": {
+      "mechanism": "external_fetch",
+      "edge_type": "reads_external",
+      "risk_level": "medium",
+      "channel": "web",
+      "external_visibility": true,
+      "approval_sensitive": true
+    },
+    "web search": {
+      "mechanism": "external_fetch",
+      "edge_type": "reads_external",
+      "risk_level": "medium",
+      "channel": "web",
+      "external_visibility": true,
+      "approval_sensitive": true
+    },
+    "web_search": {
+      "mechanism": "external_fetch",
+      "edge_type": "reads_external",
+      "risk_level": "medium",
+      "channel": "web",
+      "external_visibility": true,
+      "approval_sensitive": true
+    },
+    "get_transcript": {
+      "mechanism": "external_fetch",
+      "edge_type": "reads_external",
+      "risk_level": "medium",
+      "channel": "web",
+      "external_visibility": true,
+      "approval_sensitive": true
+    },
+    "get_transcript.py": {
+      "mechanism": "external_fetch",
+      "edge_type": "reads_external",
+      "risk_level": "medium",
+      "channel": "web",
+      "external_visibility": true,
+      "approval_sensitive": true
+    }
+  },
+  "prefix_overrides": [
+    [
+      "agent-browser ",
+      {
+        "mechanism": "browser_interaction",
+        "edge_type": "updates",
+        "risk_level": "medium",
+        "effectful": true,
+        "channel": "browser"
+      }
+    ],
+    [
+      "tmux ",
+      {
+        "mechanism": "shell_command",
+        "edge_type": "updates",
+        "risk_level": "high",
+        "effectful": true,
+        "channel": "shell",
+        "approval_sensitive": true
+      }
+    ],
+    [
+      "tmux_",
+      {
+        "mechanism": "shell_command",
+        "edge_type": "updates",
+        "risk_level": "high",
+        "effectful": true,
+        "channel": "shell",
+        "approval_sensitive": true
+      }
+    ],
+    [
+      "gh ",
+      {
+        "mechanism": "github_operation",
+        "edge_type": "updates_or_reads",
+        "risk_level": "medium",
+        "effectful": true,
+        "channel": "github"
+      }
+    ],
+    [
+      "obsidian-cli ",
+      {
+        "mechanism": "workspace_command",
+        "edge_type": "updates",
+        "risk_level": "medium",
+        "effectful": true,
+        "channel": "workspace"
+      }
+    ],
+    [
+      "add blocks",
+      {
+        "mechanism": "create",
+        "edge_type": "creates",
+        "risk_level": "medium",
+        "effectful": true,
+        "channel": "document"
+      }
+    ],
+    [
+      "add_blocks",
+      {
+        "mechanism": "create",
+        "edge_type": "creates",
+        "risk_level": "medium",
+        "effectful": true,
+        "channel": "document"
+      }
+    ],
+    [
+      "clawdhub ",
+      {
+        "mechanism": "update",
+        "edge_type": "updates",
+        "risk_level": "medium",
+        "effectful": true,
+        "channel": "workspace"
+      }
+    ]
+  ]
+}

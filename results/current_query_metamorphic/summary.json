@@ -1,0 +1,11 @@
+{
+  "changing_cases": 9,
+  "experiment_id": "query-metamorphic-v2",
+  "failed_relations": [],
+  "interpretation": "Exact metamorphic relations over formal graph queries; not open-domain semantic accuracy.",
+  "invariant_cases": 3,
+  "production_failures": [],
+  "production_reference_exact": 1,
+  "reference_relation_accuracy": 1,
+  "transformations": 12
+}

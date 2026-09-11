@@ -1,0 +1,30 @@
+{
+  "delta_source_F1_complete_minus_raw": 0.11445731445731444,
+  "n_cases": 183,
+  "representations": {
+    "apc_without_status": {
+      "benign_FP": 0,
+      "component_macro_f1": 0.5780137910635388,
+      "source_F1_all": 0.9273484257090815,
+      "source_F1_fault": 0.8802230802230803,
+      "source_exact_fault": 0.5315315315315315,
+      "status_accuracy": 0.9562841530054644
+    },
+    "complete_audit_package": {
+      "benign_FP": 0,
+      "component_macro_f1": 0.5780137910635388,
+      "source_F1_all": 0.9382773874577154,
+      "source_F1_fault": 0.8982410982410982,
+      "source_exact_fault": 0.6216216216216216,
+      "status_accuracy": 0.9562841530054644
+    },
+    "raw_trace": {
+      "benign_FP": 1,
+      "component_macro_f1": 0.3525480367585631,
+      "source_F1_all": 0.7377049180327869,
+      "source_F1_fault": 0.7837837837837838,
+      "source_exact_fault": 0.6486486486486487,
+      "status_accuracy": 0.8360655737704918
+    }
+  }
+}

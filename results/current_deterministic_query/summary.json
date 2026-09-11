@@ -1,0 +1,172 @@
+{
+  "answer_exact": 1,
+  "by_family": {
+    "depth3": {
+      "answer_exact": 1,
+      "cases": 8,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "depth4_reverse": {
+      "answer_exact": 1,
+      "cases": 7,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "entity_conflict": {
+      "answer_exact": 1,
+      "cases": 6,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "missing": {
+      "answer_exact": 1,
+      "cases": 6,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "missing_root": {
+      "answer_exact": 1,
+      "cases": 1,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "multi_witness": {
+      "answer_exact": 1,
+      "cases": 6,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "not_applicable": {
+      "answer_exact": 1,
+      "cases": 7,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "root_only": {
+      "answer_exact": 1,
+      "cases": 1,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "supported": {
+      "answer_exact": 1,
+      "cases": 6,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "temporal_conflict": {
+      "answer_exact": 1,
+      "cases": 6,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "version_conflict": {
+      "answer_exact": 1,
+      "cases": 6,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "wrong_root_type": {
+      "answer_exact": 1,
+      "cases": 1,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    }
+  },
+  "by_path_depth": {
+    "1": {
+      "answer_exact": 1,
+      "cases": 4,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "2": {
+      "answer_exact": 1,
+      "cases": 42,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "3": {
+      "answer_exact": 1,
+      "cases": 8,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "4": {
+      "answer_exact": 1,
+      "cases": 7,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    }
+  },
+  "by_split": {
+    "dev": {
+      "answer_exact": 1,
+      "cases": 38,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "test": {
+      "answer_exact": 1,
+      "cases": 23,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    }
+  },
+  "by_tool_schema": {
+    "crm": {
+      "answer_exact": 1,
+      "cases": 7,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "entity": {
+      "answer_exact": 1,
+      "cases": 28,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "helpdesk": {
+      "answer_exact": 1,
+      "cases": 7,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "oracle_v6_core": {
+      "answer_exact": 1,
+      "cases": 10,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    },
+    "oracle_v6_heldout": {
+      "answer_exact": 1,
+      "cases": 9,
+      "expected_status_match": 1,
+      "negative_control_detected": 1
+    }
+  },
+  "cases": 61,
+  "certificate_exact": 1,
+  "conflict_exact": 1,
+  "dependency_audit": {
+    "forbidden_imports": [],
+    "imports": [
+      "__future__",
+      "typing"
+    ],
+    "passed": true,
+    "reference_file": "/usr/postgroup/wulinze_doc/paper/first_paper/mandrel/mandrel/behavior_graph/query_reference.py"
+  },
+  "expected_status_failures": [],
+  "expected_status_match": 1,
+  "experiment_id": "deterministic-query-differential-v2",
+  "failed_cases": [],
+  "interpretation": "Graph-relative formal correctness only; no claim about open-domain semantic completeness.",
+  "max_witness_count": 8,
+  "mixed_support_conflict_cases": 2,
+  "negative_control_detection_rate": 1,
+  "status_exact": 1,
+  "witness_exact": 1,
+  "workload": "data/query_oracle_v6"
+}

@@ -1,0 +1,6245 @@
+[
+  {
+    "task_id": "T003zh_calendar_scheduling",
+    "action_id": "n15",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n16",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n17",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      },
+      {
+        "family": "output",
+        "node_id": "n14",
+        "node_type": "OutputAssertion",
+        "distance": 3
+      }
+    ],
+    "evidence_nodes": [
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n12|n13|submits",
+      "n12|n15|depends_on",
+      "n13|n14|grounds",
+      "n15|n16|creates",
+      "n15|n17|creates",
+      "n15|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T004_calendar_scheduling",
+    "action_id": "n18",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n19",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n20",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      },
+      {
+        "family": "output",
+        "node_id": "n16",
+        "node_type": "OutputAssertion",
+        "distance": 3
+      }
+    ],
+    "evidence_nodes": [
+      "n14",
+      "n15",
+      "n16",
+      "n18",
+      "n19",
+      "n20",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n14|n15|submits",
+      "n14|n18|depends_on",
+      "n15|n16|grounds",
+      "n18|n19|creates",
+      "n18|n20|creates",
+      "n18|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T005zh_email_reply_draft",
+    "action_id": "n32",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n34",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n35",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n39",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n32",
+      "n34",
+      "n35",
+      "n39",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n32|n34|drafts",
+      "n32|n35|depends_on",
+      "n32|n39|drafts",
+      "n32|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T005zh_email_reply_draft",
+    "action_id": "n33",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n40",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n41",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n45",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n33",
+      "n40",
+      "n41",
+      "n45",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n33|n40|drafts",
+      "n33|n41|depends_on",
+      "n33|n45|drafts",
+      "n33|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T006_email_reply_draft",
+    "action_id": "n35",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n37",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n38",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n42",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n35",
+      "n37",
+      "n38",
+      "n42",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n35|n37|drafts",
+      "n35|n38|depends_on",
+      "n35|n42|drafts",
+      "n35|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T006_email_reply_draft",
+    "action_id": "n36",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n43",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n44",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n48",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n36",
+      "n43",
+      "n44",
+      "n48",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n36|n43|drafts",
+      "n36|n44|depends_on",
+      "n36|n48|drafts",
+      "n36|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T007zh_todo_management",
+    "action_id": "n9",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n11",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n12",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n13",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n11",
+      "n12",
+      "n13",
+      "n9",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n9|n11|observes",
+      "n9|n12|depends_on",
+      "n9|n13|updates",
+      "n9|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T007zh_todo_management",
+    "action_id": "n10",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n14",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n15",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n16",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n10",
+      "n14",
+      "n15",
+      "n16",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n10|n14|observes",
+      "n10|n15|depends_on",
+      "n10|n16|updates",
+      "n10|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n20",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n26",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n27",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n28",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n20",
+      "n26",
+      "n27",
+      "n28",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n20|n26|observes",
+      "n20|n27|depends_on",
+      "n20|n28|updates",
+      "n20|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n21",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n29",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n30",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n31",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n21",
+      "n29",
+      "n30",
+      "n31",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n21|n29|observes",
+      "n21|n30|depends_on",
+      "n21|n31|updates",
+      "n21|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n22",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n32",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n33",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n34",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n22",
+      "n32",
+      "n33",
+      "n34",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n22|n32|observes",
+      "n22|n33|depends_on",
+      "n22|n34|updates",
+      "n22|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n23",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n35",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n36",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n37",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n23",
+      "n35",
+      "n36",
+      "n37",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n23|n35|observes",
+      "n23|n36|depends_on",
+      "n23|n37|updates",
+      "n23|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n24",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n38",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n39",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n40",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n24",
+      "n38",
+      "n39",
+      "n40",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n24|n38|observes",
+      "n24|n39|depends_on",
+      "n24|n40|updates",
+      "n24|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T008_todo_management",
+    "action_id": "n25",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n41",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n42",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n43",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n25",
+      "n41",
+      "n42",
+      "n43",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n25|n41|observes",
+      "n25|n42|depends_on",
+      "n25|n43|updates",
+      "n25|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T013zh_meeting_notes",
+    "action_id": "n14",
+    "method": "rooted_steiner",
+    "mechanism": "share",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n15",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n16",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n17",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n14|n15|observes",
+      "n14|n16|depends_on",
+      "n14|n17|shares",
+      "n14|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T014_meeting_notes",
+    "action_id": "n27",
+    "method": "rooted_steiner",
+    "mechanism": "share",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n28",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n29",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n30",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n27|n28|observes",
+      "n27|n29|depends_on",
+      "n27|n30|shares",
+      "n27|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n61",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n71",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n72",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n74",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n61",
+      "n71",
+      "n72",
+      "n74",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n61|n71|observes",
+      "n61|n72|depends_on",
+      "n61|n74|updates",
+      "n61|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n62",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n75",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n76",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n78",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n62",
+      "n75",
+      "n76",
+      "n78",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n62|n75|observes",
+      "n62|n76|depends_on",
+      "n62|n78|updates",
+      "n62|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n63",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n79",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n80",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n82",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n63",
+      "n79",
+      "n80",
+      "n82",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n63|n79|observes",
+      "n63|n80|depends_on",
+      "n63|n82|updates",
+      "n63|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n64",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n83",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n84",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n86",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n64",
+      "n83",
+      "n84",
+      "n86",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n64|n83|observes",
+      "n64|n84|depends_on",
+      "n64|n86|updates",
+      "n64|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n65",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n87",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n88",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n90",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n65",
+      "n87",
+      "n88",
+      "n90",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n65|n87|observes",
+      "n65|n88|depends_on",
+      "n65|n90|updates",
+      "n65|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n66",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n91",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n92",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n94",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n66",
+      "n91",
+      "n92",
+      "n94",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n66|n91|observes",
+      "n66|n92|depends_on",
+      "n66|n94|updates",
+      "n66|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n67",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n95",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n96",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n98",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n67",
+      "n95",
+      "n96",
+      "n98",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n67|n95|observes",
+      "n67|n96|depends_on",
+      "n67|n98|updates",
+      "n67|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n68",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n99",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n100",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n102",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n100",
+      "n102",
+      "n68",
+      "n99",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n68|n100|depends_on",
+      "n68|n102|updates",
+      "n68|n99|observes",
+      "n68|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n69",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n103",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n104",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n106",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n103",
+      "n104",
+      "n106",
+      "n69",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n69|n103|observes",
+      "n69|n104|depends_on",
+      "n69|n106|updates",
+      "n69|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T017zh_ticket_triage",
+    "action_id": "n70",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n107",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n108",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n110",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n107",
+      "n108",
+      "n110",
+      "n70",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n70|n107|observes",
+      "n70|n108|depends_on",
+      "n70|n110|updates",
+      "n70|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n28",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n38",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n39",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n41",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n28",
+      "n38",
+      "n39",
+      "n41",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n28|n38|observes",
+      "n28|n39|depends_on",
+      "n28|n41|updates",
+      "n28|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n29",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n42",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n43",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n45",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n29",
+      "n42",
+      "n43",
+      "n45",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n29|n42|observes",
+      "n29|n43|depends_on",
+      "n29|n45|updates",
+      "n29|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n30",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n46",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n47",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n49",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n30",
+      "n46",
+      "n47",
+      "n49",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n30|n46|observes",
+      "n30|n47|depends_on",
+      "n30|n49|updates",
+      "n30|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n31",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n50",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n51",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n53",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n31",
+      "n50",
+      "n51",
+      "n53",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n31|n50|observes",
+      "n31|n51|depends_on",
+      "n31|n53|updates",
+      "n31|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n32",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n54",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n55",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n57",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n32",
+      "n54",
+      "n55",
+      "n57",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n32|n54|observes",
+      "n32|n55|depends_on",
+      "n32|n57|updates",
+      "n32|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n33",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n58",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n59",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n61",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n33",
+      "n58",
+      "n59",
+      "n61",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n33|n58|observes",
+      "n33|n59|depends_on",
+      "n33|n61|updates",
+      "n33|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n34",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n62",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n63",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n65",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n34",
+      "n62",
+      "n63",
+      "n65",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n34|n62|observes",
+      "n34|n63|depends_on",
+      "n34|n65|updates",
+      "n34|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n35",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n66",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n67",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n69",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n35",
+      "n66",
+      "n67",
+      "n69",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n35|n66|observes",
+      "n35|n67|depends_on",
+      "n35|n69|updates",
+      "n35|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n36",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n70",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n71",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n73",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n36",
+      "n70",
+      "n71",
+      "n73",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n36|n70|observes",
+      "n36|n71|depends_on",
+      "n36|n73|updates",
+      "n36|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T018_ticket_triage",
+    "action_id": "n37",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n74",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n75",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n77",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n37",
+      "n74",
+      "n75",
+      "n77",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n37|n74|observes",
+      "n37|n75|depends_on",
+      "n37|n77|updates",
+      "n37|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n31",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n38",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n39",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n40",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n31",
+      "n38",
+      "n39",
+      "n40",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n31|n38|creates",
+      "n31|n39|depends_on",
+      "n31|n40|creates",
+      "n31|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n32",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n41",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n42",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n43",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n32",
+      "n41",
+      "n42",
+      "n43",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n32|n41|creates",
+      "n32|n42|depends_on",
+      "n32|n43|creates",
+      "n32|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n33",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n44",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n45",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n46",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n33",
+      "n44",
+      "n45",
+      "n46",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n33|n44|creates",
+      "n33|n45|depends_on",
+      "n33|n46|creates",
+      "n33|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n34",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n47",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n48",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n49",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n34",
+      "n47",
+      "n48",
+      "n49",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n34|n47|creates",
+      "n34|n48|depends_on",
+      "n34|n49|creates",
+      "n34|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n35",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n50",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n51",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n52",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n35",
+      "n50",
+      "n51",
+      "n52",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n35|n50|creates",
+      "n35|n51|depends_on",
+      "n35|n52|creates",
+      "n35|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n36",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n53",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n54",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n55",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n36",
+      "n53",
+      "n54",
+      "n55",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n36|n53|creates",
+      "n36|n54|depends_on",
+      "n36|n55|creates",
+      "n36|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T019zh_inventory_check",
+    "action_id": "n37",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n56",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n57",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n58",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n37",
+      "n56",
+      "n57",
+      "n58",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n37|n56|creates",
+      "n37|n57|depends_on",
+      "n37|n58|creates",
+      "n37|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n19",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n26",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n27",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n28",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n19",
+      "n26",
+      "n27",
+      "n28",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n19|n26|creates",
+      "n19|n27|depends_on",
+      "n19|n28|creates",
+      "n19|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n20",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n29",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n30",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n31",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n20",
+      "n29",
+      "n30",
+      "n31",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n20|n29|creates",
+      "n20|n30|depends_on",
+      "n20|n31|creates",
+      "n20|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n21",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n32",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n33",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n34",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n21",
+      "n32",
+      "n33",
+      "n34",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n21|n32|creates",
+      "n21|n33|depends_on",
+      "n21|n34|creates",
+      "n21|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n22",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n35",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n36",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n37",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n22",
+      "n35",
+      "n36",
+      "n37",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n22|n35|creates",
+      "n22|n36|depends_on",
+      "n22|n37|creates",
+      "n22|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n23",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n38",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n39",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n40",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n23",
+      "n38",
+      "n39",
+      "n40",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n23|n38|creates",
+      "n23|n39|depends_on",
+      "n23|n40|creates",
+      "n23|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n24",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n41",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n42",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n43",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n24",
+      "n41",
+      "n42",
+      "n43",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n24|n41|creates",
+      "n24|n42|depends_on",
+      "n24|n43|creates",
+      "n24|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T020_inventory_check",
+    "action_id": "n25",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n44",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n45",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n46",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n25",
+      "n44",
+      "n45",
+      "n46",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n25|n44|creates",
+      "n25|n45|depends_on",
+      "n25|n46|creates",
+      "n25|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T023zh_crm_data_export",
+    "action_id": "n35",
+    "method": "rooted_steiner",
+    "mechanism": "export",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n36",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n22",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n37",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n17",
+      "n22",
+      "n35",
+      "n36",
+      "n37",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n17|n22|depends_on",
+      "n17|task_instruction|depends_on",
+      "n35|n36|exports",
+      "n35|n37|exports",
+      "n35|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T024_crm_data_export",
+    "action_id": "n14",
+    "method": "rooted_steiner",
+    "mechanism": "export",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n15",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n10",
+        "node_type": "ServiceEntity",
+        "distance": 4
+      },
+      {
+        "family": "effect",
+        "node_id": "n16",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n10",
+      "n14",
+      "n15",
+      "n16",
+      "n6",
+      "n7",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n14|n15|exports",
+      "n14|n16|exports",
+      "n14|task_instruction|depends_on",
+      "n6|n7|observes",
+      "n6|task_instruction|depends_on",
+      "n7|n10|observes"
+    ]
+  },
+  {
+    "task_id": "T025zh_ambiguous_contact_email",
+    "action_id": "n25",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n26",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n27",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n30",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n25",
+      "n26",
+      "n27",
+      "n30",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n25|n26|observes",
+      "n25|n27|depends_on",
+      "n25|n30|sends",
+      "n25|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T026_ambiguous_contact_email",
+    "action_id": "n25",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n26",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n27",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n30",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n25",
+      "n26",
+      "n27",
+      "n30",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n25|n26|observes",
+      "n25|n27|depends_on",
+      "n25|n30|sends",
+      "n25|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T029zh_cross_service_meeting",
+    "action_id": "n34",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n35",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n28",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n36",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n24",
+      "n28",
+      "n34",
+      "n35",
+      "n36",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n24|n28|depends_on",
+      "n24|task_instruction|depends_on",
+      "n34|n35|creates",
+      "n34|n36|creates",
+      "n34|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T029zh_cross_service_meeting",
+    "action_id": "n39",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n40",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n41",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n44",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n39",
+      "n40",
+      "n41",
+      "n44",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n39|n40|observes",
+      "n39|n41|depends_on",
+      "n39|n44|sends",
+      "n39|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T030_cross_service_meeting",
+    "action_id": "n32",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n33",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n23",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n34",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n19",
+      "n23",
+      "n32",
+      "n33",
+      "n34",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n19|n23|depends_on",
+      "n19|task_instruction|depends_on",
+      "n32|n33|creates",
+      "n32|n34|creates",
+      "n32|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T030_cross_service_meeting",
+    "action_id": "n37",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n38",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n39",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n43",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n37",
+      "n38",
+      "n39",
+      "n43",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n37|n38|drafts",
+      "n37|n39|depends_on",
+      "n37|n43|drafts",
+      "n37|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n97",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n100",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n101",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n104",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n100",
+      "n101",
+      "n104",
+      "n97",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n97|n100|observes",
+      "n97|n101|depends_on",
+      "n97|n104|sends",
+      "n97|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n98",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n105",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n106",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n109",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n105",
+      "n106",
+      "n109",
+      "n98",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n98|n105|observes",
+      "n98|n106|depends_on",
+      "n98|n109|sends",
+      "n98|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n99",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n110",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n111",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n114",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n110",
+      "n111",
+      "n114",
+      "n99",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n99|n110|observes",
+      "n99|n111|depends_on",
+      "n99|n114|sends",
+      "n99|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n117",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n119",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n120",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n124",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n117",
+      "n119",
+      "n120",
+      "n124",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n117|n119|drafts",
+      "n117|n120|depends_on",
+      "n117|n124|drafts",
+      "n117|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n118",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n125",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n126",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n130",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n118",
+      "n125",
+      "n126",
+      "n130",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n118|n125|drafts",
+      "n118|n126|depends_on",
+      "n118|n130|drafts",
+      "n118|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T031zh_escalation_budget_triage",
+    "action_id": "n133",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n134",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n135",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n138",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n133",
+      "n134",
+      "n135",
+      "n138",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n133|n134|observes",
+      "n133|n135|depends_on",
+      "n133|n138|sends",
+      "n133|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n112",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n118",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n119",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n122",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n112",
+      "n118",
+      "n119",
+      "n122",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n112|n118|observes",
+      "n112|n119|depends_on",
+      "n112|n122|sends",
+      "n112|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n113",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n123",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n124",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n127",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n113",
+      "n123",
+      "n124",
+      "n127",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n113|n123|observes",
+      "n113|n124|depends_on",
+      "n113|n127|sends",
+      "n113|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n114",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n128",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n129",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n132",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n114",
+      "n128",
+      "n129",
+      "n132",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n114|n128|observes",
+      "n114|n129|depends_on",
+      "n114|n132|sends",
+      "n114|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n115",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n133",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n134",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n137",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n115",
+      "n133",
+      "n134",
+      "n137",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n115|n133|drafts",
+      "n115|n134|depends_on",
+      "n115|n137|drafts",
+      "n115|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n116",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n138",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n139",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n142",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n116",
+      "n138",
+      "n139",
+      "n142",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n116|n138|drafts",
+      "n116|n139|depends_on",
+      "n116|n142|drafts",
+      "n116|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T032_escalation_budget_triage",
+    "action_id": "n117",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n143",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n144",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n147",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n117",
+      "n143",
+      "n144",
+      "n147",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n117|n143|observes",
+      "n117|n144|depends_on",
+      "n117|n147|sends",
+      "n117|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n56",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n59",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n60",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n63",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n56",
+      "n59",
+      "n60",
+      "n63",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n56|n59|observes",
+      "n56|n60|depends_on",
+      "n56|n63|sends",
+      "n56|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n57",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n64",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n65",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n68",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n57",
+      "n64",
+      "n65",
+      "n68",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n57|n64|observes",
+      "n57|n65|depends_on",
+      "n57|n68|sends",
+      "n57|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n58",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n69",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n70",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n73",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n58",
+      "n69",
+      "n70",
+      "n73",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n58|n69|drafts",
+      "n58|n70|depends_on",
+      "n58|n73|drafts",
+      "n58|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n78",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n83",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n32",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n84",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n27",
+      "n32",
+      "n78",
+      "n83",
+      "n84",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n27|n32|depends_on",
+      "n27|task_instruction|depends_on",
+      "n78|n83|creates",
+      "n78|n84|creates",
+      "n78|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n79",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n85",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n32",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n86",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n27",
+      "n32",
+      "n79",
+      "n85",
+      "n86",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n27|n32|depends_on",
+      "n27|task_instruction|depends_on",
+      "n79|n85|creates",
+      "n79|n86|creates",
+      "n79|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n80",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n87",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n32",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n88",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n27",
+      "n32",
+      "n80",
+      "n87",
+      "n88",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n27|n32|depends_on",
+      "n27|task_instruction|depends_on",
+      "n80|n87|creates",
+      "n80|n88|creates",
+      "n80|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n81",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n89",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n32",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n90",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n27",
+      "n32",
+      "n81",
+      "n89",
+      "n90",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n27|n32|depends_on",
+      "n27|task_instruction|depends_on",
+      "n81|n89|creates",
+      "n81|n90|creates",
+      "n81|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T039zh_onboarding_coordinator",
+    "action_id": "n82",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n91",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n32",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n92",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n27",
+      "n32",
+      "n82",
+      "n91",
+      "n92",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n27|n32|depends_on",
+      "n27|task_instruction|depends_on",
+      "n82|n91|creates",
+      "n82|n92|creates",
+      "n82|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n61",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n64",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n65",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n68",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n61",
+      "n64",
+      "n65",
+      "n68",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n61|n64|observes",
+      "n61|n65|depends_on",
+      "n61|n68|sends",
+      "n61|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n62",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n69",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n70",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n73",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n62",
+      "n69",
+      "n70",
+      "n73",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n62|n69|observes",
+      "n62|n70|depends_on",
+      "n62|n73|sends",
+      "n62|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n63",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n74",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n75",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n78",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n63",
+      "n74",
+      "n75",
+      "n78",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n63|n74|drafts",
+      "n63|n75|depends_on",
+      "n63|n78|drafts",
+      "n63|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n83",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n88",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n30",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n89",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n26",
+      "n30",
+      "n83",
+      "n88",
+      "n89",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n26|n30|depends_on",
+      "n26|task_instruction|depends_on",
+      "n83|n88|creates",
+      "n83|n89|creates",
+      "n83|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n84",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n90",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n30",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n91",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n26",
+      "n30",
+      "n84",
+      "n90",
+      "n91",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n26|n30|depends_on",
+      "n26|task_instruction|depends_on",
+      "n84|n90|creates",
+      "n84|n91|creates",
+      "n84|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n85",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n92",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n30",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n93",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n26",
+      "n30",
+      "n85",
+      "n92",
+      "n93",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n26|n30|depends_on",
+      "n26|task_instruction|depends_on",
+      "n85|n92|creates",
+      "n85|n93|creates",
+      "n85|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n86",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n94",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n30",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n95",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n26",
+      "n30",
+      "n86",
+      "n94",
+      "n95",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n26|n30|depends_on",
+      "n26|task_instruction|depends_on",
+      "n86|n94|creates",
+      "n86|n95|creates",
+      "n86|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T040_onboarding_coordinator",
+    "action_id": "n87",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n96",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n30",
+        "node_type": "ServiceEntity",
+        "distance": 3
+      },
+      {
+        "family": "effect",
+        "node_id": "n97",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n26",
+      "n30",
+      "n87",
+      "n96",
+      "n97",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n26|n30|depends_on",
+      "n26|task_instruction|depends_on",
+      "n87|n96|creates",
+      "n87|n97|creates",
+      "n87|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n74",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n76",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n77",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n79",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n74",
+      "n76",
+      "n77",
+      "n79",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n74|n76|observes",
+      "n74|n77|depends_on",
+      "n74|n79|updates",
+      "n74|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n75",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n80",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n81",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n83",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n75",
+      "n80",
+      "n81",
+      "n83",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n75|n80|observes",
+      "n75|n81|depends_on",
+      "n75|n83|updates",
+      "n75|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T041zh_scheduled_task_management",
+    "action_id": "n86",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n87",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n88",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n91",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n86",
+      "n87",
+      "n88",
+      "n91",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n86|n87|observes",
+      "n86|n88|depends_on",
+      "n86|n91|sends",
+      "n86|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n75",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n77",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n78",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n80",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n75",
+      "n77",
+      "n78",
+      "n80",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n75|n77|observes",
+      "n75|n78|depends_on",
+      "n75|n80|updates",
+      "n75|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n76",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n81",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n82",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n84",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n76",
+      "n81",
+      "n82",
+      "n84",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n76|n81|observes",
+      "n76|n82|depends_on",
+      "n76|n84|updates",
+      "n76|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T042_scheduled_task_management",
+    "action_id": "n89",
+    "method": "rooted_steiner",
+    "mechanism": "send",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n90",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n91",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n94",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n89",
+      "n90",
+      "n91",
+      "n94",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n89|n90|observes",
+      "n89|n91|depends_on",
+      "n89|n94|sends",
+      "n89|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T086_pinbench_calendar_event_creation",
+    "action_id": "n8",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n9",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n10",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      },
+      {
+        "family": "output",
+        "node_id": "n14",
+        "node_type": "OutputAssertion",
+        "distance": 5
+      }
+    ],
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n7",
+      "n8",
+      "n9",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n11|n12|depends_on",
+      "n12|n13|submits",
+      "n13|n14|grounds",
+      "n7|n11|depends_on",
+      "n7|n8|depends_on",
+      "n8|n10|creates",
+      "n8|n9|creates",
+      "n8|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n11",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n15",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n16",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      },
+      {
+        "family": "output",
+        "node_id": "n26",
+        "node_type": "OutputAssertion",
+        "distance": 5
+      }
+    ],
+    "evidence_nodes": [
+      "n10",
+      "n11",
+      "n15",
+      "n16",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n10|n11|depends_on",
+      "n10|n23|depends_on",
+      "n11|n15|creates",
+      "n11|n16|creates",
+      "n11|task_instruction|depends_on",
+      "n23|n24|depends_on",
+      "n24|n25|submits",
+      "n25|n26|grounds"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n12",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n17",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n18",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      },
+      {
+        "family": "output",
+        "node_id": "n26",
+        "node_type": "OutputAssertion",
+        "distance": 5
+      }
+    ],
+    "evidence_nodes": [
+      "n10",
+      "n12",
+      "n17",
+      "n18",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n10|n12|depends_on",
+      "n10|n23|depends_on",
+      "n12|n17|creates",
+      "n12|n18|creates",
+      "n12|task_instruction|depends_on",
+      "n23|n24|depends_on",
+      "n24|n25|submits",
+      "n25|n26|grounds"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n13",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n19",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n20",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      },
+      {
+        "family": "output",
+        "node_id": "n26",
+        "node_type": "OutputAssertion",
+        "distance": 5
+      }
+    ],
+    "evidence_nodes": [
+      "n10",
+      "n13",
+      "n19",
+      "n20",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n10|n13|depends_on",
+      "n10|n23|depends_on",
+      "n13|n19|creates",
+      "n13|n20|creates",
+      "n13|task_instruction|depends_on",
+      "n23|n24|depends_on",
+      "n24|n25|submits",
+      "n25|n26|grounds"
+    ]
+  },
+  {
+    "task_id": "T088_pinbench_project_bootstrap_plan",
+    "action_id": "n14",
+    "method": "rooted_steiner",
+    "mechanism": "create",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n21",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n22",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      },
+      {
+        "family": "output",
+        "node_id": "n26",
+        "node_type": "OutputAssertion",
+        "distance": 5
+      }
+    ],
+    "evidence_nodes": [
+      "n10",
+      "n14",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n10|n14|depends_on",
+      "n10|n23|depends_on",
+      "n14|n21|creates",
+      "n14|n22|creates",
+      "n14|task_instruction|depends_on",
+      "n23|n24|depends_on",
+      "n24|n25|submits",
+      "n25|n26|grounds"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n98",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n101",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n102",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n104",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n101",
+      "n102",
+      "n104",
+      "n98",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n98|n101|observes",
+      "n98|n102|depends_on",
+      "n98|n104|updates",
+      "n98|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n99",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n105",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n106",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n108",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n105",
+      "n106",
+      "n108",
+      "n99",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n99|n105|observes",
+      "n99|n106|depends_on",
+      "n99|n108|updates",
+      "n99|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T107zh_ticket_routing",
+    "action_id": "n100",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n109",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n110",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n112",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n100",
+      "n109",
+      "n110",
+      "n112",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n100|n109|observes",
+      "n100|n110|depends_on",
+      "n100|n112|updates",
+      "n100|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T109zh_complaint_investigation",
+    "action_id": "n86",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n87",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n88",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n92",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n86",
+      "n87",
+      "n88",
+      "n92",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n86|n87|drafts",
+      "n86|n88|depends_on",
+      "n86|n92|drafts",
+      "n86|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T110_complaint_investigation",
+    "action_id": "n103",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n104",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n105",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n109",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n103",
+      "n104",
+      "n105",
+      "n109",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n103|n104|drafts",
+      "n103|n105|depends_on",
+      "n103|n109|drafts",
+      "n103|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n68",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n69",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n70",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n73",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n68",
+      "n69",
+      "n70",
+      "n73",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n68|n69|drafts",
+      "n68|n70|depends_on",
+      "n68|n73|drafts",
+      "n68|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n76",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n78",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n79",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n82",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n76",
+      "n78",
+      "n79",
+      "n82",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n76|n78|drafts",
+      "n76|n79|depends_on",
+      "n76|n82|drafts",
+      "n76|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n77",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n83",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n84",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n87",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n77",
+      "n83",
+      "n84",
+      "n87",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n77|n83|drafts",
+      "n77|n84|depends_on",
+      "n77|n87|drafts",
+      "n77|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n90",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n92",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n93",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n96",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n90",
+      "n92",
+      "n93",
+      "n96",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n90|n92|drafts",
+      "n90|n93|depends_on",
+      "n90|n96|drafts",
+      "n90|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T117zh_customer_followup",
+    "action_id": "n91",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n97",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n98",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n101",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n101",
+      "n91",
+      "n97",
+      "n98",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n91|n101|drafts",
+      "n91|n97|drafts",
+      "n91|n98|depends_on",
+      "n91|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n70",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n75",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n76",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n79",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n70",
+      "n75",
+      "n76",
+      "n79",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n70|n75|drafts",
+      "n70|n76|depends_on",
+      "n70|n79|drafts",
+      "n70|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n71",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n80",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n81",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n84",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n71",
+      "n80",
+      "n81",
+      "n84",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n71|n80|drafts",
+      "n71|n81|depends_on",
+      "n71|n84|drafts",
+      "n71|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n72",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n85",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n86",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n89",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n72",
+      "n85",
+      "n86",
+      "n89",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n72|n85|drafts",
+      "n72|n86|depends_on",
+      "n72|n89|drafts",
+      "n72|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n73",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n90",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n91",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n94",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n73",
+      "n90",
+      "n91",
+      "n94",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n73|n90|drafts",
+      "n73|n91|depends_on",
+      "n73|n94|drafts",
+      "n73|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T118_customer_followup",
+    "action_id": "n74",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n95",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n96",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n99",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n74",
+      "n95",
+      "n96",
+      "n99",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n74|n95|drafts",
+      "n74|n96|depends_on",
+      "n74|n99|drafts",
+      "n74|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T121zh_industry_briefing",
+    "action_id": "n42",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n43",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n44",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n47",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n42",
+      "n43",
+      "n44",
+      "n47",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n42|n43|drafts",
+      "n42|n44|depends_on",
+      "n42|n47|drafts",
+      "n42|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T122_industry_briefing",
+    "action_id": "n33",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n34",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n35",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n38",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n33",
+      "n34",
+      "n35",
+      "n38",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n33|n34|drafts",
+      "n33|n35|depends_on",
+      "n33|n38|drafts",
+      "n33|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T133zh_competitive_intelligence",
+    "action_id": "n62",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n63",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n64",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n67",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n62",
+      "n63",
+      "n64",
+      "n67",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n62|n63|drafts",
+      "n62|n64|depends_on",
+      "n62|n67|drafts",
+      "n62|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T134_competitive_intelligence",
+    "action_id": "n62",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n63",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n64",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n67",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n62",
+      "n63",
+      "n64",
+      "n67",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n62|n63|drafts",
+      "n62|n64|depends_on",
+      "n62|n67|drafts",
+      "n62|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T139zh_customer_relationship_warning",
+    "action_id": "n67",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n69",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n70",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n73",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n67",
+      "n69",
+      "n70",
+      "n73",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n67|n69|drafts",
+      "n67|n70|depends_on",
+      "n67|n73|drafts",
+      "n67|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T139zh_customer_relationship_warning",
+    "action_id": "n68",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n74",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n75",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n78",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n68",
+      "n74",
+      "n75",
+      "n78",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n68|n74|drafts",
+      "n68|n75|depends_on",
+      "n68|n78|drafts",
+      "n68|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n47",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n50",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n51",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n55",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n47",
+      "n50",
+      "n51",
+      "n55",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n47|n50|drafts",
+      "n47|n51|depends_on",
+      "n47|n55|drafts",
+      "n47|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n48",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n56",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n57",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n61",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n48",
+      "n56",
+      "n57",
+      "n61",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n48|n56|drafts",
+      "n48|n57|depends_on",
+      "n48|n61|drafts",
+      "n48|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T145zh_task_backtracking",
+    "action_id": "n49",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n62",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n63",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n67",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n49",
+      "n62",
+      "n63",
+      "n67",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n49|n62|drafts",
+      "n49|n63|depends_on",
+      "n49|n67|drafts",
+      "n49|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n52",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n55",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n56",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n59",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n52",
+      "n55",
+      "n56",
+      "n59",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n52|n55|drafts",
+      "n52|n56|depends_on",
+      "n52|n59|drafts",
+      "n52|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n53",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n60",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n61",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n64",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n53",
+      "n60",
+      "n61",
+      "n64",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n53|n60|drafts",
+      "n53|n61|depends_on",
+      "n53|n64|drafts",
+      "n53|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T146_task_backtracking",
+    "action_id": "n54",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n65",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n66",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n69",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n54",
+      "n65",
+      "n66",
+      "n69",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n54|n65|drafts",
+      "n54|n66|depends_on",
+      "n54|n69|drafts",
+      "n54|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T153zh_market_research_report",
+    "action_id": "n85",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n86",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n87",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n90",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n85",
+      "n86",
+      "n87",
+      "n90",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n85|n86|drafts",
+      "n85|n87|depends_on",
+      "n85|n90|drafts",
+      "n85|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T154_market_research_report",
+    "action_id": "n121",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n122",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n123",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n126",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n121",
+      "n122",
+      "n123",
+      "n126",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n121|n122|drafts",
+      "n121|n123|depends_on",
+      "n121|n126|drafts",
+      "n121|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n40",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n43",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n44",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n46",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n40",
+      "n43",
+      "n44",
+      "n46",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n40|n43|observes",
+      "n40|n44|depends_on",
+      "n40|n46|updates",
+      "n40|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n49",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n51",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n52",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n55",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n49",
+      "n51",
+      "n52",
+      "n55",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n49|n51|drafts",
+      "n49|n52|depends_on",
+      "n49|n55|drafts",
+      "n49|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T155zh_onsite_support_dispatch",
+    "action_id": "n50",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n56",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n57",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n60",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n50",
+      "n56",
+      "n57",
+      "n60",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n50|n56|drafts",
+      "n50|n57|depends_on",
+      "n50|n60|drafts",
+      "n50|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n68",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n69",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n70",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n72",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n68",
+      "n69",
+      "n70",
+      "n72",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n68|n69|observes",
+      "n68|n70|depends_on",
+      "n68|n72|updates",
+      "n68|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n78",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n80",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n81",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n84",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n78",
+      "n80",
+      "n81",
+      "n84",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n78|n80|drafts",
+      "n78|n81|depends_on",
+      "n78|n84|drafts",
+      "n78|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T156_onsite_support_dispatch",
+    "action_id": "n79",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n85",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n86",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n89",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n79",
+      "n85",
+      "n86",
+      "n89",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n79|n85|drafts",
+      "n79|n86|depends_on",
+      "n79|n89|drafts",
+      "n79|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n47",
+    "method": "rooted_steiner",
+    "mechanism": "update",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n48",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n49",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n51",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n47",
+      "n48",
+      "n49",
+      "n51",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n47|n48|observes",
+      "n47|n49|depends_on",
+      "n47|n51|updates",
+      "n47|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n59",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n60",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n61",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n64",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n59",
+      "n60",
+      "n61",
+      "n64",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n59|n60|drafts",
+      "n59|n61|depends_on",
+      "n59|n64|drafts",
+      "n59|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T159zh_vip_ticket_escalation",
+    "action_id": "n67",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n68",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n69",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n72",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n67",
+      "n68",
+      "n69",
+      "n72",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n67|n68|drafts",
+      "n67|n69|depends_on",
+      "n67|n72|drafts",
+      "n67|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T160_vip_ticket_escalation",
+    "action_id": "n72",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n74",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n75",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n78",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n72",
+      "n74",
+      "n75",
+      "n78",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n72|n74|drafts",
+      "n72|n75|depends_on",
+      "n72|n78|drafts",
+      "n72|task_instruction|depends_on"
+    ]
+  },
+  {
+    "task_id": "T160_vip_ticket_escalation",
+    "action_id": "n73",
+    "method": "rooted_steiner",
+    "mechanism": "save_draft",
+    "terminals": [
+      {
+        "family": "task",
+        "node_id": "task_instruction",
+        "node_type": "TaskInstruction",
+        "distance": 1
+      },
+      {
+        "family": "input",
+        "node_id": "n79",
+        "node_type": "ToolObservation",
+        "distance": 1
+      },
+      {
+        "family": "entity",
+        "node_id": "n80",
+        "node_type": "ServiceEntity",
+        "distance": 1
+      },
+      {
+        "family": "effect",
+        "node_id": "n83",
+        "node_type": "ExternalEffect",
+        "distance": 1
+      }
+    ],
+    "evidence_nodes": [
+      "n73",
+      "n79",
+      "n80",
+      "n83",
+      "task_instruction"
+    ],
+    "evidence_edges": [
+      "n73|n79|drafts",
+      "n73|n80|depends_on",
+      "n73|n83|drafts",
+      "n73|task_instruction|depends_on"
+    ]
+  }
+]
