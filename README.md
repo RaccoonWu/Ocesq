@@ -57,6 +57,12 @@ manifests under `data/`; those inputs are derived from the public datasets
 listed in `results/README.md` by the `prepare_*` / `convert_*` / `build_*`
 scripts.
 
+## Data
+
+The upstream datasets are not redistributed here.  [`DATA.md`](DATA.md)
+records their open releases, licenses, download and conversion commands, and
+the raw layout expected by the converters.
+
 ## Result → runner map
 
 | Manuscript evidence | Runner | Result |
