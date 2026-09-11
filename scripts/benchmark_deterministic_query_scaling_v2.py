@@ -13,8 +13,8 @@ from pathlib import Path
 from statistics import mean, median
 from typing import Any, Callable
 
-from mandrel.behavior_graph.query_oracle import build_query_index, evaluate, evaluate_indexed
-from mandrel.behavior_graph.query_reference import evaluate_reference
+from ocesq.behavior_graph.query_oracle import build_query_index, evaluate, evaluate_indexed
+from ocesq.behavior_graph.query_reference import evaluate_reference
 
 
 def _scenario_graph(nodes_target: int, depth: int, witnesses: int, branches: int, status: str) -> tuple[dict[str, Any], dict[str, Any]]:

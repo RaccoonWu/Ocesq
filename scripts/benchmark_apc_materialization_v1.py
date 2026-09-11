@@ -12,9 +12,9 @@ from statistics import mean, median
 from typing import Any
 
 from evaluate_apc_fault_materialization_v1 import METHODS, evaluate_materializer, sources
-from mandrel.behavior_graph.ocesq import build_ocei_instance, run_ocesq
-from mandrel.behavior_graph.ocesq_contract import adapt_ocesq_result
-from mandrel.behavior_graph.trace_compiler import TraceCompiler, load_jsonl
+from ocesq.behavior_graph.ocesq import build_ocei_instance, run_ocesq
+from ocesq.behavior_graph.ocesq_contract import adapt_ocesq_result
+from ocesq.behavior_graph.trace_compiler import TraceCompiler, load_jsonl
 
 
 def percentile(values: list[float], fraction: float) -> float:

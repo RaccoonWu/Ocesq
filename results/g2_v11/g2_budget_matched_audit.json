@@ -1,5 +1,5 @@
 {
-  "protocol": "dasfaa-ocesq-evidence-v11",
+  "protocol": "ocesq-evidence-v11",
   "selection_rule": "Choose the smallest grid value among settings with minimum absolute pooled mean-node difference from OC-RES; statuses and blind-quality outcomes are excluded.",
   "budgets": [
     4,

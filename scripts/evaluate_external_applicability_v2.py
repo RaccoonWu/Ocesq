@@ -14,8 +14,8 @@ from pathlib import Path
 from statistics import mean, median
 from typing import Any
 
-from mandrel.behavior_graph.ocesq import build_ocei_instance, high_impact_actions, run_ocesq
-from mandrel.behavior_graph.trace_compiler import TraceCompiler, _is_effectful_tool, load_jsonl
+from ocesq.behavior_graph.ocesq import build_ocei_instance, high_impact_actions, run_ocesq
+from ocesq.behavior_graph.trace_compiler import TraceCompiler, _is_effectful_tool, load_jsonl
 
 
 SUPPORTED_EVENT_TYPES = {"trace_start", "message", "tool_dispatch", "audit_snapshot", "trace_end", "grading_result"}

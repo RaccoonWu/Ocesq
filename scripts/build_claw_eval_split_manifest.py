@@ -17,7 +17,7 @@ from typing import Any
 import yaml
 
 
-DEFAULT_TASKS_DIR = Path("mandrel/examples/claw-eval/tasks")
+DEFAULT_TASKS_DIR = Path("examples/claw-eval/tasks")
 DEFAULT_OUTPUT = Path("data/processed/behavior_governance/claw_eval_splits")
 DEFAULT_RATIOS = {
     "train_seed": 0.4,

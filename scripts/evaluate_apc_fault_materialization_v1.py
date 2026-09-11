@@ -15,9 +15,9 @@ from pathlib import Path
 from statistics import mean
 from typing import Any
 
-from mandrel.behavior_graph.ocesq import build_ocei_instance, run_ocesq
-from mandrel.behavior_graph.ocesq_contract import adapt_ocesq_result, graph_snapshot
-from mandrel.behavior_graph.trace_compiler import TraceCompiler, load_jsonl
+from ocesq.behavior_graph.ocesq import build_ocei_instance, run_ocesq
+from ocesq.behavior_graph.ocesq_contract import adapt_ocesq_result, graph_snapshot
+from ocesq.behavior_graph.trace_compiler import TraceCompiler, load_jsonl
 
 
 METHODS = (

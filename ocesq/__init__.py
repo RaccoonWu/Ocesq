@@ -1,6 +1,6 @@
-"""Mandrel v0.1: passive behavior graphs for tool-service agents."""
+"""OCESQ v0.1: passive behavior graphs for tool-service agents."""
 
-from mandrel.behavior_graph import (
+from ocesq.behavior_graph import (
     BehaviorGraph,
     CandidateBehavior,
     CompilationResult,
@@ -27,7 +27,7 @@ __all__ = [
 
 def __getattr__(name: str):
     if name in {"compile_trace_file", "load_jsonl", "write_compilation"}:
-        from mandrel.behavior_graph import trace_compiler
+        from ocesq.behavior_graph import trace_compiler
 
         return getattr(trace_compiler, name)
     raise AttributeError(name)

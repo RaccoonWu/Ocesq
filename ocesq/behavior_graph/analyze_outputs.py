@@ -241,7 +241,7 @@ def _csv_value(value: Any) -> Any:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Analyze compiled Mandrel behavior graph outputs.")
+    parser = argparse.ArgumentParser(description="Analyze compiled OCESQ behavior graph outputs.")
     parser.add_argument("output_dir", help="Directory containing *.graph.json, *.candidates.json, and *.monitor_cards.jsonl.")
     parser.add_argument("--top-k", type=int, default=0, help="Print the top-k prioritized cards for quick review.")
     args = parser.parse_args(argv)

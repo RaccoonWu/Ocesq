@@ -10,8 +10,8 @@ from pathlib import Path
 from statistics import mean
 from typing import Any, Callable
 
-from mandrel.behavior_graph.query_oracle import evaluate as evaluate_production
-from mandrel.behavior_graph.query_reference import evaluate_reference
+from ocesq.behavior_graph.query_oracle import evaluate as evaluate_production
+from ocesq.behavior_graph.query_reference import evaluate_reference
 
 
 def _read(path: Path) -> dict[str, Any]:

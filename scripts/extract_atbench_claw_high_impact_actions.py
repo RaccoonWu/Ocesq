@@ -12,7 +12,7 @@ from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from mandrel.behavior_graph.trace_compiler import compile_trace_file  # noqa: E402
+from ocesq.behavior_graph.trace_compiler import compile_trace_file  # noqa: E402
 
 
 DEFAULT_RAW = Path("data/raw/atbench_claw/test.json")

@@ -16,7 +16,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Iterator
 
-from mandrel.behavior_graph.tool_semantics import classify_tool
+from ocesq.behavior_graph.tool_semantics import classify_tool
 
 
 PROTOCOL = "apc-fault-eligibility-v1"

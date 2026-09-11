@@ -54,5 +54,5 @@ in steps 3–4 on unseen tools.
 | `tool_semantics.json` | effect/read/channel keyword tables, external-data patterns, and the exact/prefix override registry |
 | `lexicons.json` | identity/anchor keys, stopwords, concept aliases, entity types, contract-evaluation term sets |
 
-Loaded by `mandrel/behavior_graph/lexicons.py`; consumed by
+Loaded by `ocesq/behavior_graph/lexicons.py`; consumed by
 `tool_semantics.py` and the rest of the pipeline.

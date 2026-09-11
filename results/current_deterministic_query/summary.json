@@ -156,7 +156,7 @@
       "typing"
     ],
     "passed": true,
-    "reference_file": "/usr/postgroup/wulinze_doc/paper/first_paper/mandrel/mandrel/behavior_graph/query_reference.py"
+    "reference_file": "ocesq/behavior_graph/query_reference.py"
   },
   "expected_status_failures": [],
   "expected_status_match": 1,

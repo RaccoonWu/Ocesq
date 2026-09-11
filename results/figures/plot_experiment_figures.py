@@ -1,5 +1,5 @@
 """
-Generate Fig 4 (materialization) and Fig 5 (downstream recovery) for DASFAA.
+Generate Fig 4 (materialization) and Fig 5 (downstream recovery).
 
 Palette: CCFA standard (palette-and-accessibility.md)
   #1F6F8B  blue   — proposed method (APC / Complete package)
@@ -58,7 +58,7 @@ C = {
     "border":  "#C9D1D9",
 }
 
-OUT = "/usr/postgroup/wulinze_doc/paper/first_paper/dasfaa_paper/figures"
+OUT = "figures"
 
 
 def save(fig, stem):

@@ -14,7 +14,7 @@ experiment runners, and the frozen results reported in the paper.
 
 ```
 .
-├── mandrel/                 # core library
+├── ocesq/                 # core library
 │   ├── __init__.py
 │   └── behavior_graph/
 │       ├── schema.py            # OEG node/edge dataclasses
@@ -81,11 +81,11 @@ metric values.
 
 ## Registry provenance
 
-The tool-class registry (`mandrel/behavior_graph/resources/`) is a fixed,
+The tool-class registry (`ocesq/behavior_graph/resources/`) is a fixed,
 versioned resource (`registry v1`) curated by the authors and frozen for the
 reported study.  Its status, layered classification, and the scope of the
 coverage claims are declared in
-`mandrel/behavior_graph/resources/PROVENANCE.md`.
+`ocesq/behavior_graph/resources/PROVENANCE.md`.
 
 ## License
 

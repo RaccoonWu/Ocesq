@@ -11,8 +11,8 @@ from pathlib import Path
 from statistics import mean
 from typing import Any
 
-from mandrel.behavior_graph.query_oracle import evaluate as evaluate_production
-from mandrel.behavior_graph.query_reference import evaluate_reference
+from ocesq.behavior_graph.query_oracle import evaluate as evaluate_production
+from ocesq.behavior_graph.query_reference import evaluate_reference
 
 
 def _read(path: Path) -> dict[str, Any]:
@@ -128,7 +128,7 @@ def main() -> int:
             "negative_control_detected": negative_detected,
         })
 
-    reference_path = Path(__file__).resolve().parents[1] / "mandrel" / "behavior_graph" / "query_reference.py"
+    reference_path = Path(__file__).resolve().parents[1] / "ocesq" / "behavior_graph" / "query_reference.py"
     dependency_audit = _reference_import_audit(reference_path)
     metrics = ("status_exact", "witness_exact", "conflict_exact", "certificate_exact", "answer_exact")
     summary = {

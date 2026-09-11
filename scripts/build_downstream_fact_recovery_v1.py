@@ -20,9 +20,9 @@ from typing import Any
 from evaluate_apc_fault_injection_v1 import build_raw_oracle
 from evaluate_apc_fault_materialization_v1 import all_normalized, selected_ocres, two_hop
 from evaluate_apc_expanded_faults_v1 import raw_dispatch, raw_tool_use
-from mandrel.behavior_graph.ocesq import build_ocei_instance, run_ocesq
-from mandrel.behavior_graph.ocesq_contract import adapt_ocesq_result
-from mandrel.behavior_graph.trace_compiler import TraceCompiler, load_jsonl
+from ocesq.behavior_graph.ocesq import build_ocei_instance, run_ocesq
+from ocesq.behavior_graph.ocesq_contract import adapt_ocesq_result
+from ocesq.behavior_graph.trace_compiler import TraceCompiler, load_jsonl
 
 
 CONDITIONS = (

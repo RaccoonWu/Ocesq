@@ -3,16 +3,16 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mandrel"
+name = "ocesq"
 version = "0.1.0"
-description = "Agent execution governance framework — the harness layer for reliable AI agents"
+description = "Obligation-constrained evidence subgraph queries for auditing agent execution traces"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Mandrel contributors"},
+    {name = "OCESQ contributors"},
 ]
-keywords = ["ai", "agent", "harness", "llm", "governance"]
+keywords = ["ai", "agent", "trace", "audit", "provenance", "graph"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -29,8 +29,8 @@ openai = ["openai>=1.0"]
 yaml = ["PyYAML>=6"]
 
 [project.urls]
-Homepage = "https://github.com/mandrel-ai/mandrel"
-Repository = "https://github.com/mandrel-ai/mandrel"
+Homepage = "https://github.com/RaccoonWu/Ocesq"
+Repository = "https://github.com/RaccoonWu/Ocesq"
 
 [tool.setuptools.packages.find]
-include = ["mandrel*"]
+include = ["ocesq*"]

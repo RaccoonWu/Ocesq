@@ -10,7 +10,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
-from mandrel.behavior_graph.trace_compiler import load_jsonl
+from ocesq.behavior_graph.trace_compiler import load_jsonl
 
 
 PROTOCOL = "apc-benign-invariance-v1"

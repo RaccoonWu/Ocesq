@@ -10,9 +10,9 @@ from copy import deepcopy
 from pathlib import Path
 from statistics import mean
 
-from mandrel.behavior_graph.ocesq import run_ocesq
-from mandrel.behavior_graph.ocesq_contract import adapt_ocesq_result, verify_ocesq_contract
-from mandrel.behavior_graph.schema import BehaviorGraph
+from ocesq.behavior_graph.ocesq import run_ocesq
+from ocesq.behavior_graph.ocesq_contract import adapt_ocesq_result, verify_ocesq_contract
+from ocesq.behavior_graph.schema import BehaviorGraph
 
 
 ALL_TYPES = (
@@ -244,7 +244,7 @@ def main() -> int:
                 errors = next(check["errors"] for check in row["verification"]["obligations"] if check["type"] == typ)
                 preservation_checks.append(not any(error.startswith("ocres_") for error in errors))
 
-    verifier_path = Path(__file__).resolve().parents[1] / "mandrel" / "behavior_graph" / "ocesq_contract.py"
+    verifier_path = Path(__file__).resolve().parents[1] / "ocesq" / "behavior_graph" / "ocesq_contract.py"
     audit = _dependency_audit(verifier_path)
     summary = {
         "experiment_id": "ocesq-contract-integration-v1",

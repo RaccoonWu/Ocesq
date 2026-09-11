@@ -3,7 +3,7 @@
   "cases": 3,
   "certificate_validity": 1,
   "dependency_audit": {
-    "file": "/usr/postgroup/wulinze_doc/paper/first_paper/mandrel/mandrel/behavior_graph/ocesq_contract.py",
+    "file": "ocesq/behavior_graph/ocesq_contract.py",
     "forbidden_imports": [],
     "passed": true
   },

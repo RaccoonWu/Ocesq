@@ -13,7 +13,7 @@ from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from mandrel.behavior_graph.tool_semantics import classify_tool  # noqa: E402
+from ocesq.behavior_graph.tool_semantics import classify_tool  # noqa: E402
 
 
 DEFAULT_OUTPUT_ROOT = Path("data/processed/behavior_governance")
